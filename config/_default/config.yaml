@@ -1,0 +1,21 @@
+theme: blowfish
+defaultContentLanguage: en
+enableRobotsTXT: yes
+paginate: 20
+summaryLength: 30
+buildDrafts: no
+buildFuture: no
+taxonomies:
+  author: authors
+  category: categories
+  series: series
+  tag: tags
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 0.5
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
