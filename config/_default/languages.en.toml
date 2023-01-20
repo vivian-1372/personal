@@ -18,7 +18,7 @@ dateFormat = "2 January 2006"
   headline = "Harvard College '24!"
   bio = "This is my website, and it's all about me."
   links = [ 
-     { email = "mailto:viviannguyen@college.harvard.edu" },
+     { email = <a href = "mailto:viviannguyen@college.harvard.edu">Send Mail</a> },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
