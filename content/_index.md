@@ -11,4 +11,4 @@ title: 'Welcome!'
 
 Welcome! My name is Vivian, and I am Harvard College '24 studying Government and Applied Mathematics.
 
-![image of myself]("img/vivian.png")
+![image of myself](vivian.png)
