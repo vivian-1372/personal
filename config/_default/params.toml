@@ -31,7 +31,7 @@ enableCodeCopy = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/vivian.png" # used in: hero, and card
+  homepageImage = "img/river.png" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
   showMoreLink = false
