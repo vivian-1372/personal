@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>favicons on Blowfish</title>
+    <title>favicons on </title>
     <link>/tags/favicons/</link>
-    <description>Recent content in favicons on Blowfish</description>
+    <description>Recent content in favicons on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/favicons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Partials</title>
