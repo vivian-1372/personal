@@ -1,90 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Blowfish! :tada: on </title>
-    <link>/</link>
-    <description>Recent content in Welcome to Blowfish! :tada: on </description>
+    <title>Harvard College 2024 on Vivian Nguyen</title>
+    <link>https://vivian-1372.github.io/Political-Psychology/</link>
+    <description>Recent content in Harvard College 2024 on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multiple Authors</title>
-      <link>/samples/multiple-authors/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/multiple-authors/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/samples/multiple-authors/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/multiple-authors/</guid>
       <description>A quick example of how multiple authors could be used.</description>
       
     </item>
     
     <item>
       <title>Thumbnails</title>
-      <link>/samples/thumbnail_sample/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/thumbnail_sample/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>/samples/thumbnail_sample/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/thumbnail_sample/</guid>
       <description>A quick example of how to start using Thumbnails in your artciles.</description>
       
     </item>
     
     <item>
       <title>Welcome to Blowfish</title>
-      <link>/docs/welcome/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/welcome/</link>
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/docs/welcome/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/welcome/</guid>
       <description>Blowfish is packed with tons of features. The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of Congo and expands its initial vision.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/welcome/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/welcome/featured.png" />
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/posts/2020-12-01-r-rmarkdown/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/posts/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>/posts/2020-12-01-r-rmarkdown/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/posts/2020-12-01-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.</description>
       
     </item>
     
     <item>
       <title>Installation</title>
-      <link>/docs/installation/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/installation/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/installation/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/installation/</guid>
       <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
 Detailed installation instructions can be found below. Instructions for updating the theme are also available.
 Installation&gt; Installation # These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/installation/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/installation/featured.png" />
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>/docs/getting-started/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/getting-started/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/getting-started/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/getting-started/</guid>
       <description>This section assumes you have already installed the Blowfish theme. The config files that ship with Blowfish contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/getting-started/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/getting-started/featured.png" />
     </item>
     
     <item>
       <title>Configuration</title>
-      <link>/docs/configuration/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/configuration/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/configuration/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/configuration/</guid>
       <description>Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.
 The theme ships with a default configuration that gets you up and running with a basic blog or static website.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/configuration/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/configuration/featured.png" />
     </item>
     
     <item>
       <title>Icons</title>
-      <link>/samples/icons/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/icons/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/samples/icons/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/icons/</guid>
       <description>Blowfish has built-in support for a number of FontAwesome 6 icons. These can be included in your website through either the icon partial or icon shortcode.
 Additionally, custom icons are also fully supported.</description>
       
@@ -92,183 +93,183 @@ Additionally, custom icons are also fully supported.</description>
     
     <item>
       <title>Users</title>
-      <link>/users/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/users/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/users/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/users/</guid>
       <description>Real websites that are built with Blowfish. Website Details nunocoracao.com Personal site - Theme author madoke.org Personal site code-chimp.com Personal site mucahitkurtlar.github.io Personal site brendanwallace.github.io Personal site www.codetea.top Personal site fedeizzo.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/users/cover.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/users/cover.jpg" />
     </item>
     
     <item>
       <title>Homepage Layout</title>
-      <link>/docs/homepage-layout/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/homepage-layout/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/homepage-layout/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/homepage-layout/</guid>
       <description>Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/homepage-layout/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/homepage-layout/featured.png" />
     </item>
     
     <item>
       <title>Front Matter</title>
-      <link>/docs/front-matter/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/front-matter/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/front-matter/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/front-matter/</guid>
       <description>In addition to the default Hugo front matter parameters, Blowfish adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/front-matter/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/front-matter/featured.png" />
     </item>
     
     <item>
       <title>Thumbnails</title>
-      <link>/docs/thumbnails/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/thumbnails/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/thumbnails/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/thumbnails/</guid>
       <description>Thumbnails&gt; Thumbnails # Blowfish was enhanced in order to make it easy to add visual support to your posts. To do so, you just need to place an image file (almost all formats are supported bue we recommend .</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/thumbnails/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/thumbnails/featured.png" />
     </item>
     
     <item>
       <title>Shortcodes</title>
-      <link>/docs/shortcodes/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/shortcodes/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/shortcodes/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/shortcodes/</guid>
       <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.
 Alert&gt; Alert # alert outputs its contents as a stylised message box within your article.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/shortcodes/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/shortcodes/featured.png" />
     </item>
     
     <item>
       <title>Multiple Authors</title>
-      <link>/docs/multi-author/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/multi-author/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/multi-author/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/multi-author/</guid>
       <description>Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/multi-author/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/multi-author/featured.png" />
     </item>
     
     <item>
       <title>Partials</title>
-      <link>/docs/partials/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/partials/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/partials/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/partials/</guid>
       <description>Analytics&gt; Analytics # Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.
 Fathom Analytics&gt; Fathom Analytics # To enable Fathom Analytics support, simply provide your Fathom site code in the config/_default/params.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/partials/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/partials/featured.png" />
     </item>
     
     <item>
       <title>Content Examples</title>
-      <link>/docs/content-examples/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/content-examples/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/content-examples/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/content-examples/</guid>
       <description>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/content-examples/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/content-examples/featured.png" />
     </item>
     
     <item>
       <title>Series</title>
-      <link>/docs/series/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/series/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/series/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/series/</guid>
       <description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/series/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/series/featured.png" />
     </item>
     
     <item>
       <title>Advanced Customisation</title>
-      <link>/docs/advanced-customisation/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/advanced-customisation/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/advanced-customisation/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/advanced-customisation/</guid>
       <description>There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/advanced-customisation/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/advanced-customisation/featured.png" />
     </item>
     
     <item>
       <title>Hosting &amp; Deployment</title>
-      <link>/docs/hosting-deployment/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/hosting-deployment/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/hosting-deployment/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/hosting-deployment/</guid>
       <description>There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.
 Blowfish is built using relative URLs throughout the theme.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/hosting-deployment/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/hosting-deployment/featured.png" />
     </item>
     
     <item>
       <title>Firebase: Views &amp; Likes</title>
-      <link>/docs/firebase-views/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/docs/firebase-views/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/firebase-views/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/docs/firebase-views/</guid>
       <description>In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase. This will allow you to use the views feature across lists and posts.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/docs/firebase-views/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://vivian-1372.github.io/Political-Psychology/docs/firebase-views/featured.png" />
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>/samples/markdown/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/markdown/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/markdown/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Blowfish, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>/samples/rich-content/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/rich-content/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/rich-content/</guid>
       <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
       
     </item>
     
     <item>
       <title>Mathematical notation</title>
-      <link>/samples/mathematical-notation/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/mathematical-notation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/mathematical-notation/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/mathematical-notation/</guid>
       <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Charts</title>
-      <link>/samples/charts/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/charts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/charts/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/charts/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
       
     </item>
     
     <item>
       <title>Diagrams and Flowcharts</title>
-      <link>/samples/diagrams-flowcharts/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/diagrams-flowcharts/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</guid>
       <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
       
     </item>
     
     <item>
       <title>Emoji :parachute:</title>
-      <link>/samples/emoji/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/samples/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/emoji/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/samples/emoji/</guid>
       <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
       
     </item>

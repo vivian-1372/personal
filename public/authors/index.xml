@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors Taxonomy Listing Example on </title>
-    <link>/authors/</link>
-    <description>Recent content in Authors Taxonomy Listing Example on </description>
+    <title>Authors Taxonomy Listing Example on Vivian Nguyen</title>
+    <link>https://vivian-1372.github.io/Political-Psychology/authors/</link>
+    <description>Recent content in Authors Taxonomy Listing Example on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dummy Second Author</title>
-      <link>/authors/secondauthor/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/authors/secondauthor/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/authors/secondauthor/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/authors/secondauthor/</guid>
       <description>Dummy Second Author&amp;rsquo;s awesome dummy bio.</description>
     </item>
     
     <item>
       <title>Nuno Coração</title>
-      <link>/authors/nunocoracao/</link>
+      <link>https://vivian-1372.github.io/Political-Psychology/authors/nunocoracao/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/authors/nunocoracao/</guid>
+      <guid>https://vivian-1372.github.io/Political-Psychology/authors/nunocoracao/</guid>
       <description>Nuno&amp;rsquo;s awesome dummy bio.</description>
     </item>
     
