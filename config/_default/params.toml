@@ -23,7 +23,7 @@ enableCodeCopy = true
   layout = "fixed" # valid options: basic, fixed
 
 [footer]
-  showMenu = true
+ # showMenu = true
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
