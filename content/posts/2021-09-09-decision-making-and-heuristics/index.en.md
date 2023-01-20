@@ -11,20 +11,15 @@ draft: yes
 
 
 
+
+
 # Introduction
-This is the first Data Exploration task of Fall 2021! Welcome. This week, my classmates of Government 1372 (Political Psychology) and I worked with our in-class survey results to observe how susceptible we are to cognitive biases.
+This is the first Data Exploration task of Fall 2021! Welcome. This week, my classmates of Government 1372 (Political Psychology) and I worked with our in-class survey results to observe how susceptible we are to cognitive biases and discuss how that may affect our decision-making.
 
 
-# Part 1: Cognitive Biases
-
-You may have noticed that the questions on the survey you took during class last week were based on the Kahneman (2003) reading you did for this week. The goal for this set of questions is to examine those data to see if you and your classmates exhibit the same cognitive biases that Kahneman wrote about. The data you generated is described below.
-
-**Data Details:**
-
-* File Name: \texttt{bias\_data.csv}
-
-* Source: These data are from the in-class survey you took last week. 
-
+# Data Details
+*File Name: \texttt{bias\_data.csv}
+*Source: These data are from the in-class survey you took last week. 
 Variable Name         | Variable Description
 --------------------- | --------------------------------------
 \texttt{id}         | Unique ID for each respondent
@@ -36,16 +31,8 @@ Variable Name         | Variable Description
 \texttt{year}  | Year at Harvard
 \texttt{college\_stats}  | Indicator for whether or not the respondent has taken a college-level statistics course
 
-Before you get started, make sure you replace "file_name_here_1.csv" with the name of the file. (Also, remember to make sure you have saved the .Rmd version of this file and the file with the data in the same folder.)
-
-```r
-# load the class-generated bias data
-bias_data <- read_csv("bias_data.csv")
-```
-
-
-## Question 2
-Now let's move on to the Linda problem. As we read in Kahneman (2003), answers to this problem tend to exhibit a pattern called a "conjunction fallacy" whereby respondents overrate the probability that Linda is a bank teller \textit{and} a feminist rather than just a bank teller. From probability theory, we know that the conjunction of two events A and B can't be more probable than either of the events occurring by itself; that is, `\(P(A) \ge P(A \wedge B)\)` and `\(P(B) \ge P(A \wedge B)\)`\footnote{The symbol `\(\wedge\)` is used in logical expressions to mean "AND". If there are two conditions, A and B, then `\(A \wedge B\)` is true only when both A and B are separately true. The expression `\(P(A) \ge P(A \wedge B)\)` is therefore interpreted as: "The probability A is true is greater than or equal to the probability that both A and B are true.}.
+# The Linda Problem
+We read in Kahneman (2003) that respondents often fall victim to a "conjunction fallacy" whereby respondents overrate the probability that Linda is a bank teller \textit{and} a feminist rather than just a bank teller. From probability theory, we know that the conjunction of two events A and B can't be more probable than either of the events occurring by itself; that is, `\(P(A) \ge P(A \wedge B)\)` and `\(P(B) \ge P(A \wedge B)\)`\footnote{The symbol `\(\wedge\)` is used in logical expressions to mean "AND". If there are two conditions, A and B, then `\(A \wedge B\)` is true only when both A and B are separately true. The expression `\(P(A) \ge P(A \wedge B)\)` is therefore interpreted as: "The probability A is true is greater than or equal to the probability that both A and B are true.}.
 
 **What proportion of the class answered this question correctly? Why do you think people tend to choose the wrong option?**
 
