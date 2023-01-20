@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Vivian Nguyen"
-logo = "img/vivian.png"
+# logo = "img/vivian.png"
 description = "My personal website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
@@ -18,7 +18,7 @@ dateFormat = "2 January 2006"
   headline = "Harvard College '24!"
   bio = "This is my website, and it's all about me."
   links = [ 
-     { email = "viviannguyen@college.harvard.edu" },
+     { email = "mailto:viviannguyen@college.harvard.edu" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
