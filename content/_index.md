@@ -1,6 +1,6 @@
 ---
 description: Landing page.
-title: 'Welcome!'
+title: 'Harvard College '24'
 ---
 
 <!--center style="display:flex;align-items:center;flex-wrap:wrap;justify-content:space-evenly;">
@@ -9,6 +9,4 @@ title: 'Welcome!'
 <a target="_blank" href="http://tee.pub/lic/qwSlWVBL5zc"><img class="nozoom" src="https://img.buymeacoffee.com/button-api/?text=Merch Store &emoji=💎&slug=nunocoracao&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
 </center-->
 
-Welcome! My name is Vivian, and I am Harvard College '24 studying Government and Applied Mathematics.
-
-![image of myself](vivian.png)
+Welcome! My name is Vivian, and I study Government and Applied Mathematics.

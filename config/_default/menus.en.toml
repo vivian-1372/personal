@@ -9,10 +9,6 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
-[[main]]
-  name = "Home"
-  url = "https://vivian-1372.github.io/Political-Psychology/"
-  weight = 1
   
 [[main]]
   name = "Blog"
