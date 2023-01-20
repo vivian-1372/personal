@@ -1,6 +1,6 @@
 ---
 description: Landing page.
-title: 'Harvard College '24'
+title: 'Harvard College \'24'
 ---
 
 <!--center style="display:flex;align-items:center;flex-wrap:wrap;justify-content:space-evenly;">
