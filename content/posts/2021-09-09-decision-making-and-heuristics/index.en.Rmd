@@ -21,20 +21,18 @@ library(descr)
 
 ```
 
+```{r biases, message = FALSE, include = FALSE}
+# load the class-generated bias data
+bias_data <- read_csv("bias_data.csv")
+```
+
 # Introduction
-This is the first Data Exploration task of Fall 2021! Welcome. This week, my classmates of Government 1372 (Political Psychology) and I worked with our in-class survey results to observe how susceptible we are to cognitive biases.
+This is the first Data Exploration task of Fall 2021! Welcome. This week, my classmates of Government 1372 (Political Psychology) and I worked with our in-class survey results to observe how susceptible we are to cognitive biases and discuss how that may affect our decision-making.
 
 
-# Part 1: Cognitive Biases
-
-You may have noticed that the questions on the survey you took during class last week were based on the Kahneman (2003) reading you did for this week. The goal for this set of questions is to examine those data to see if you and your classmates exhibit the same cognitive biases that Kahneman wrote about. The data you generated is described below.
-
-**Data Details:**
-
-* File Name: \texttt{bias\_data.csv}
-
-* Source: These data are from the in-class survey you took last week. 
-
+# Data Details
+*File Name: \texttt{bias\_data.csv}
+*Source: These data are from the in-class survey you took last week. 
 Variable Name         | Variable Description
 --------------------- | --------------------------------------
 \texttt{id}         | Unique ID for each respondent
@@ -46,11 +44,7 @@ Variable Name         | Variable Description
 \texttt{year}  | Year at Harvard
 \texttt{college\_stats}  | Indicator for whether or not the respondent has taken a college-level statistics course
 
-Before you get started, make sure you replace "file_name_here_1.csv" with the name of the file. (Also, remember to make sure you have saved the .Rmd version of this file and the file with the data in the same folder.)
-```{r biases, message = FALSE}
-# load the class-generated bias data
-bias_data <- read_csv("bias_data.csv")
-```
+
 
 
 ## Question 2
