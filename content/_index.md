@@ -26,4 +26,4 @@ This is a demo site built entirely using Blowfish. It also contains a complete s
   </span>
 </div>
 
-Explore the [sample pages]({{< ref "samples" >}}) to get a feel for what Blowfish can do. If you like what you see, check out the project on <a target="_blank" href="https://github.com/nunocoracao/blowfish">Github</a> or read the [Installation guide]({{< ref "docs/installation" >}}) to get started.
+Explore the [sample pages]({{< ref "samples" >}}) to get a feel for what Blowfish can do. If you like what you see, check out the project on <a target="_blank" href="https://github.com/nunocoracao/blowfish">Github</a> or read the [Installation guide]({{< ref "docs/installation" >}}) to get started. TEST MESSAFE !!!!
