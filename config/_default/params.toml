@@ -20,17 +20,17 @@ enableCodeCopy = true
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 
 [header]
-  layout = "basic" # valid options: basic, fixed
+  layout = "fixed" # valid options: basic, fixed
 
 [footer]
- # showMenu = true
+  showMenu = true
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/river.jpg" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
