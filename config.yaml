@@ -4,6 +4,7 @@ defaultContentLanguage: en
 enableRobotsTXT: yes
 paginate: 20
 summaryLength: 30
+# changed to yes to reconcile public/content posts
 buildDrafts: yes
 buildFuture: no
 taxonomies:
