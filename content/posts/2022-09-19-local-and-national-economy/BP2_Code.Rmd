@@ -1,0 +1,376 @@
+---
+title: "Blog Post 2 Code"
+author: "Vivian Nguyen"
+date: '2022-09-17'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+
+## Set up
+
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(car)
+library(readr)
+library(stargazer)
+library(dplyr)
+
+popvote_df <- read_csv('house_popvote_seats.csv') 
+GDPquarterly_df <- read_csv('GDP_quarterly.csv')
+RDIquarterly_df <- read_csv('RDI_quarterly.csv')
+UEquarterly_df <- read_csv('unemployment_national_quarterly_final.csv')
+# UE <- read_csv('unemployment_state_monthly.csv')
+
+```
+
+```{r, include = FALSE, message=FALSE}
+
+## Merge predictor and outcome data, filter for just the last Q of the election cycle
+
+results_GDP <- left_join(GDPquarterly_df, popvote_df, by = 'year') %>% 
+  drop_na() %>% 
+    select('year', 'winner_party', 'H_incumbent_party', 'H_incumbent_party_majorvote_pct', 'quarter_cycle', 'GDP_growth_pct', 'GDP_growth_qt') %>%
+    filter(quarter_cycle == 8)  
+
+results_RDI <- left_join(RDIquarterly_df, popvote_df, by = 'year') %>% 
+  drop_na() %>% 
+    select('year', 'winner_party', 'H_incumbent_party', 'H_incumbent_party_majorvote_pct', 'quarter_cycle', 'DSPIC_change_pct', 'DSPIC_change_qt') %>%
+    filter(quarter_cycle == 8) 
+
+UEquarterly_df$UNRATE_change <- 0 
+
+for (index in 1:nrow(UEquarterly_df)){
+  if (index != 1)
+    UEquarterly_df$UNRATE_change[index] <- UEquarterly_df$UNRATE[index] - UEquarterly_df$UNRATE[index - 1]
+}
+
+results_UE <- left_join(UEquarterly_df, popvote_df, by = 'year') %>% 
+  drop_na()  %>% 
+    select('year', 'winner_party', 'H_incumbent_party', 'H_incumbent_party_majorvote_pct', 'quarter_cycle', 'UNRATE', 
+           'unrate_qt_total', 'UNRATE_change') %>%
+    filter(quarter_cycle == 4) 
+
+```
+
+```{r, echo=FALSE, eval=TRUE, fig.width=5, fig.height=3, out.width = '60%', fig.align='center'}
+
+## Scatter plots
+
+# GDP vs. House Incumbent Vote Share
+results_GDP %>%
+  ggplot(aes(x=GDP_growth_pct, y=H_incumbent_party_majorvote_pct,
+             label=year)) + 
+    geom_text() +
+    geom_hline(yintercept=50, lty=2) +
+    geom_vline(xintercept=0.00, lty=2) + # median
+    xlab("Q8-Q7 GDP growth") +
+    ylab("Incumbent party PV") +
+    theme_bw() +
+    theme(axis.text = element_text(size = 10))
+
+# RDI vs. House Incumbent Vote Share
+results_RDI %>%
+  ggplot(aes(x=DSPIC_change_pct, y=H_incumbent_party_majorvote_pct,
+             label=year)) + 
+    geom_text() +
+    geom_hline(yintercept=50, lty=2) +
+    geom_vline(xintercept=0.00, lty=2) + # median
+    xlab("Q8-Q7 DSPIC growth") +
+    ylab("Incumbent party PV") +
+    theme_bw() +
+    theme(axis.text = element_text(size = 10))
+
+# UE vs. House Incumbent Vote Share
+results_UE %>%
+  ggplot(aes(x=UNRATE, y=H_incumbent_party_majorvote_pct,
+             label=year)) + 
+    geom_text() +
+    geom_hline(yintercept=50, lty=2) +
+    geom_vline(xintercept=0.00, lty=2) + # median
+    xlab("Q8-Q7 UE rate") +
+    ylab("Incumbent party PV") +
+    theme_bw() +
+    theme(axis.text = element_text(size = 10))
+
+```
+
+## Bivariate correlation of GDP /  and PV
+
+```{r, eval=FALSE}
+
+## Finding correlations
+
+# cpi <- read_csv("CPI_monthly.csv")
+
+cor(results_GDP$GDP_growth_pct, results_GDP$H_incumbent_party_majorvote_pct)
+cor(results_RDI$DSPIC_change_pct, results_RDI$H_incumbent_party_majorvote_pct)
+cor(results_UE$UNRATE, results_UE$H_incumbent_party_majorvote_pct)
+
+```
+
+## Economy and PV: Fitting a model (STEP 1 \& 2) {.build}
+
+```{r}
+
+newdf <- left_join(results_UE, results_GDP, by = 'year')
+newdf <-left_join (newdf, results_RDI, by = 'year') %>%
+  select('year', 'winner_party.x', 'H_incumbent_party.x', 'H_incumbent_party_majorvote_pct.x', 'quarter_cycle.x', 'UNRATE', 'GDP_growth_pct', 'DSPIC_change_pct', 'unrate_qt_total', 'DSPIC_change_qt', 'GDP_growth_qt', 'UNRATE_change') %>%
+  rename('winner_party' = 'winner_party.x', 'H_incumbent_party_majorvote_pct' = 'H_incumbent_party_majorvote_pct.x', 'quarter_cycle' = 'quarter_cycle.x', 'H_incumbent_party' = 'H_incumbent_party.x')
+
+newdf
+write.csv(newdf, "house_results_econ_vars.csv", row.names = TRUE)
+
+```
+
+
+```{r, echo=TRUE}
+
+lm_GDP <- lm(H_incumbent_party_majorvote_pct ~ GDP_growth_pct, data = newdf)
+lm_RDI <- lm(H_incumbent_party_majorvote_pct ~ DSPIC_change_pct, data = newdf)
+lm_UE <- lm(H_incumbent_party_majorvote_pct ~ UNRATE, data = newdf)
+lm_model <- lm(H_incumbent_party_majorvote_pct ~ GDP_growth_pct + DSPIC_change_pct + GDP_growth_qt + UNRATE, data = newdf)
+stargazer(lm_GDP, lm_RDI, lm_UE, lm_model, title = "Results", type = "text")
+
+```
+
+
+## Economy and PV: Fitting a model (STEP 1 \& 2)
+
+
+```{r, echo=FALSE, fig.width = 8, fig.height=6, out.width = '100%', fig.align='center'}
+# GDP plot
+newdf %>%
+  ggplot(aes(x=GDP_growth_pct, y=H_incumbent_party_majorvote_pct,
+             label=year)) + 
+    geom_text(size = 8) +
+    geom_smooth(method="lm", formula = y ~ x) +
+    geom_hline(yintercept=50, lty=2) +
+    geom_vline(xintercept=0.01, lty=2) + # median
+    xlab("Q8-Q7 GDP growth (X)") +
+    ylab("Incumbent party PV (Y)") +
+    theme_bw() +
+    ggtitle("Y = 52.42 - 0.9118  * X") + 
+    theme(axis.text = element_text(size = 20),
+          axis.title = element_text(size = 24),
+          plot.title = element_text(size = 32))
+
+print(summary(lm_GDP)$coefficients)
+print(summary(lm_RDI)$coefficients)
+print(summary(lm_UE)$coefficients)
+
+
+# RDI plot
+newdf %>%
+  ggplot(aes(x = DSPIC_change_pct, y = H_incumbent_party_majorvote_pct,
+             label=year)) + 
+    geom_text(size = 8) +
+    geom_smooth(method="lm", formula = y ~ x) +
+    geom_hline(yintercept=50, lty=2) +
+    geom_vline(xintercept=0.01, lty=2) + # median
+    xlab("Q8-Q7 RDI growth (X)") +
+    ylab("Incumbent party PV (Y)") +
+    theme_bw() +
+    ggtitle("Y = 52.58 - 0.7964  * X") + 
+    theme(axis.text = element_text(size = 20),
+          axis.title = element_text(size = 24),
+          plot.title = element_text(size = 32))
+
+# UE plot
+newdf %>%
+  ggplot(aes(x = UNRATE, y = H_incumbent_party_majorvote_pct,
+             label=year)) + 
+    geom_text(size = 8) +
+    geom_smooth(method="lm", formula = y ~ x) +
+    geom_hline(yintercept=50, lty=2) +
+    geom_vline(xintercept=0.01, lty=2) + # median
+    xlab("Q8-Q7 UE (X)") +
+    ylab("Incumbent party PV (Y)") +
+    theme_bw() +
+    ggtitle("Y = 47.48 + 0.7466082  * X") + 
+    theme(axis.text = element_text(size = 20),
+          axis.title = element_text(size = 24),
+          plot.title = element_text(size = 32))
+
+```
+
+
+# How to evaluate your model (STEP 3)
+
+## Model Fit: $R^2$
+
+```{r}
+
+summary(lm_GDP)$r.squared
+summary(lm_RDI)$r.squared
+summary(lm_UE)$r.squared
+summary(lm_model)$r.squared
+
+```
+
+## Model Fit: in-sample error and MSE
+
+
+```{r, fig.width=3, fig.height=2, out.width = '30%', fig.align='center'}
+# UE
+plot(newdf$year, newdf$H_incumbent_party_majorvote_pct, 
+     type="l",
+     main="true Y (line), predicted Y (dot) for each year")
+points(newdf$year, predict(lm_UE, newdf))
+
+# My model
+plot(newdf$year, newdf$H_incumbent_party_majorvote_pct, 
+     type="l",
+     main="true Y (line), predicted Y (dot) for each year")
+points(newdf$year, predict(lm_model, newdf))
+
+```
+
+## Model Fit: in-sample error and MSE
+
+We can plot the in-sample error via \textbf{residuals}, which capture the difference between each observed value ($y_i$) and predicted value ($\widehat{y}_i = \hat{A} + \widehat{B}x_i$):
+
+```{r, fig.width=6, fig.height=4, out.width = '70%', fig.align='center'}
+# UE
+hist(lm_UE$model$H_incumbent_party_majorvote_pct - lm_UE$fitted.values, 
+     main="histogram of true Y - predicted Y")
+# My model
+hist(lm_model$model$H_incumbent_party_majorvote_pct - lm_model$fitted.values,
+     main="histogram of true Y - predicted Y")
+```
+
+## Model Fit: in-sample error and MSE
+
+We can summarise the error a single number, such as the \textbf{mean-squared error (MSE)}:
+
+```{r}
+# GDP
+mse_UE <- mean((lm_UE$model$H_incumbent_party_majorvote_pct - lm_UE$fitted.values)^2)
+mse_GDP <- mean((lm_GDP$model$H_incumbent_party_majorvote_pct - lm_GDP$fitted.values)^2)
+mse_RDI <- mean((lm_RDI$model$H_incumbent_party_majorvote_pct - lm_RDI$fitted.values)^2)
+mse_model <- mean((lm_model$model$H_incumbent_party_majorvote_pct - lm_model$fitted.values)^2)
+
+cat("UE:", sqrt(mse_UE))
+cat("\nGDP:", sqrt(mse_GDP))
+cat("\nRDI:", sqrt(mse_RDI))
+cat("\nMy model:", sqrt(mse_model))
+
+```
+\textcolor{red}{This is hard to interpret on its own, more useful in comparison with other models.}
+
+## Model Testing
+\pause
+Checking in-sample model predictions is a good baseline evaluation, but it feels a bit like "cheating" \pause $\rightsquigarrow$ can we take away the model's "answer key"? \pause
+
+<!--the best test of a model's predictive score -- simulate out-of-sample 
+    prediction and check performance against ground-truth; in-sample is sort of 
+    easy because it's double dipping the data, this is a harder test!-->
+
+We can simulate \textbf{out-of-sample prediction} (also called out-of-sample testing) by withholding some observation, e.g. $X_{2018}$, before fitting: \pause
+
+```{r}
+#My model
+outsamp_mod1 <- lm(H_incumbent_party_majorvote_pct ~ GDP_growth_pct,
+                    newdf[newdf$year != 2018,])
+outsamp_pred <- predict(outsamp_mod1,
+                        newdf[newdf$year == 2018,])
+outsamp_true <- newdf$H_incumbent_party_majorvote_pct[newdf$year == 2018]
+```
+\pause and see how well the model predicts the true $Y_{2018}$ for the held-out observation $X_{2018}$:
+```{r}
+outsamp_pred - outsamp_true
+```
+Leaving a single observation out and testing the model against the ground truth is, \pause you guessed it, called \textbf{leave-one-out validation}.
+
+## Model Testing
+
+\textbf{Cross-validation}: withhold a *random subset* of the sample, fit model on rest of sample, and evaluate predictive performance on the held-out observations. \pause
+
+<!-- Me: predicts 2016 within 2 points..but ok 2016 was weird -->
+
+
+```{r}
+# GDP
+years_outsamp <- sample(newdf$year, 8)
+mod <- lm(H_incumbent_party_majorvote_pct ~ GDP_growth_pct,
+          newdf[!(newdf$year %in% years_outsamp),])
+outsamp_pred <- predict(mod,
+                newdata = newdf[newdf$year %in%
+                                 years_outsamp,])
+```
+\pause
+```{r}
+mean(outsamp_pred - newdf$H_incumbent_party_majorvote_pct[newdf$year %in% years_outsamp])
+```
+\pause \textcolor{red}{But we don't want to do this just once.}
+
+## Model Testing
+
+Cross-validation involves repeatedly evaluating performance against many randomly held-out "out-of-sample" datasets:
+
+<!-- we can do this many times and see how out-of-sample performance usually is -->
+```{r, eval=FALSE}
+years_outsamp <- sample(newdf$year, 8)
+outsamp_mod <- lm(H_incumbent_party_majorvote_pct ~ GDP_growth_pct, newdf[!(newdf$year %in% years_outsamp),])
+outsamp_pred <- predict(outsamp_mod, newdata = newdf[newdf$year %in% years_outsamp,])
+outsamp_true <- newdf$H_incumbent_party_majorvote_pct[newdf$year %in% years_outsamp]
+mean(outsamp_pred - outsamp_true)
+```
+
+## Model Testing
+
+Cross-validation involves repeatedly evaluating performance against many randomly held-out "out-of-sample" datasets:
+
+```{r}
+outsamp_errors <- sapply(1:1000, function(i){
+    years_outsamp <- sample(newdf$year, 8)
+  outsamp_mod <- lm(H_incumbent_party_majorvote_pct ~
+                      GDP_growth_pct,
+                  newdf[!(newdf$year %in% years_outsamp),])
+  outsamp_pred <- predict(outsamp_mod,
+                newdata = newdf[newdf$year %in% years_outsamp,])
+  outsamp_true <- newdf$H_incumbent_party_majorvote_pct[newdf$year
+                                                       %in% years_outsamp]
+  mean(outsamp_pred - outsamp_true)
+})
+```
+
+##  Model Testing
+
+```{r, echo=FALSE, message=FALSE, fig.width=6, fig.height=3, out.width = '70%', fig.align='center'}
+hist(outsamp_errors,
+     xlab = "",
+     main = "mean out-of-sample residual\n(1000 runs of cross-validation)")
+```
+
+
+```{r}
+mean(abs(outsamp_errors))
+```
+
+## Economy and PV: Out-of-sample prediction (STEP 4 \& 5)
+
+```{r, echo=TRUE, eval=FALSE}
+
+GDP_new <- GDPquarterly_df %>%
+    subset(year == 2020 & quarter_cycle == 8) %>%
+    select(GDP_growth_pct)
+UNRATE_new <- UEquarterly_df %>%
+    subset(year == 2020 & quarter_cycle == 4) %>%
+    select(UNRATE)
+DSPIC_new <- RDIquarterly_df %>%
+    subset(year == 2020 & quarter_cycle == 8) %>%
+    select(DSPIC_change_pct)
+GDP_qt_new <- GDPquarterly_df %>%
+    subset(year == 2020 & quarter_cycle == 8) %>%
+    select(GDP_growth_qt)
+
+new_data <- data.frame(GDP_new, DSPIC_new, GDP_qt_new, UNRATE_new)
+
+predict(lm_model, new_data, interval="confidence")
+
+#Interpretation: This means that, according to our model, a year with these traits, on average, has a (stopping distance ranging between 51.83 and 62.44 ft)46, 54) H incumbent vote share
+
+```
+
+

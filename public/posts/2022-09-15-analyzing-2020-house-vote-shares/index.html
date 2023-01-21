@@ -67,7 +67,7 @@
   
   
   <meta property="og:title" content="Analyzing House Vote Share Swings of 2018 and 2020" />
-<meta property="og:description" content="This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department." />
+<meta property="og:description" content="Introduction This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vivian-1372.github.io/Political-Psychology/posts/2022-09-15-analyzing-2020-house-vote-shares/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-09-15T00:00:00+00:00" />
@@ -76,7 +76,7 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Analyzing House Vote Share Swings of 2018 and 2020"/>
-<meta name="twitter:description" content="This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department."/>
+<meta name="twitter:description" content="Introduction This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department."/>
 
   
   <script type="application/ld+json">
@@ -87,7 +87,7 @@
     "name": "Analyzing House Vote Share Swings of 2018 and 2020",
     "headline": "Analyzing House Vote Share Swings of 2018 and 2020",
     
-    "abstract": "This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department.",
+    "abstract": "Introduction This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department.",
     "inLanguage": "en",
     "url" : "https:\/\/vivian-1372.github.io\/Political-Psychology\/posts\/2022-09-15-analyzing-2020-house-vote-shares\/",
     "author" : {
@@ -100,10 +100,10 @@
     
     "dateModified": "2022-09-15T00:00:00\u002b00:00",
     
-    
+    "keywords": ["swing state"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "788"
+    "wordCount": "775"
   }]
   </script>
 
@@ -499,12 +499,14 @@
         
 
 
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
 <p>This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department.</p>
-<hr />
-<p>Over the next several weeks, I will be exploring previous U.S. elections data to analyze voter trends and behavior. This exploration will aide in my ultimate goal of forecasting the 2022 midterm election results. For this first blog, I focus on the House vote shares from 2016 to 2020 and how they changed over the course of Donald J. Trump’s term. I compare the results of 2016 House election, specifically the House Democratic Party vote share at the state level, to those of the 2018 midterm House election to see the extent to which the common theme of incumbent disadvantage applied to the House election results. I then compare the House Democratic vote share of the 2018 election to the 2020 House election, which saw the election of Joseph R. Biden. <strong>My hope is to identify the trends in House election swings in the Trump era. As we near the 2022 midterms, where the Democratic president’s party is campaigning hard to retain House control, it’ll be increasingly important to know which states have shown increased support for House Democrats in recent years</strong></p>
+<p>Over the next several weeks, I will be exploring previous U.S. elections data to analyze voter trends and behavior. This exploration will aide in my ultimate goal of forecasting the 2022 midterm election results. For this first blog, I focus on the House vote shares from 2016 to 2020 and how they changed over the course of Donald J. Trump’s term. I compare the results of 2016 House election, specifically the House Democratic Party vote share at the state level, to those of the 2018 midterm House election to see the extent to which the common theme of incumbent disadvantage applied to the House election results. I then compare the House Democratic vote share of the 2018 election to the 2020 House election, which saw the election of Joseph R. Biden. <strong>My hope is to identify the trends in House election swings in the Trump era. As we near the 2022 midterms, where the Democratic president’s party is campaigning hard to retain House control, it’ll be increasingly important to know which states have shown increased support for House Democrats in recent years.</strong></p>
+</div>
+<div id="house-races-in-2016-2018-and-2020" class="section level1">
+<h1>House Races in 2016, 2018, and 2020</h1>
 <p>To answer this question, I pulled data about the House party vote shares for 2016, 2018, and 2020. I show 2018-2016 and 2020-2018 comparison maps, which consist of states colored by the quantity <span class="math inline">\(\frac{D_y}{D_y + R_y} - \frac{D_{y - 2}}{D_{y - 2} + R_{y - 2}}\)</span>. This quantity is a measure of state swing in Democratic Party vote share for that House election, since the previous one. Below is the 2018-2016 swing map - negative (red) values show a decline in (D) House vote share in a given state since 2016, positive (blue) values show the opposite, and near-zero (white) values represent no change in (D) House vote.</p>
-<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
-## logical.return = TRUE, : there is no package called &#39;sf&#39;</code></pre>
 <p><img src="https://vivian-1372.github.io/Political-Psychology/posts/2022-09-15-analyzing-2020-house-vote-shares/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 My analysis confirms that the House elections of the 2018 midterms followed the traditional pattern of the president’s party performing rather poorly – With the exception of Connecticut, Hawaii, Massachusetts, Vermont, and Wyoming, the Democrats gained vote share in every state in comparison to the 2016 House elections. This pattern of president’s party disadvantage in midterms has been upheld at an incredibly high rate throughout the 20th and 21st century, and it is expected to hold in this year’s midterm elections.</p>
 <p>However, this swing against the executive party may reverse by the next House elections, and this was indeed true in 2020.</p>
@@ -516,6 +518,7 @@ Unlike the previous swing comparison, the 2020-2018 comparison reveals that most
 <p>[1] Campbell, J. (2018a). Introduction: Forecasting the 2018 US Midterm Elections. <a href="https://doi.org/10.1017/S1049096518001592" class="uri">https://doi.org/10.1017/S1049096518001592</a></p>
 <p>[2] Walter, Amy (2020). 2020 National Popular Vote Tracker, <a href="https://www.cookpolitical.com/2020-national-popular-vote-tracker" class="uri">https://www.cookpolitical.com/2020-national-popular-vote-tracker</a></p>
 <p>[3] Vestal, James Allan, et al. (2020). Georgia Results 2020. <a href="https://www.politico.com/2020-election/results/georgia/" class="uri">https://www.politico.com/2020-election/results/georgia/</a></p>
+</div>
 
         </br></br>
         
@@ -792,6 +795,28 @@ Unlike the previous swing comparison, the 2020-2018 comparison reveals that most
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/Political-Psychology/posts/2022-09-19-local-and-national-economy/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Economic Predictors of House Incumbent Vote Share</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-09-19 00:00:00 &#43;0000 UTC">19 September 2022</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>

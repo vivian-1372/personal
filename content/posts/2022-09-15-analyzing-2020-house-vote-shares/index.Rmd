@@ -2,17 +2,17 @@
 title: Analyzing House Vote Share Swings of 2018 and 2020
 author: Vivian Nguyen
 date: '2022-09-15'
-slug: []
-categories: []
-tags: []
+categories: R
+tags: 
+- swing state
 ---
 
+# Introduction
 This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department.
 
----
+Over the next several weeks, I will be exploring previous U.S. elections data to analyze voter trends and behavior. This exploration will aide in my ultimate goal of forecasting the 2022 midterm election results. For this first blog, I focus on the House vote shares from 2016 to 2020 and how they changed over the course of Donald J. Trump's term. I compare the results of 2016 House election, specifically the House Democratic Party vote share at the state level, to those of the 2018 midterm House election to see the extent to which the common theme of incumbent disadvantage applied to the House election results. I then compare the House Democratic vote share of the 2018 election to the 2020 House election, which saw the election of Joseph R. Biden. **My hope is to identify the trends in House election swings in the Trump era. As we near the 2022 midterms, where the Democratic president's party is campaigning hard to retain House control, it'll be increasingly important to know which states have shown increased support for House Democrats in recent years.**
 
-Over the next several weeks, I will be exploring previous U.S. elections data to analyze voter trends and behavior. This exploration will aide in my ultimate goal of forecasting the 2022 midterm election results. For this first blog, I focus on the House vote shares from 2016 to 2020 and how they changed over the course of Donald J. Trump's term. I compare the results of 2016 House election, specifically the House Democratic Party vote share at the state level, to those of the 2018 midterm House election to see the extent to which the common theme of incumbent disadvantage applied to the House election results. I then compare the House Democratic vote share of the 2018 election to the 2020 House election, which saw the election of Joseph R. Biden. **My hope is to identify the trends in House election swings in the Trump era. As we near the 2022 midterms, where the Democratic president's party is campaigning hard to retain House control, it'll be increasingly important to know which states have shown increased support for House Democrats in recent years**
-
+# House Races in 2016, 2018, and 2020
 To answer this question, I pulled data about the House party vote shares for 2016, 2018, and 2020. I show 2018-2016 and 2020-2018 comparison maps, which consist of states colored by the quantity $\frac{D_y}{D_y + R_y} - \frac{D_{y - 2}}{D_{y - 2} + R_{y - 2}}$. This quantity is a measure of state swing in Democratic Party vote share for that House election, since the previous one. Below is the 2018-2016 swing map - negative (red) values show a decline in (D) House vote share in a given state since 2016, positive (blue) values show the opposite, and near-zero (white) values represent no change in (D) House vote. 
 
 ```{r, echo = FALSE, results='hide',fig.keep='all', message=FALSE}
