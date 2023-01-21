@@ -1,0 +1,323 @@
+---
+title: "Expert Ratings"
+author: "Vivian Nguyen"
+date: '2022-10-03'
+categories: Election Analytics
+tags:
+- polls
+- FiveThirtyEight
+- The Economist
+- expert ratings
+---
+
+```{r setup, include = FALSE}
+
+# Set up
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(readr)
+library(stargazer)
+library(usmap)
+library(rmapshaper)
+library(sf)
+library(insight)
+
+# Load in expert ratings and district polls
+expert_ratings <- read_csv("expert_rating.csv")
+exratings <- read_csv("2018_ratings_share.csv")
+
+```
+
+```{r cleaning district voting history, include = FALSE}
+
+# Two results dataframes
+incumb_dist_1948_2022 <- as.data.frame(read_csv("incumb_dist_1948-2022.csv", show_col_types = FALSE))
+# clean_names(incumb_dist_1948_2022)
+historical_results <- read_csv("house party vote share by district 1948-2020.csv", show_col_types = FALSE) 
+# %>% clean_names()
+
+incumb_dist_1948_2022 <- incumb_dist_1948_2022 %>%
+  rename("district" = "district_num") %>%
+  select(-c("office", "...1", "winner_candidate"), -contains("candidate"), -contains("st_"))
+
+historical_results <- historical_results %>% 
+  rename("year" = "raceYear", 'state' = 'State', 'rep_votes_major_percent' = RepVotesMajorPercent, dem_votes_major_percent = 'DemVotesMajorPercent') %>% 
+  separate(Area, into = c("area", "district"), sep = " ") %>% 
+  select(-area, -Office, -CensusPop, -district_num, -CD, -contains("Third"), -contains("PluralityParty"), -contains("candidate"), -contains("st_"), -raceNotes, -PluralityVotes, -state_abb, -R_vote_margin, -OtherVotes) %>% 
+  mutate(district = case_when(district == "Large" ~ "AL", TRUE ~ district))
+
+# Compare dataframes to see which columns I want to keep
+compare_df_cols(incumb_dist_1948_2022, historical_results)
+
+# Final district results dataframe
+district_results_48_22 <- full_join(historical_results, incumb_dist_1948_2022) 
+
+# write.csv(historical_results, "historical_results.csv")
+```
+
+```{r joining results with avg_ratings, include = FALSE}
+
+compare_df_cols(district_results_48_22, expert_ratings)
+
+newdf <- expert_ratings %>%
+  filter(year <= 2020) %>%
+  select(year, state, district, avg_rating) %>%
+  left_join(district_results_48_22) 
+
+newdf %>%
+  filter(year == 2018)
+
+
+newdf2 <- exratings %>%
+  separate(District, into = c("state_abb", "district"), sep = "-") %>% 
+  select(district, avg, state_abb) %>% 
+  rename("avg_rating" = "avg") 
+
+newdf2$state = ""
+for (thing in 1:nrow(newdf2))
+{
+  newdf2$state[thing] = state.name[grep(newdf2$state_abb[thing], state.abb)]
+}
+
+newdf2$district <- as.numeric(newdf2$district)
+newdf$district <- as.numeric(newdf$district)
+district_results_48_22$district <- as.numeric(district_results_48_22$district)
+
+newdf2 <- newdf2 %>% select(-state_abb) 
+
+newdf22 <- district_results_48_22 %>%
+  filter(year == 2018)
+
+newdf2 <- full_join(newdf2, newdf22, by = c("state", "district"))
+
+newdf %>%
+  filter(year == 2018)
+
+newdf22
+newdf <- newdf %>% filter(year ==2018)
+
+newdf2
+newdf 
+
+# newdf2 <- full_join(newdf2, newdf, by = c("state", "district")) %>%
+#   select(-year) %>%
+#   rename(avg_rating = 'avg_rating.x')
+```
+
+# The Plan This Week
+Last week, I took a close look at The Economist's and FiveThirtyEight's House forecast models and their methodology, and compared them. With these models in mind, I updated my own 2022 midterm forecast and model to include national economic conditions (Gross Domestic Product, Real Disposable Income, and unemployment), generic ballot polls (partisan preference), and the midterm-president's-party effect. 
+
+One of the most interesting differences between the two models was that  FiveThirtyEight explicitly mentions their use of expert forecasts ([Cook Political Report](https://www.cookpolitical.com/ratings/house-race-ratings), [Inside Elections](https://insideelections.com/ratings/house), and [Sabato's Crystal Ball](https://centerforpolitics.org/crystalball/2022-house/)) to predict future elections. Expert forecasts are intuitively a strong predictor of the race outcomes, as they are the best predictions elections experts have given all they data they gathered. This week, I wanted to investigate how accurate these expert predictions really are, specifically for the 2018 midterms.
+
+# How Accurate Are Expert Predictions?
+To conduct this week's investigation, I compare the actual results of the 2018 midterm elections to the average election ratings of experts. The 2018 results shown below are Democrat vote shares in each district. The 2018 expert election ratings come from [Ballotpedia](https://ballotpedia.org/Main_Page), with the election ratings taking on integer values 1 through 7 -- 1 represents a Solid/Safe Democrat prediction and 7 represents a Solid/Safe Republican average expert prediction for each district.
+
+## Actual Vote Share in 2018, by District
+
+Below is the actual (D) vote share in the 2018 midterm elections at the district level.
+```{r plotting actual 2018 vote share results, include = FALSE}
+
+# require(tidyverse)
+# require(ggplot2)
+# require(sf)
+# # load geographic data
+# # get_congress_map <- function(cong=114) {
+# #   tmp_file <- tempfile()
+# #   tmp_dir  <- tempdir()
+# #   zp <- sprintf("https://cdmaps.polisci.ucla.edu/shp/districts114.zip",cong)
+# #   download.file(zp, tmp_file)
+# #   unzip(zipfile = tmp_file, exdir = tmp_dir)
+# #   fpath <- paste(tmp_dir, sprintf("districtShapes/districts114.shp",cong), sep = "/")
+# #   st_read(fpath)
+# # }
+# 
+# # load 114th congress
+# # <<<<<<< HEAD
+# # cd114 <- get_congress_map(114)
+# 
+# cd114 <- st_read("districtShapes/districts114.shp")
+# # =======
+# # cd114 <- get_congress_map(114)
+# # >>>>>>> 1b982eea6f0ad653c5f59e4ecc0201948c3d7c00
+# # 
+# # vote data
+# h <- district_results_48_22
+# 
+# R_2014 <- h %>%
+#   filter(year == 2018) %>%  
+#   select(year, state, district, rep_votes_major_percent, dem_votes_major_percent) %>%
+#   # summarize party vote share by district
+#   group_by(state, district) %>%
+#   summarise(Dem_votes_pct = dem_votes_major_percent) %>%
+#   # rename district variable name to match shapefile
+#   rename(DISTRICT = district, STATENAME = state) %>% drop_na()
+# 
+# # merge
+# cd114$DISTRICT <- as.numeric(cd114$DISTRICT)
+# R_2014$DISTRICT <- as.numeric(R_2014$DISTRICT)
+# cd114 <- cd114 %>% left_join(R_2014, by=c("DISTRICT", "STATENAME"))
+# head(cd114$Dem_votes_pct)
+# 
+# # plot with simplify
+# districts_simp <- rmapshaper::ms_simplify(cd114, keep = 0.01)
+# 
+# ggplot() + 
+#   geom_sf(data=districts_simp,aes(fill=Dem_votes_pct),
+#           inherit.aes=FALSE,alpha=0.9) + 
+#   scale_fill_gradient2(low = "red", high = "blue", midpoint = 50, limits=c(0,100), name = "Democrat Major Vote Share") +
+#   coord_sf(xlim = c(-172.27, -66.57), ylim = c(18.55, 71.23), expand = FALSE) +  
+#   theme_void() +
+#   theme(axis.title.x=element_blank(),
+#         axis.text.x=element_blank(),
+#         axis.ticks.x=element_blank(),
+#         axis.title.y=element_blank(),
+#         axis.text.y=element_blank(),
+#         axis.ticks.y=element_blank()) + ggtitle("Actual (D) Vote Share in 2018 Midterm Elections")  
+# 
+
+```
+![Actual 2018 (D) Vote Share.](actual_2018_results.png)
+
+Most of the map is either red or white, which seems to suggest that most district vote share results were in the Republican party's favor or close between the two major parties. However, it is important to remember that for the House of Representatives, land is not proportional to representation, population is. Also, the president's party often performs poorly in midterm years, as discussed in detail in the [first blog post](https://vivian-1372.github.io/Election-Analytics/post/2022-09-15-analzying-2020-house-vote-shares/) of this series. Those two reminders considered, it then makes sense that the Democrats actually took the House in the 2018 midterms, with 235 seats going to Democrats and 199 going to Republicans (New York Times 2018).
+
+## Expert Predictions for Vote Share in 2018, by District
+```{r plotting expert predictions for 2018 midterms, include=FALSE}
+
+# 
+# require(tidyverse)
+# require(ggplot2)
+# require(sf)
+# # load geographic data
+# # get_congress_map <- function(cong=114) {
+# #   tmp_file <- tempfile()
+# #   tmp_dir  <- tempdir()
+# #   zp <- sprintf("https://cdmaps.polisci.ucla.edu/shp/districts114.zip",cong)
+# #   download.file(zp, tmp_file)
+# #   unzip(zipfile = tmp_file, exdir = tmp_dir)
+# #   fpath <- paste(tmp_dir, sprintf("districtShapes/districts114.shp",cong), sep = "/")
+# #   st_read(fpath)
+# # }
+# 
+# # load 114th congress
+# # cd114 <- get_congress_map(114)
+# 
+# cd114 <- st_read("districtShapes/districts114.shp")
+# 
+# 
+# # vote data
+# hh <- as.data.frame(newdf2)
+# hh["state" == "Alaska"]["district"] <- "0" 
+# hh["state" == "Montana"]["district"] <- "0" 
+# 
+# R_2014 <- hh %>%
+#   select(state, district, avg_rating) %>%
+#   # summarize party vote share by district
+#   group_by(state, district) %>%
+#   # rename district variable name to match shapefile
+#   rename(DISTRICT = district, STATENAME = state) %>% drop_na()
+# 
+# # merge
+# cd114$DISTRICT <- as.numeric(cd114$DISTRICT)
+# R_2014$DISTRICT <- as.numeric(R_2014$DISTRICT)
+# cd114 <- cd114 %>% left_join(R_2014, by=c("DISTRICT", "STATENAME"))
+# head(cd114$STATENAME)
+# 
+# # plot with simplify
+# districts_simp <- rmapshaper::ms_simplify(cd114, keep = 0.01)
+# 
+# 
+# ggplot() + 
+#   geom_sf(data=districts_simp, aes(fill = avg_rating),
+#           inherit.aes=FALSE,alpha=0.9) + 
+#   scale_fill_gradient2(low = "blue", high = "firebrick3", midpoint = 3.5, limits=c(0,7), name = "Expert Rating") +
+#   coord_sf(xlim = c(-172.27, -66.57), ylim = c(18.55, 71.23), expand = FALSE) +  
+#   theme_void() +
+#   theme(axis.title.x=element_blank(),
+#         axis.text.x=element_blank(),
+#         axis.ticks.x=element_blank(),
+#         axis.title.y=element_blank(),
+#         axis.text.y=element_blank(),
+#         axis.ticks.y=element_blank()) + ggtitle("Expert Ratings for 2018 Midterm Elections")
+# 
+# 
+# #map of expert predictions at the district-level... wheres ALASKA???
+
+
+```
+Below are the expert ratings for the 2018 midterms, which I call predictions because the ratings reflect what the experts believed would happen in each congressional district election. Red areas represent high expert confidence that the region will go to Republicans, while blue areas represent high confidence that the region will go to Democrats. 
+![Expert Ratings for 2018 Midterms.](expert_ratings_2018.png)
+
+## Evaluation
+For the most part, the predictions are pretty accurate via visual investigation. Most of the areas that actually had majority-Republican vote shares in the 2018 elections were predicted to be likely or solidly Republican by the experts on average. The blue districts of the 2018 midterms, like the ones along the west coast of Washington, Oregon, and California, in Arizona and New Mexico, in southern Texas, and scattered throughout the Rust Belt, were impressively predicted by the experts and their ratings, reflected in the standout blue coloring in the plot above. The experts were also able to pin down the close races, like the ones in southern New Mexico and in Maine. Overall, I think the average expert ratings predicted the congressional races at the district level very well, despite being just one predictor (that is a culmination of many predictors considered by the experts) in my model.
+
+# My 2022 Model and Forecast, Updated
+
+## My New Model
+My national model remains the same as it was last week, and I cannot fully extend my national model to the district level because it uses national variables like GDP change, as well as national responses to the generic ballot polls. That said, I can incorporate this week's investigation into a district-level model that predicts the House races by district using the most recent expert ratings data I have access to. These district-level models are of course imperfect because they only use expert ratings, but across all of them, they have an average R-squared of 0.78.  
+
+```{r 2022 prediction data cleaning, include = FALSE}
+# Selecting columns
+avg_ratings <- expert_ratings %>% 
+  select(year, state, district, avg_rating)
+
+# Joining the data and nesting by state and district
+train_data <- avg_ratings %>% 
+  filter(year != 2022) %>% 
+  # left join as there aren't ratings for every district
+  left_join(historical_results, by = c("year", "state", "district")) %>% 
+  group_by(state, district) %>% 
+  filter(n() > 1) %>% # Filtering out single data rows
+  group_nest() %>% 
+  mutate(data = map(data, ~unnest(., cols = c())))
+
+test_data <- avg_ratings %>% 
+  filter(year == 2022) %>% 
+  group_by(state, district) %>% 
+  group_nest() %>% 
+  mutate(data = map(data, ~unnest(., cols = c())))
+```
+
+```{r prediction models, include = FALSE}
+# Building TERRIBLE models
+models <- train_data %>% 
+  mutate(model = map(data, ~lm(dem_votes_major_percent ~ avg_rating, 
+                                  data = .x))) %>% 
+  select(-data)
+
+# Extracting TERRIBLE model results
+model_results <- models %>% 
+  mutate(r_squared = map_dbl(model, ~summary(.x)$r.squared), adj_r_squared = map_dbl(model, ~summary(.x)$adj.r.squared))
+
+# Predicting 2022 with a TERRIBLE model
+pred_2022 <- test_data %>%
+  # inner join as there may not be historical models for some districts
+  inner_join(models, by = c("state", "district")) %>% 
+  mutate(pred = map_dbl(.x = model, .y = data, ~predict(object = .x, newdata = as.data.frame(.y)))) %>%
+  select(state, district, pred)
+
+mean(model_results$r_squared)
+mean(model_results$adj_r_squared, na.rm = TRUE)
+```
+
+## My New Forecast
+Below are my models' predictions for the major vote share taken by Democrats for the 94 congressional districts where the expert ratings were available.
+
+```{r forecast printout, echo = FALSE}
+
+export_table(pred_2022, format = "html")
+
+```
+---
+
+**References**
+
+[1] Ballotpedia. (2022). https://ballotpedia.org/Main_Page 
+
+[2] Cook Political Report. (2002). House Race Ratings. https://www.cookpolitical.com/ratings/house-race-ratings
+
+[3] Inside Elections. (2022). House Ratings. https://insideelections.com/ratings/house
+
+[4] Sabato's Crystal Ball. (2022). House Race Ratings. https://centerforpolitics.org/crystalball/2022-house/
+
+[5] The New York Times. (2018, November 6). U.S. House election results 2018. The New York Times. https://www.nytimes.com/interactive/2018/11/06/us/elections/results-house-elections.html 
