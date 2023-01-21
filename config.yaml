@@ -4,7 +4,7 @@ defaultContentLanguage: en
 enableRobotsTXT: yes
 paginate: 20
 summaryLength: 30
-buildDrafts: no
+buildDrafts: yes
 buildFuture: no
 taxonomies:
   author: authors
