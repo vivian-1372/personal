@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["posts"]
 # robots = ""
 
 # disableImageOptimization = false
@@ -32,13 +32,13 @@ enableCodeCopy = true
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/river.jpg" # used in: hero, and card
-  showRecent = false
+  showRecent = true
   showRecentItems = 5
-  showMoreLink = false
+  showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = false
   cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
+  layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
@@ -68,16 +68,16 @@ enableCodeCopy = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
-  #showHero = true
-  #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  #layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  #layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showHero = true
+  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   #showViews = true
   #showLikes = true
   showTableOfContents = false
-  showCards = false
+  showCards = true
   groupByYear = true
   cardView = false
   cardViewScreenWidth = false
@@ -97,7 +97,7 @@ enableCodeCopy = true
 
 [term]
   #showHero = true
-  #heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   #showViews = false
   #showLikes = false

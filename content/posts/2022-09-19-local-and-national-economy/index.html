@@ -2,7 +2,7 @@
 title: "Economic Predictors of House Incumbent Vote Share"
 author: "Vivian Nguyen"
 date: '2022-09-19'
-categories: R
+categories: Election Analytics
 tags:
 - economy
 - incumbent
@@ -25,9 +25,14 @@ tags:
 </div>
 <p>As shown above, each variable, GDP growth, RDI change, and unemployment rate, respectively, are correlated to House incumbent vote share - as GDP growth percentage decreases, or RDI change percentage decreases, or unemployment rate grows, House incumbent vote share grows. These correlations are unintuitive, and suggest that voters do not accurately hold their leaders accountable according to national economic performance.</p>
 <p>That said, these correlations are not too explanatory by themselves and may be very susceptible to noise, with R-squared values of 0.081, 0.056, and 0.131. I moved on from univariate relationships between these national economic variables House incumbent vote share to multivariable relationships, hoping to find a model that incorporates multiple economic variables to predict incumbent vote share. In this multivariable model (which I call Model 1), I consider the predictors <code>GDP_growth_pct</code> (GDP growth %), <code>DSPIC_change_pct</code> (RDI change %), <code>GDP_growth_qt</code> (GDP growth), and <code>UNRATE</code> (unemployment rate) to investigate how they influence incumbent vote share in conjunction.</p>
-<p><img src="regression_stargazer.png" alt="Regression Stargazer." />
-# Model 1
-My development of Model 1 finds that GDP, RDI, and unemployment all influence House incumbent vote share, but in varying directions and with varying levels of statistical significance. For GDP growth (%), Model 1 anticipates that as it grows by 1, House incumbent vote share will too by 2.9, which makes more sense. However, for GDP growth (absolute) and unemployment rate, increases in these are still associated with decreases in incumbent vote share.</p>
+<div class="figure">
+<img src="regression_stargazer.png" alt="" />
+<p class="caption">Regression Stargazer.</p>
+</div>
+</div>
+<div id="model-1" class="section level1">
+<h1>Model 1</h1>
+<p>My development of Model 1 finds that GDP, RDI, and unemployment all influence House incumbent vote share, but in varying directions and with varying levels of statistical significance. For GDP growth (%), Model 1 anticipates that as it grows by 1, House incumbent vote share will too by 2.9, which makes more sense. However, for GDP growth (absolute) and unemployment rate, increases in these are still associated with decreases in incumbent vote share.</p>
 <p>These results are again fascinating, as they are counter-intuitive and don’t follow the traditional knowledge political scientists lean on concerning retrospective voting, economic performance, and incumbent success. That said, Model 1 has an R-squared value of 0.386, which is much higher than the univariate R-squared values previously found.</p>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>To evaluate the performance of my model and choice of model, I check the residuals. As shown below, they are roughly normally distributed around a center point of 0. This tells me that the form of Model 1 (linear) is adequate.</p>

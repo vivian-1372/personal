@@ -15,8 +15,8 @@ dateFormat = "2 January 2006"
 [author]
   name = "Vivian Nguyen"
   image = "img/vivian.png"
-  headline = "Harvard College '24!"
-  bio = "This is my website, and it's all about me."
+  headline = "Welcome"
+  bio = "Social and Data Science."
   links = [ 
      { email = "mailto:viviannguyen@college.harvard.edu" },
   #   { link = "https://link-to-some-website.com/" },
