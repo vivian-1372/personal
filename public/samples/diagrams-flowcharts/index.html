@@ -103,7 +103,7 @@
     "keywords": ["mermaid","sample","diagram","shortcodes"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "84"
+    "wordCount": "258"
   }]
   </script>
 
@@ -473,7 +473,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2019-03-06 00:00:00 &#43;0000 UTC">6 March 2019</time><span class="px-2 text-primary-500">&middot;</span><span>84 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2019-03-06 00:00:00 &#43;0000 UTC">6 March 2019</time><span class="px-2 text-primary-500">&middot;</span><span>258 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -549,7 +549,27 @@
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#flowchart" aria-label="Anchor">#</a></span>        
     
-</h2><!-- raw HTML omitted -->
+</h2><div style="background-color:white; padding: 20px">
+<div class="mermaid" align="center">
+  
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+B --> G[/Another/]
+C ==>|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+subgraph Section
+C
+D
+E
+F
+G
+end
+
+</div>
+
+</div>
 <div id="sequence-diagram" class="anchor">Sequence diagram></div>
 <h2 class="relative group">Sequence diagram 
     <span
@@ -557,7 +577,28 @@
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#sequence-diagram" aria-label="Anchor">#</a></span>        
     
-</h2><!-- raw HTML omitted -->
+</h2><div style="background-color:white; padding: 20px">
+<div class="mermaid" align="center">
+  
+sequenceDiagram
+autonumber
+par Action 1
+Alice->>John: Hello John, how are you?
+and Action 2
+Alice->>Bob: Hello Bob, how are you?
+end
+Alice->>+John: Hello John, how are you?
+Alice->>+John: John, can you hear me?
+John-->>-Alice: Hi Alice, I can hear you!
+Note right of John: John is perceptive
+John-->>-Alice: I feel great!
+loop Every minute
+John-->Alice: Great!
+end
+
+</div>
+
+</div>
 <div id="class-diagram" class="anchor">Class diagram></div>
 <h2 class="relative group">Class diagram 
     <span
@@ -565,7 +606,34 @@
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#class-diagram" aria-label="Anchor">#</a></span>        
     
-</h2><!-- raw HTML omitted -->
+</h2><div style="background-color:white; padding: 20px">
+<div class="mermaid" align="center">
+  
+classDiagram
+Animal "1" <|-- Duck
+Animal <|-- Fish
+Animal <--o Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
++String beakColor
++swim()
++quack()
+}
+class Fish{
+-int sizeInFeet
+-canEat()
+}
+class Zebra{
++bool is_wild
++run()
+}
+
+</div>
+
+</div>
 <div id="entity-relationship-diagram" class="anchor">Entity relationship diagram></div>
 <h2 class="relative group">Entity relationship diagram 
     <span
@@ -573,7 +641,22 @@
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#entity-relationship-diagram" aria-label="Anchor">#</a></span>        
     
-</h2><!-- raw HTML omitted -->
+</h2><div style="background-color:white; padding: 20px">
+<div class="mermaid" align="center">
+  
+erDiagram
+CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+CUSTOMER ||--o{ ORDER : places
+CUSTOMER ||--o{ INVOICE : "liable for"
+DELIVERY-ADDRESS ||--o{ ORDER : receives
+INVOICE ||--|{ ORDER : covers
+ORDER ||--|{ ORDER-ITEM : includes
+PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+
+</div>
+
+</div>
 
         </br></br>
         
@@ -883,6 +966,14 @@
   </footer>
 </article>
 
+      
+      <div class="pointer-events-none absolute top-[100vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+        <a href="#the-top"
+          class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+          aria-label="" title="">
+          &uarr;
+        </a>
+      </div>
       
     </main><footer class="py-10 print:hidden">
   

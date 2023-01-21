@@ -712,21 +712,21 @@
 </h2><p>The first step to create new authors is to set up a new folder in <code>./data/authors</code>. Then you can simply add new <code>json</code> files inside, one for each new author. The name of the file will be the <code>key</code> for that author when referencing it in your articles.</p>
 <p>As an example, let’s create a file called <code>nunocoracao.json</code> within <code>./data/authors</code>. The contents of the file should be similar to the ones below. <code>name</code>, <code>image</code>, <code>bio</code>, and <code>social</code> are the 4 parameters supported right for authors. They mimic the configurations available for the default author in the config files.</p>
 <p><em>Note: the key in the social object will be used to fetch one of the theme’s icons, feel free to use any of the icons available in your setup.</em></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Nuno Coração&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;image&#34;</span> : <span style="color:#e6db74">&#34;img/nuno_avatar.jpg&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;bio&#34;</span>: <span style="color:#e6db74">&#34;Theme Creator&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;social&#34;</span>: [
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;linkedin&#34;</span>: <span style="color:#e6db74">&#34;https://linkedin.com/in/nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;twitter&#34;</span>: <span style="color:#e6db74">&#34;https://twitter.com/nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;instagram&#34;</span>: <span style="color:#e6db74">&#34;https://instagram.com/nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;medium&#34;</span>: <span style="color:#e6db74">&#34;https://medium.com/@nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;github&#34;</span>: <span style="color:#e6db74">&#34;https://github.com/nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;goodreads&#34;</span>: <span style="color:#e6db74">&#34;http://goodreads.com/nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;keybase&#34;</span>: <span style="color:#e6db74">&#34;https://keybase.io/nunocoracao&#34;</span> },
-</span></span><span style="display:flex;"><span>        { <span style="color:#f92672">&#34;reddit&#34;</span>: <span style="color:#e6db74">&#34;https://reddit.com/user/nunoheart&#34;</span> }
-</span></span><span style="display:flex;"><span>    ]
-</span></span><span style="display:flex;"><span>}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Nuno Coração&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;image&#34;</span> <span class="p">:</span> <span class="s2">&#34;img/nuno_avatar.jpg&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;bio&#34;</span><span class="p">:</span> <span class="s2">&#34;Theme Creator&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;social&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;linkedin&#34;</span><span class="p">:</span> <span class="s2">&#34;https://linkedin.com/in/nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;twitter&#34;</span><span class="p">:</span> <span class="s2">&#34;https://twitter.com/nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;instagram&#34;</span><span class="p">:</span> <span class="s2">&#34;https://instagram.com/nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;medium&#34;</span><span class="p">:</span> <span class="s2">&#34;https://medium.com/@nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;github&#34;</span><span class="p">:</span> <span class="s2">&#34;https://github.com/nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;goodreads&#34;</span><span class="p">:</span> <span class="s2">&#34;http://goodreads.com/nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;keybase&#34;</span><span class="p">:</span> <span class="s2">&#34;https://keybase.io/nunocoracao&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span> <span class="nt">&#34;reddit&#34;</span><span class="p">:</span> <span class="s2">&#34;https://reddit.com/user/nunoheart&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><div id="reference-authors-in-articles" class="anchor">Reference Authors in Articles></div>
 <h2 class="relative group">Reference Authors in Articles 
     <span
@@ -736,18 +736,18 @@
     
 </h2><p>Now that you created one author, the next step is to reference it in one or more articles. In the example below, we reference the author created in the previous step using its <code>key</code>.</p>
 <p>This will render an extra author using the data provided in the <code>json</code> file. This feature does not change in any way the default author configured for the overall site, and therefore, you can control both separately. Using the <code>showAuthor</code> parameter, you can configure whether to show the default author, that is the normal use-case for a single author blog. The new <code>authors</code> front-matter parameter allows you to define authors specifically to an article, and they will be rendered independently of the configurations for the default site author.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>title: &#34;Multiple Authors&#34;
-</span></span><span style="display:flex;"><span>date: 2020-08-10
-</span></span><span style="display:flex;"><span>draft: false
-</span></span><span style="display:flex;"><span>description: &#34;Configure multiple authors for your articles.&#34;
-</span></span><span style="display:flex;"><span>slug: &#34;multi-author&#34;
-</span></span><span style="display:flex;"><span>tags: [&#34;authors&#34;, &#34;config&#34;, &#34;docs&#34;]
-</span></span><span style="display:flex;"><span>showAuthor: true
-</span></span><span style="display:flex;"><span>authors:
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> &#34;nunocoracao&#34;
-</span></span><span style="display:flex;"><span>showAuthorsBadges : false 
-</span></span><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;Multiple Authors&#34;
+</span></span><span class="line"><span class="cl">date: 2020-08-10
+</span></span><span class="line"><span class="cl">draft: false
+</span></span><span class="line"><span class="cl">description: &#34;Configure multiple authors for your articles.&#34;
+</span></span><span class="line"><span class="cl">slug: &#34;multi-author&#34;
+</span></span><span class="line"><span class="cl">tags: [&#34;authors&#34;, &#34;config&#34;, &#34;docs&#34;]
+</span></span><span class="line"><span class="cl">showAuthor: true
+</span></span><span class="line"><span class="cl">authors:
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> &#34;nunocoracao&#34;
+</span></span><span class="line"><span class="cl">showAuthorsBadges : false 
+</span></span><span class="line"><span class="cl">---
 </span></span></code></pre></div><p>In the example, which matches the markdown of the current page, both the default author and the new one will be displayed. You can scroll now to see the outcome.</p>
 <div id="create-the-authors-taxonomy" class="anchor">Create the Authors Taxonomy></div>
 <h2 class="relative group">Create the Authors Taxonomy 
@@ -758,17 +758,17 @@
     
 </h2><p>To get lists of articles for each of your authors you can configure the <code>authors</code> taxonomy, which opens up some more configurations that might be interesting. This is an optional step in the process that is not required to display the authors in your articles.</p>
 <p>First step is to configure the <code>authors</code> taxonomy in your <code>config.toml</code> file, like in the example below. Even though <code>tag</code> and <code>category</code> are defined by default with Hugo, once you add a specific taxonomies section you need to add them again otherwise the site will not process them.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">taxonomies</span>]
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">tag</span> = <span style="color:#e6db74">&#34;tags&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">category</span> = <span style="color:#e6db74">&#34;categories&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;authors&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">author</span> <span class="p">=</span> <span class="s2">&#34;authors&#34;</span>
 </span></span></code></pre></div><p>And that’s just about it. Now you will have pages that reference your authors and, for each, show the respective list of articles where they participate. You can also use the <code>article.showAuthorsBadges</code> on the config file, or <code>showAuthorsBadges</code> on each article to chose whether to display the <code>authors</code> taxonomy as badges in each post item. As an example, this doc is configured to not display authors but if you look at the sample referenced below you will see the authors displayed as badges.</p>
 <p>Lastly, you can add more detail to each author page so that it displays a little bio, links, or whatever information fits your use-case. To achieve that, create a folder with the <code>key</code> to each author inside <code>./content/authors</code> and inside each folder place a <code>_index.md</code> file. For the example above, we would end up with a <code>.content/authors/nunocoracao/_index.md</code> file. Inside, you can configure the actual name of the author and the contents of their page. Authors in this documentation website are configured like this, so you can have a look by playing around with the site.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>title: &#34;Nuno Coração&#34;
-</span></span><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Nuno&#39;s awesome dummy bio.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;Nuno Coração&#34;
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Nuno&#39;s awesome dummy bio.
 </span></span></code></pre></div><div id="sample" class="anchor">Sample></div>
 <h2 class="relative group">Sample 
     <span

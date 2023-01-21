@@ -707,11 +707,11 @@
             style="text-decoration-line: none !important;" href="#create-taxonomy" aria-label="Anchor">#</a></span>        
     
 </h2><p>The first step to enable series is to create the <code>series</code> taxonomy. For doing this just add the <code>series</code> taxonomy to your taxonomy list in the <code>config.toml</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">taxonomies</span>]
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">tag</span> = <span style="color:#e6db74">&#34;tags&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">category</span> = <span style="color:#e6db74">&#34;categories&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;authors&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">series</span> = <span style="color:#e6db74">&#34;series&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">author</span> <span class="p">=</span> <span class="s2">&#34;authors&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">series</span> <span class="p">=</span> <span class="s2">&#34;series&#34;</span>
 </span></span></code></pre></div><div id="mark-articles" class="anchor">Mark Articles></div>
 <h2 class="relative group">Mark Articles 
     <span
@@ -720,8 +720,8 @@
             style="text-decoration-line: none !important;" href="#mark-articles" aria-label="Anchor">#</a></span>        
     
 </h2><p>Then you just need to mark each article using the <code>series</code> parameter and the <code>series_order</code>. The <code>series</code> parameter will be the id and name of the series you are placing the article into (even though the variable is an array we recommend keeping each article to a single series.). And the <code>series_order</code> defines the order of that article within the series. In the example below the article is number <code>11</code> in the <code>Documentation</code> series.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>series: [&#34;Documentation&#34;]
-</span></span><span style="display:flex;"><span>series_order: 11
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">series: [&#34;Documentation&#34;]
+</span></span><span class="line"><span class="cl">series_order: 11
 </span></span></code></pre></div><div id="series-behavior" class="anchor">Series Behavior></div>
 <h2 class="relative group">Series Behavior 
     <span

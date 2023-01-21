@@ -878,13 +878,13 @@
 <p>By default, the alert is presented with an exclaimation triangle icon. To change the icon, include the icon name in the shortcode. Check out the <a href="#icon"  >
     icon shortcode</a> for more details on using icons.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">alert</span> &gt;}}
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">**Warning!**</span> This action is destructive!
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">alert</span> &gt;}}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">alert</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">twitter</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
-</span></span><span style="display:flex;"><span>Don&#39;t forget to [<span style="color:#f92672">follow me</span>](<span style="color:#a6e22e">https://twitter.com/nunocoracao</span>) on Twitter.
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">alert</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">alert</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl"><span class="gs">**Warning!**</span> This action is destructive!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">alert</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">alert</span> <span class="err">&#34;</span><span class="na">twitter</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Don&#39;t forget to [<span class="nt">follow me</span>](<span class="na">https://twitter.com/nunocoracao</span>) on Twitter.
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">alert</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><p><div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
   <span class="text-primary-400 ltr:pr-3 rtl:pl-3">
     
@@ -923,7 +923,7 @@
             style="text-decoration-line: none !important;" href="#article" aria-label="Anchor">#</a></span>        
     
 </h2><p><code>Article</code> will embed a single article into a markdown file. The <code>link</code> to the file should be the <code>.RelPermalink</code> of the file to be embedded. Note that the shortcode will not display anything if it&rsquo;s referencing it&rsquo;s parent. <em>Note: if you are running your website in a subfolder like Blowfish (i.e. /blowfish/) please include that path in the link.</em></p>
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-start -->
 <table>
 <thead>
 <tr>
@@ -938,9 +938,9 @@
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-end -->
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">article</span> <span style="color:#a6e22e">link</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/blowfish/docs/welcome/&#34;</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">article</span> <span class="na">link</span><span class="o">=</span><span class="s">&#34;/blowfish/docs/welcome/&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
 <section class="w-full mt-10 mb-10">
     
@@ -955,9 +955,9 @@
     
 </h2><p><code>badge</code> outputs a styled badge component which is useful for displaying metadata.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">badge</span> &gt;}}
-</span></span><span style="display:flex;"><span>New article!
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">badge</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">badge</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">New article!
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">badge</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><span class="flex">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
@@ -978,9 +978,9 @@ New article!
     
 </h2><p><code>button</code> outputs a styled button component which can be used to highlight a primary action. It has two optional variables <code>href</code> and <code>target</code> which can be used to specify the URL and target of the link.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">button</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#button&#34;</span> <span style="color:#a6e22e">target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_self&#34;</span> &gt;}}
-</span></span><span style="display:flex;"><span>Call to action
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">button</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">button</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;#button&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_self&#34;</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">Call to action
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">button</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><a
   class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
   href="#button"
@@ -1004,23 +1004,23 @@ Call to action
 <p>Refer to the <a href="https://www.chartjs.org/docs/latest/general/"   target="_blank">
     official Chart.js docs</a> for details on syntax and supported chart types.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>{{<span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">chart</span> <span style="color:#f92672">&gt;</span>}}
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;bar&#39;</span>,
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span><span style="color:#f92672">:</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">labels</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;Tomato&#39;</span>, <span style="color:#e6db74">&#39;Blueberry&#39;</span>, <span style="color:#e6db74">&#39;Banana&#39;</span>, <span style="color:#e6db74">&#39;Lime&#39;</span>, <span style="color:#e6db74">&#39;Orange&#39;</span>],
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">datasets</span><span style="color:#f92672">:</span> [{
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">label</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;# of votes&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">data</span><span style="color:#f92672">:</span> [<span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">19</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>],
-</span></span><span style="display:flex;"><span>  }]
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>{{<span style="color:#f92672">&lt;</span> <span style="color:#960050;background-color:#1e0010">/chart &gt;}}</span>
-</span></span></code></pre></div><!-- raw HTML omitted -->
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">&lt;</span> <span class="nx">chart</span> <span class="o">&gt;</span><span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="nx">data</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">labels</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;Tomato&#39;</span><span class="p">,</span> <span class="s1">&#39;Blueberry&#39;</span><span class="p">,</span> <span class="s1">&#39;Banana&#39;</span><span class="p">,</span> <span class="s1">&#39;Lime&#39;</span><span class="p">,</span> <span class="s1">&#39;Orange&#39;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">datasets</span><span class="o">:</span> <span class="p">[{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">label</span><span class="o">:</span> <span class="s1">&#39;# of votes&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">data</span><span class="o">:</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">19</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span><span class="o">&lt;</span> <span class="err">/chart &gt;}}</span>
+</span></span></code></pre></div><!-- prettier-ignore-start -->
 <div class="chart">
   
-  <canvas id="723594618"></canvas>
+  <canvas id="153987642"></canvas>
   <script type="text/javascript">
     window.addEventListener("DOMContentLoaded", (event) => {
-      const ctx = document.getElementById("723594618");
+      const ctx = document.getElementById("153987642");
       const chart = new Chart(ctx, {
         
 type: 'bar',
@@ -1037,7 +1037,7 @@ data: {
   </script>
 </div>
 
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-end -->
 <p>You can see some additional Chart.js examples on the <a href="https://vivian-1372.github.io/Political-Psychology/samples/charts/"  >
     charts samples</a> page.</p>
 <div id="figure" class="anchor">Figure></div>
@@ -1050,7 +1050,7 @@ data: {
 </h2><p>Blowfish includes a <code>figure</code> shortcode for adding images to content. The shortcode replaces the base Hugo functionality in order to provide additional performance benefits.</p>
 <p>When a provided image is a page resource, it will be optimised using Hugo Pipes and scaled in order to provide images appropriate to different device resolutions. If a static asset or URL to an external image is provided, it will be included as-is without any image processing by Hugo.</p>
 <p>The <code>figure</code> shortcode accepts six parameters:</p>
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-start -->
 <table>
 <thead>
 <tr>
@@ -1088,19 +1088,19 @@ data: {
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-end -->
 <p>Blowfish also supports automatic conversion of images included using standard Markdown syntax. Simply use the following format and the theme will handle the rest:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>![<span style="color:#f92672">Alt text</span>](<span style="color:#a6e22e">image.jpg &#34;Image caption&#34;</span>)
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">![<span class="nt">Alt text</span>](<span class="na">image.jpg &#34;Image caption&#34;</span>)
 </span></span></code></pre></div><p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">figure</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;abstract.jpg&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Abstract purple artwork&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">caption</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Photo by </span>[<span style="color:#f92672">Jr Korpa</span>](<span style="color:#a6e22e">https://unsplash.com/@jrkorpa</span>)<span style="color:#e6db74"> on </span>[<span style="color:#f92672">Unsplash</span>](<span style="color:#a6e22e">https://unsplash.com/</span>)<span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span>    &gt;}}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- OR --&gt;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>![<span style="color:#f92672">Abstract purple artwork</span>](<span style="color:#a6e22e">abstract.jpg &#34;Photo by [Jr Korpa](https://unsplash.com/@jrkorpa</span>) on [<span style="color:#f92672">Unsplash</span>](<span style="color:#a6e22e">https://unsplash.com/</span>)&#34;)
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">figure</span>
+</span></span><span class="line"><span class="cl">    <span class="na">src</span><span class="o">=</span><span class="s">&#34;abstract.jpg&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">alt</span><span class="o">=</span><span class="s">&#34;Abstract purple artwork&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">caption</span><span class="o">=</span><span class="s">&#34;Photo by </span>[<span class="nt">Jr Korpa</span>](<span class="na">https://unsplash.com/@jrkorpa</span>)<span class="s"> on </span>[<span class="nt">Unsplash</span>](<span class="na">https://unsplash.com/</span>)<span class="s">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!-- OR --&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">![<span class="nt">Abstract purple artwork</span>](<span class="na">abstract.jpg &#34;Photo by [Jr Korpa](https://unsplash.com/@jrkorpa</span>) on [<span class="nt">Unsplash</span>](<span class="na">https://unsplash.com/</span>)&#34;)
 </span></span></code></pre></div>
 
   
@@ -1146,7 +1146,7 @@ data: {
     
 </h2><p><code>icon</code> outputs an SVG icon and takes the icon name as its only parameter. The icon is scaled to match the current text size.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">icon</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">github</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">icon</span> <span class="err">&#34;</span><span class="na">github</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><p><strong>Output:</strong> 
 
   <span class="relative inline-block align-text-bottom icon">
@@ -1168,7 +1168,7 @@ data: {
             style="text-decoration-line: none !important;" href="#list" aria-label="Anchor">#</a></span>        
     
 </h2><p><code>List</code> will display a list of recent articles. This shortcode requires a limit value to constraint the list. Additionally, it supports a <code>where</code> and a <code>value</code> in order to filter articles by their parameters. Note that this shortcode will not display its parent page but it will count for the limit value.</p>
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-start -->
 <table>
 <thead>
 <tr>
@@ -1191,9 +1191,9 @@ data: {
 </tr>
 </tbody>
 </table>
-<!-- raw HTML omitted -->
+<!-- prettier-ignore-end -->
 <p><strong>Example #1:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">list</span> <span style="color:#a6e22e">limit</span><span style="color:#f92672">=</span><span style="color:#e6db74">2</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">list</span> <span class="na">limit</span><span class="o">=</span><span class="s">2</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
 
 
@@ -1374,7 +1374,7 @@ data: {
     
 </section>
 <p><strong>Example #2:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">list</span> <span style="color:#a6e22e">limit</span><span style="color:#f92672">=</span><span style="color:#e6db74">2</span> <span style="color:#a6e22e">where</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Type&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sample&#34;</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">list</span> <span class="na">limit</span><span class="o">=</span><span class="s">2</span> <span class="na">where</span><span class="o">=</span><span class="s">&#34;Type&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;sample&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div>
 
 
@@ -1479,7 +1479,7 @@ data: {
     
 </h2><p><code>swatches</code> outputs a set of up to three different colors to showcase color elements like a color palette. This shortcode takes the <code>HEX</code> codes of each color and creates the visual elements for each.</p>
 <p><strong>Example</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">swatches</span> <span style="color:#960050;background-color:#1e0010">&#34;#</span><span style="color:#a6e22e">64748b</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;#</span><span style="color:#a6e22e">3b82f6</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">&#34;#</span><span style="color:#a6e22e">06b6d4</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">swatches</span> <span class="err">&#34;#</span><span class="na">64748b</span><span class="err">&#34;</span> <span class="err">&#34;#</span><span class="na">3b82f6</span><span class="err">&#34;</span> <span class="err">&#34;#</span><span class="na">06b6d4</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><p><strong>Output</strong>
 <div class="flex justify-between">
   <span
@@ -1508,8 +1508,8 @@ data: {
 <p>To include mathematical expressions in an article, simply place the shortcode anywhere with the content. It only needs to be included once per article and KaTeX will automatically render any markup on that page. Both inline and block notation are supported.</p>
 <p>Inline notation can be generated by wrapping the expression in <code>\\(</code> and <code>\\)</code> delimiters. Alternatively, block notation can be generated using <code>$$</code> delimiters.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">katex</span> &gt;}}
-</span></span><span style="display:flex;"><span>\\(f(a,b,c) = (a^2+b^2+c^2)^3\\)
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">katex</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">\\(f(a,b,c) = (a^2+b^2+c^2)^3\\)
 </span></span></code></pre></div><p>
 
 \(f(a,b,c) = (a^2+b^2+c^2)^3\)</p>
@@ -1524,9 +1524,9 @@ data: {
     
 </h2><p><code>lead</code> is used to bring emphasis to the start of an article. It can be used to style an introduction, or to call out an important piece of information. Simply wrap any Markdown content in the <code>lead</code> shortcode.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">lead</span> &gt;}}
-</span></span><span style="display:flex;"><span>When life gives you lemons, make lemonade.
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">lead</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">lead</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">When life gives you lemons, make lemonade.
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">lead</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><div class="lead !mb-9 text-xl">
   When life gives you lemons, make lemonade.
 </div>
@@ -1543,11 +1543,11 @@ data: {
 <p>Refer to the <a href="https://mermaid-js.github.io/"   target="_blank">
     official Mermaid docs</a> for details on syntax and supported diagram types.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">mermaid</span> &gt;}}
-</span></span><span style="display:flex;"><span>graph LR;
-</span></span><span style="display:flex;"><span>A[Lemons]--&gt;B[Lemonade];
-</span></span><span style="display:flex;"><span>B--&gt;C[Profit]
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">mermaid</span> &gt;}}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">mermaid</span> <span class="p">&gt;</span>}}
+</span></span><span class="line"><span class="cl">graph LR;
+</span></span><span class="line"><span class="cl">A[Lemons]--&gt;B[Lemonade];
+</span></span><span class="line"><span class="cl">B--&gt;C[Profit]
+</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">mermaid</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><div class="mermaid" align="center">
   
 graph LR;
