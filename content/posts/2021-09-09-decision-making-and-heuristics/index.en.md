@@ -1,10 +1,9 @@
 ---
-title: Decision-making and Heuristics
-author: Vivian Nguyen
-date: '2021-09-09'
+title: "Decision-making and Heuristics"
+author: "Vivian Nguyen"
+date: "2021-09-09"
 slug: []
-categories:
-  - Political Psychology
+categories: Political Psychology
 tags: []
 draft: yes
 ---
@@ -32,221 +31,45 @@ Variable Name         | Variable Description
 \texttt{college\_stats}  | Indicator for whether or not the respondent has taken a college-level statistics course
 
 # The Linda Problem
-We read in Kahneman (2003) that respondents often fall victim to a "conjunction fallacy" whereby respondents overrate the probability that Linda is a bank teller \textit{and} a feminist rather than just a bank teller. From probability theory, we know that the conjunction of two events A and B can't be more probable than either of the events occurring by itself; that is, `\(P(A) \ge P(A \wedge B)\)` and `\(P(B) \ge P(A \wedge B)\)`\footnote{The symbol `\(\wedge\)` is used in logical expressions to mean "AND". If there are two conditions, A and B, then `\(A \wedge B\)` is true only when both A and B are separately true. The expression `\(P(A) \ge P(A \wedge B)\)` is therefore interpreted as: "The probability A is true is greater than or equal to the probability that both A and B are true.}.
+"Linda is 31 years old, single, outspoken, and very bright. She majored in accounting. As a student, she was deeply concerned with issues of women's rights, and also studied economics.
 
-**What proportion of the class answered this question correctly? Why do you think people tend to choose the wrong option?**
+Which is more probable: Linda is a bank teller, or Linda is both a teller and feminist?"
 
 
-```r
-linda_correct <- bias_data %>%
-  group_by(linda) %>%
-  summarise(count = n(), prop = n() / 85)
-
-linda_correct
-```
-
-```
-## # A tibble: 2 × 3
-##   linda               count  prop
-##   <chr>               <int> <dbl>
-## 1 teller                 60 0.706
-## 2 teller and feminist    25 0.294
-```
 70.59% of the class answered this question correctly. While the majority of our class was able to choose the right answer, many people in general tend to choose the wrong option. This occurs because many people think that given information about someone, the information makes something more likely about them. When we know that Linda is interested in social activism, we think it is not surprising for her to be a feminist. Most people, however, are not aware of the probability principles of the Linda question -- or they simply ignore the principle because the seemingly logical connection between what we know about Linda and what could be true is too convincing in the moment.
 
-## Question 3
+# The Cab Problem
+`\begin{quote}
+A cab was involved in a hit and run accident at night. Two cab companies, the Green and the Blue, operate in the city. 85% of the cabs in the city are Green and 15% are Blue.
+  
+A witness identified the cab as Blue. The court tested the reliability of the witness under the same circumstances that existed on the night of the accident and concluded that the witness correctly identified each one of the two colours 80% of the time and failed 20% of the time.
+  
+What is the probability that the cab involved in the accident was Blue rather than Green knowing that this witness identified it as Blue?
+\end{quote}`
 
-**What attributes of the respondents do you think might affect how they answered the Linda problem and why? Using the data, see if your hypothesis is correct.**
+That said, the most common response was 0.8.
 
-```r
-linda_cab <- bias_data %>% 
-  group_by(linda) %>%
-  summarise(count = n(), cab_avg_guess = mean(cab))
-linda_cab
-```
-
-```
-## # A tibble: 2 × 3
-##   linda               count cab_avg_guess
-##   <chr>               <int>         <dbl>
-## 1 teller                 60        NA    
-## 2 teller and feminist    25         0.685
-```
-
-```r
-linda_cab_T <- bias_data %>% 
-  group_by(ints = cut_width(cab, width = .10, boundary = 0)) %>%
-  summarise(T = mean(linda == "teller"))
-linda_cab_T
-```
-
-```
-## # A tibble: 10 × 2
-##    ints          T
-##    <fct>     <dbl>
-##  1 [0.1,0.2] 0.882
-##  2 (0.2,0.3] 0.667
-##  3 (0.3,0.4] 0.5  
-##  4 (0.4,0.5] 1    
-##  5 (0.5,0.6] 1    
-##  6 (0.6,0.7] 0.636
-##  7 (0.7,0.8] 0.677
-##  8 (0.8,0.9] 0.167
-##  9 (0.9,1]   0    
-## 10 <NA>      1
-```
-
-```r
-linda_cab_TaF <- bias_data %>% 
-  group_by(ints = cut_width(cab, width = .10, boundary = 0)) %>%
-  summarise(TaF = mean(linda == "teller and feminist"))
-linda_cab_TaF
-```
-
-```
-## # A tibble: 10 × 2
-##    ints        TaF
-##    <fct>     <dbl>
-##  1 [0.1,0.2] 0.118
-##  2 (0.2,0.3] 0.333
-##  3 (0.3,0.4] 0.5  
-##  4 (0.4,0.5] 0    
-##  5 (0.5,0.6] 0    
-##  6 (0.6,0.7] 0.364
-##  7 (0.7,0.8] 0.323
-##  8 (0.8,0.9] 0.833
-##  9 (0.9,1]   1    
-## 10 <NA>      0
-```
+## Extension
+So then, what attributes of the respondents might affect how they answered the Linda problem and why? 
 
 
-```r
-CrossTable(x = bias_data$linda, y = bias_data$college_stats, prop.r = FALSE, prop.c = TRUE, prop.t = FALSE, prop.chisq = FALSE)
-```
 
-```
-##    Cell Contents 
-## |-------------------------|
-## |                       N | 
-## |           N / Col Total | 
-## |-------------------------|
-## 
-## ============================================
-##                        bias_data$college_stats
-## bias_data$linda           No     Yes   Total
-## --------------------------------------------
-## teller                    19      41      60
-##                        0.613   0.759        
-## --------------------------------------------
-## teller and feminist       12      13      25
-##                        0.387   0.241        
-## --------------------------------------------
-## Total                     31      54      85
-##                        0.365   0.635        
-## ============================================
-```
 
-```r
-ggplot(bias_data, aes(x = bias_data$cab, y = bias_data$linda)) +
-    geom_vline(aes(xintercept = .413), col = "navy") + 
-    geom_point()
-```
 
-```
-## Warning: Removed 4 rows containing missing values (`geom_point()`).
-```
-
-<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-3-1.png" width="672" />
-
-```r
-ggplot(data = bias_data, mapping = aes(x = bias_data$cab, fill = bias_data$linda)) + 
-  geom_vline(aes(xintercept = .413), col = "navy") + 
-  geom_bar()
-```
-
-```
-## Warning: Removed 4 rows containing non-finite values (`stat_count()`).
-```
-
-<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-3-2.png" width="672" />
-
-```r
-CrossTable(x = bias_data$linda, y = bias_data$gender, prop.r = FALSE, prop.c = TRUE, prop.t = FALSE, prop.chisq = FALSE)
-```
-
-```
-##    Cell Contents 
-## |-------------------------|
-## |                       N | 
-## |           N / Col Total | 
-## |-------------------------|
-## 
-## =========================================================
-##                        bias_data$gender
-## bias_data$linda          Man   Non-binary   Woman   Total
-## ---------------------------------------------------------
-## teller                    36            1      23      60
-##                        0.750        0.500   0.657        
-## ---------------------------------------------------------
-## teller and feminist       12            1      12      25
-##                        0.250        0.500   0.343        
-## ---------------------------------------------------------
-## Total                     48            2      35      85
-##                        0.565        0.024   0.412        
-## =========================================================
-```
-
-```r
-CrossTable(x = bias_data$linda, y = bias_data$year, prop.r = FALSE, prop.c = TRUE, prop.t = FALSE, prop.chisq = FALSE)
-```
-
-```
-##    Cell Contents 
-## |-------------------------|
-## |                       N | 
-## |           N / Col Total | 
-## |-------------------------|
-## 
-## ============================================================
-##                        bias_data$year
-## bias_data$linda            1       2       3      4+   Total
-## ------------------------------------------------------------
-## teller                     2      16      29      13      60
-##                        0.500   0.696   0.707   0.765        
-## ------------------------------------------------------------
-## teller and feminist        2       7      12       4      25
-##                        0.500   0.304   0.293   0.235        
-## ------------------------------------------------------------
-## Total                      4      23      41      17      85
-##                        0.047   0.271   0.482   0.200        
-## ============================================================
-```
 
 College statistic education, age, responses to the cab question could correlate to students' answers to the Linda question. 
 
 ## Question 4: Data Science Question
 Now we will take a look at the taxi cab problem. This problem, originally posed by Tversky and Kahneman in 1977, is intended to demonstrate what they call a "base rate fallacy". To refresh your memory, here is the text of the problem, as you saw it on the survey last week:
 
-`\begin{quote}
-  A cab was involved in a hit and run accident at night. Two cab companies, the Green and the Blue, operate in the city. 85% of the cabs in the city are Green and 15% are Blue.
-  
-  A witness identified the cab as Blue. The court tested the reliability of the witness under the same circumstances that existed on the night of the accident and concluded that the witness correctly identified each one of the two colours 80% of the time and failed 20% of the time.
-  
-  What is the probability that the cab involved in the accident was Blue rather than Green knowing that this witness identified it as Blue?
-\end{quote}`
+
 
 The most common answer to this problem is .8. This corresponds to the reliability of the witness, without regard for the base rate at which Blue cabs can be found relative to Green cabs. In other words, respondents tend to disregard the base rate when estimating the probability the cab was Blue.
 
 
 
 
-**What is the true probability the cab was Blue? Visualize the distribution of the guesses in the class using a histogram. What was the most common guess in the class?**
 
-p(blue car | blue ID) = p(blue ID | blue car) * p(blue car) / p(blue ID)
-
-p(blue ID) = (p(blue ID | blue car) * p(blue car)) + (p(blue ID | green car) * p(green car)) = (0.8 * 0.15) + (0.2 * 0.85) 
-
-p = 0.8 * 0.15 / 0.1 = ~0.413
 
 
 

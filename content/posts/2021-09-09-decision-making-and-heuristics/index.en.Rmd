@@ -1,16 +1,15 @@
 ---
-title: Decision-making and Heuristics
-author: Vivian Nguyen
-date: '2021-09-09'
+title: "Decision-making and Heuristics"
+author: "Vivian Nguyen"
+date: "2021-09-09"
 slug: []
-categories:
-  - Political Psychology
+categories: Political Psychology
 tags: []
 draft: yes
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, include = FALSE)
 
 library(dplyr)
 library(readr)
@@ -45,13 +44,9 @@ Variable Name         | Variable Description
 \texttt{college\_stats}  | Indicator for whether or not the respondent has taken a college-level statistics course
 
 # The Linda Problem
-"Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.
+"Linda is 31 years old, single, outspoken, and very bright. She majored in accounting. As a student, she was deeply concerned with issues of women's rights, and also studied economics.
 
-Which is more probable?"
-
-We read in Kahneman (2003) that respondents to the Linda problem often fall victim to a "conjunction fallacy" whereby they overrate the probability that Linda is a bank teller \textit{and} a feminist rather than just a bank teller. From probability theory, we know that the conjunction of two events A and B can't be more probable than either of the events occurring by itself; that is, $P(A) \ge P(A \wedge B)$ and $P(B) \ge P(A \wedge B)$\footnote{The symbol $\wedge$ is used in logical expressions to mean "AND". If there are two conditions, A and B, then $A \wedge B$ is true only when both A and B are separately true. The expression $P(A) \ge P(A \wedge B)$ is therefore interpreted as: "The probability A is true is greater than or equal to the probability that both A and B are true.}.
-
-**What proportion of the class answered this question correctly? Why do you think people tend to choose the wrong option?**
+Which is more probable: Linda is a bank teller, or Linda is both a teller and feminist?"
 
 ```{r}
 linda_correct <- bias_data %>%
@@ -62,9 +57,19 @@ linda_correct
 ```
 70.59% of the class answered this question correctly. While the majority of our class was able to choose the right answer, many people in general tend to choose the wrong option. This occurs because many people think that given information about someone, the information makes something more likely about them. When we know that Linda is interested in social activism, we think it is not surprising for her to be a feminist. Most people, however, are not aware of the probability principles of the Linda question -- or they simply ignore the principle because the seemingly logical connection between what we know about Linda and what could be true is too convincing in the moment.
 
-## Question 3
+# The Cab Problem
+\begin{quote}
+A cab was involved in a hit and run accident at night. Two cab companies, the Green and the Blue, operate in the city. 85% of the cabs in the city are Green and 15% are Blue.
+  
+A witness identified the cab as Blue. The court tested the reliability of the witness under the same circumstances that existed on the night of the accident and concluded that the witness correctly identified each one of the two colours 80% of the time and failed 20% of the time.
+  
+What is the probability that the cab involved in the accident was Blue rather than Green knowing that this witness identified it as Blue?
+\end{quote}
 
-**What attributes of the respondents do you think might affect how they answered the Linda problem and why? Using the data, see if your hypothesis is correct.**
+That said, the most common response was 0.8.
+
+## Extension
+So then, what attributes of the respondents might affect how they answered the Linda problem and why? 
 ```{r}
 linda_cab <- bias_data %>% 
   group_by(linda) %>%
@@ -106,13 +111,7 @@ College statistic education, age, responses to the cab question could correlate 
 ## Question 4: Data Science Question
 Now we will take a look at the taxi cab problem. This problem, originally posed by Tversky and Kahneman in 1977, is intended to demonstrate what they call a "base rate fallacy". To refresh your memory, here is the text of the problem, as you saw it on the survey last week:
 
-\begin{quote}
-  A cab was involved in a hit and run accident at night. Two cab companies, the Green and the Blue, operate in the city. 85% of the cabs in the city are Green and 15% are Blue.
-  
-  A witness identified the cab as Blue. The court tested the reliability of the witness under the same circumstances that existed on the night of the accident and concluded that the witness correctly identified each one of the two colours 80% of the time and failed 20% of the time.
-  
-  What is the probability that the cab involved in the accident was Blue rather than Green knowing that this witness identified it as Blue?
-\end{quote}
+
 
 The most common answer to this problem is .8. This corresponds to the reliability of the witness, without regard for the base rate at which Blue cabs can be found relative to Green cabs. In other words, respondents tend to disregard the base rate when estimating the probability the cab was Blue.
 
@@ -126,13 +125,7 @@ ggplot(data = bias_data, aes(x = cab)) +
 ```
 
 
-**What is the true probability the cab was Blue? Visualize the distribution of the guesses in the class using a histogram. What was the most common guess in the class?**
 
-p(blue car | blue ID) = p(blue ID | blue car) * p(blue car) / p(blue ID)
-
-p(blue ID) = (p(blue ID | blue car) * p(blue car)) + (p(blue ID | green car) * p(green car)) = (0.8 * 0.15) + (0.2 * 0.85) 
-
-p = 0.8 * 0.15 / 0.1 = ~0.413
 
 
 
