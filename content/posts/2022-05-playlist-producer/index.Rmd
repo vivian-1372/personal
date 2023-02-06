@@ -39,7 +39,7 @@ In this project, I defined "new" to be music from artists other than the user's 
   + Print outs! 
 
 ## Sample input and output
-<text> indicates user input
+\<text\> indicates user input
 ------------------------------------------------------------------------
 Hi! Welcome to the Playlist Producer. It's what it sounds like - I 
 produce a playlist for you, and you enjoy it.
@@ -47,15 +47,11 @@ produce a playlist for you, and you enjoy it.
 How many songs would you like in your playlist? \<6\>
 
 Life's all about exploration.
-
 What percentage of the playlist would you like to be brand new? \<50\>
 
 Perfect. Let's get a sense of what you like.
-
-Who is your favorite artist? <Drake>
-
+Who is your favorite artist? \<Drake\>
 ------------------------------------------------------------------------
-
 Here it is: a playlist 50% Drake and 50% new. Enjoy!
 
 Controlla - Drake
