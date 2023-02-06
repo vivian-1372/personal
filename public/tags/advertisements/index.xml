@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>advertisements on Vivian Nguyen</title>
+    <link>https://vivian-1372.github.io/personal/tags/advertisements/</link>
+    <description>Recent content in advertisements on Vivian Nguyen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/advertisements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Air War</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-10-10-the-air-war/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-10-10-the-air-war/</guid>
+      <description>The Plan This Week We are about 4 weeks out from Election Day, and thus far I’ve created a national forecasting model that incorporates national economic conditions (Gross Domestic Product, Real Disposable Income, and unemployment), generic ballot polling (partisan preference), and the midterm-president’s-party effect.</description>
+    </item>
+    
+  </channel>
+</rss>

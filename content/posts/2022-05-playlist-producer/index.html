@@ -1,0 +1,88 @@
+---
+title: "Spotify Playlist Producer"
+author: "Vivian Nguyen"
+date: '2022-05-03'
+categories: Playlist Producer
+tags:
+- Spotify
+- music
+- playlist
+- recommendation
+---
+
+
+
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<p>Hello! This is my “Playlist <em>Producer</em>.” I developed this project over the course of several weeks in my Spring 2022 semester, as a sophomore. At this point, I have newly rediscovered my love for computational thinking and problem solving, and want to apply my Python skills to a fun problem I’ve had for a while – my lack of new music. I am a Spotify loyalist, but I sometimes find that once I’ve exhausted my Daily Mix 1, I am in desperate need of more music to explore. So then, my motivating questions became: Can I get the same genre, but different (but not too different…) songs? Can I get the same artist vibe, but different (but not overly different…) artists? As I soon learned, personalization and recommendation are games of balance.</p>
+</div>
+<div id="the-spotify-playlist-producer" class="section level1">
+<h1>The Spotify Playlist <em>Producer</em></h1>
+For project files, see the <a href="https://github.com/vivian-1372/playlist-producer">GitHub repository</a>.
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="spotify.png" alt="Source: AudioHype." width="95%" />
+<p class="caption">
+Figure 1: Source: AudioHype.
+</p>
+</div>
+<div id="project-purpose" class="section level2">
+<h2>Project Purpose</h2>
+<p>Mainly, the aim is to provide new and familiar song suggestions to Spotify users that are meaningfully related to their favorite artist and associated vibes. A subgoal was to use a non-invasive approach, so that users only needed to provide small amounts of information (rather than broad access to their account) for the suggestion algorithm to work.</p>
+</div>
+<div id="fundamentals" class="section level2">
+<h2>Fundamentals</h2>
+<p>In this project, I defined “new” to be music from artists other than the user’s favorite artist. “Old” or “familiar” generally refers to music from their artist, though I acknowledge that some songs from a user’s favorite artist may still nonetheless be new to them. “Favorite artist” can be whoever comes to mind to the user – their all-time favorite, their current favorite, their long-lost, but just-rediscovered favorite.</p>
+</div>
+<div id="computational-breakdown" class="section level2">
+<h2>Computational Breakdown</h2>
+<ul>
+<li>Obtain playlist library to pull songs from to populate new playlists.
+<ul>
+<li>I pulled the playlists to stock my library from samples of the <a href="https://engineering.atspotify.com/2018/05/introducing-the-million-playlist-dataset-and-recsys-challenge-2018/">Spotify Million Playlist Dataset</a>.</li>
+</ul></li>
+<li>Take in user input about desired playlist length, their favorite artist, and how much of the playlist they’d like to be new versus old songs.
+<ul>
+<li>The playlist length should be an integer between 1 and 30. The favorite artist should be a string entry, not case-sensitive. The last value should be between 0 and 100, which represents the percentage of the playlist the user would like to contain new music.</li>
+<li>There can be a lot more done towards the end of input validation, but there are some checks put in place to catch the egregious inputs.</li>
+</ul></li>
+<li>Populate the playlist with the desired number of familiar songs.
+<ul>
+<li>Randomly peek into the playlists in my playlist library that contain songs from the user’s favorite artist. Pull from these until the desired number of familiar songs is reached.</li>
+</ul></li>
+<li>Populate the remainder of the playlist with new songs from the playlists that contain their favorite artist, but are from new artists.
+<ul>
+<li>Randomly peek into playlists in the playlist library that contain songs from the user’s favorite artist. Pull songs from these playlists that are <em>not</em> from the favorite artist until the desired playlist length has been reached.</li>
+</ul></li>
+<li>Display new playlist and song suggestions, with artist credits.
+<ul>
+<li>Print outs!</li>
+</ul></li>
+</ul>
+</div>
+<div id="sample-input-and-output" class="section level2">
+<h2>Sample input and output</h2>
+</div>
+<div id="indicates-user-input" class="section level2">
+<h2><text> indicates user input</h2>
+<p>Hi! Welcome to the Playlist Producer. It’s what it sounds like - I
+produce a playlist for you, and you enjoy it.</p>
+<p>How many songs would you like in your playlist? &lt;6&gt;</p>
+<p>Life’s all about exploration.</p>
+<p>What percentage of the playlist would you like to be brand new? &lt;50&gt;</p>
+<p>Perfect. Let’s get a sense of what you like.</p>
+<p>Who is your favorite artist? <Drake></p>
+<hr />
+<p>Here it is: a playlist 50% Drake and 50% new. Enjoy!</p>
+<p>Controlla - Drake</p>
+<p>Jumpman - Drake</p>
+<p>Energy - Drake</p>
+<p>Smoke To It (feat. Skizzy Mars) - Marc E. Bassy</p>
+<p>Season 2 Episode 3 - Glass Animals</p>
+<p>All Eyes On You (feat. Chris Brown &amp; Nicki Minaj) - Meek Mill</p>
+</div>
+<div id="looking-forward" class="section level2">
+<h2>Looking Forward</h2>
+<p>To continue developing this project, I would provide the option to obtain an actual Spotify link to the new playlist. Another feature I’d love to explore is making the playlist based on favorite album or genre, which would require a drastic change in or addition to my algorithm. Lastly, I would also make my program more error-proof, as it takes in a considerable amount of user input that has to be accounted for…
+Also, deal with imperfect splits of new versus old songs in playlists (percentage request versus integer values).</p>
+</div>
+</div>

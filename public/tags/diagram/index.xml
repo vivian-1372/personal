@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>diagram on Vivian Nguyen</title>
-    <link>https://vivian-1372.github.io/Political-Psychology/tags/diagram/</link>
+    <link>https://vivian-1372.github.io/personal/tags/diagram/</link>
     <description>Recent content in diagram on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diagrams and Flowcharts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</link>
+      <link>https://vivian-1372.github.io/personal/samples/diagrams-flowcharts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/diagrams-flowcharts/</guid>
       <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
     </item>
     

@@ -1,0 +1,75 @@
+---
+title: "Spotify Playlist Producer"
+author: "Vivian Nguyen"
+date: '2022-05-03'
+categories: Playlist Producer
+tags:
+- Spotify
+- music
+- playlist
+- recommendation
+---
+
+# Overview
+Hello! This is my "Playlist *Producer*." I developed this project over the course of several weeks in my Spring 2022 semester, as a sophomore. At this point, I have newly rediscovered my love for computational thinking and problem solving, and want to apply my Python skills to a fun problem I've had for a while -- my lack of new music. I am a Spotify loyalist, but I sometimes find that once I've exhausted my Daily Mix 1, I am in desperate need of more music to explore. So then, my motivating questions became: Can I get the same genre, but different (but not too different...) songs? Can I get the same artist vibe, but different (but not overly different...) artists? As I soon learned, personalization and recommendation are games of balance.
+
+# The Spotify Playlist *Producer*
+For project files, see the [GitHub repository](https://github.com/vivian-1372/playlist-producer).
+```{r echo = FALSE, out.width = "95%", fig.cap = 'Source: AudioHype.'}
+knitr::include_graphics("spotify.png")
+```
+
+## Project Purpose
+Mainly, the aim is to provide new and familiar song suggestions to Spotify users that are meaningfully related to their favorite artist and associated vibes. A subgoal was to use a non-invasive approach, so that users only needed to provide small amounts of information (rather than broad access to their account) for the suggestion algorithm to work.
+
+## Fundamentals
+In this project, I defined "new" to be music from artists other than the user's favorite artist. "Old" or "familiar" generally refers to music from their artist, though I acknowledge that some songs from a user's favorite artist may still nonetheless be new to them. "Favorite artist" can be whoever comes to mind to the user -- their all-time favorite, their current favorite, their long-lost, but just-rediscovered favorite.
+
+## Computational Breakdown
+- Obtain playlist library to pull songs from to populate new playlists.
+  +  I pulled the playlists to stock my library from samples of the [Spotify Million Playlist Dataset](https://engineering.atspotify.com/2018/05/introducing-the-million-playlist-dataset-and-recsys-challenge-2018/). 
+- Take in user input about desired playlist length, their favorite artist, and how much of the playlist they'd like to be new versus old songs.
+  + The playlist length should be an integer between 1 and 30. The favorite artist should be a string entry, not case-sensitive. The last value should be between 0 and 100, which represents the percentage of the playlist the user would like to contain new music. 
+  + There can be a lot more done towards the end of input validation, but there are some checks put in place to catch the egregious inputs. 
+- Populate the playlist with the desired number of familiar songs.
+  + Randomly peek into the playlists in my playlist library that contain songs from the user's favorite artist. Pull from these until the desired number of familiar songs is reached. 
+- Populate the remainder of the playlist with new songs from the playlists that contain their favorite artist, but are from new artists. 
+  + Randomly peek into playlists in the playlist library that contain songs from the user's favorite artist. Pull songs from these playlists that are *not* from the favorite artist until the desired playlist length has been reached. 
+- Display new playlist and song suggestions, with artist credits. 
+  + Print outs! 
+
+## Sample input and output
+<text> indicates user input
+------------------------------------------------------------------------
+Hi! Welcome to the Playlist Producer. It's what it sounds like - I 
+produce a playlist for you, and you enjoy it.
+
+How many songs would you like in your playlist? \<6\>
+
+Life's all about exploration.
+
+What percentage of the playlist would you like to be brand new? \<50\>
+
+Perfect. Let's get a sense of what you like.
+
+Who is your favorite artist? <Drake>
+
+------------------------------------------------------------------------
+
+Here it is: a playlist 50% Drake and 50% new. Enjoy!
+
+Controlla - Drake
+
+Jumpman - Drake
+
+Energy - Drake
+
+Smoke To It (feat. Skizzy Mars) - Marc E. Bassy
+
+Season 2 Episode 3 - Glass Animals
+
+All Eyes On You (feat. Chris Brown & Nicki Minaj) - Meek Mill
+
+## Looking Forward
+To continue developing this project, I would provide the option to obtain an actual Spotify link to the new playlist. Another feature I'd love to explore is making the playlist based on favorite album or genre, which would require a drastic change in or addition to my algorithm. Lastly, I would also make my program more error-proof, as it takes in a considerable amount of user input that has to be accounted for... 
+Also, deal with imperfect splits of new versus old songs in playlists (percentage request versus integer values).

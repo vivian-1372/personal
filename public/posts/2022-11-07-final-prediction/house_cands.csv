@@ -1,0 +1,1101 @@
+state,district,cpvi,incumbent,cand,cand_party
+Alabama,1,R+16,1,Jerry Carl,Republican
+Alabama,1,R+16,0,Alexander Remrey,Libertarian
+Alabama,2,R+17,0,Phyllis Harvey-Hall,Democratic
+Alabama,2,R+17,1,Barry Moore,Republican
+Alabama,2,R+17,0,Jonathan Realz,Libertarian
+Alabama,3,R+19,0,Douglas Bell,Independent
+Alabama,3,R+19,0,Thomas Casson,Libertarian
+Alabama,3,R+19,1,Mike Rogers,Republican
+Alabama,3,R+19,0,Lin Veasey,Democratic
+Alabama,4,R+33,1,Robert Aderholt,Republican
+Alabama,4,R+33,0,Johnny Cochran,Libertarian
+Alabama,4,R+33,0,Rick Neighbors,Democratic
+Alabama,5,R+17,0,P. J. Greer,Libertarian
+Alabama,5,R+17,0,Dale Strong,Republican
+Alabama,5,R+17,0,Kathy Warner-Stanton,Democratic
+Alabama,6,R+18,0,Andria Chieffo,Libertarian
+Alabama,6,R+18,1,Gary Palmer,Republican
+Alabama,7,D+14,0,Gavin Goodman,Libertarian
+Alabama,7,D+14,0,Beatrice Nichols,Republican
+Alabama,7,D+14,1,Terri Sewell,Democratic
+Alaska,AL,R+8,0,Nick Begich III,Republican
+Alaska,AL,R+8,0,Chris Bye,Libertarian
+Alaska,AL,R+8,0,Sarah Palin,Republican
+Alaska,AL,R+8,1,Mary Peltola,Democratic
+Arizona,1,R+2,0,Jevin Hodge,Democratic
+Arizona,1,R+2,0,David Schweikert,Republican
+Arizona,2,R+6,0,Eli Crane,Republican
+Arizona,2,R+6,0,Tom O'Halleran,Democratic
+Arizona,3,D+24,0,Ruben Gallego,Democratic
+Arizona,3,D+24,0,Jeff Zink,Republican
+Arizona,4,D+2,0,Kelly Cooper,Republican
+Arizona,4,D+2,0,Greg Stanton,Democratic
+Arizona,5,R+11,1,Andy Biggs,Republican
+Arizona,5,R+11,0,Javier Ramos,Democratic
+Arizona,5,R+11,0,Clint Smith,Independent
+Arizona,6,R+3,0,Juan Ciscomani,Republican
+Arizona,6,R+3,0,Kirsten Engel,Democratic
+Arizona,7,D+15,0,Raúl Grijalva,Democratic
+Arizona,7,D+15,0,Luis Pozzolo,Republican
+Arizona,8,R+10,1,Debbie Lesko,Republican
+Arizona,9,R+16,0,Paul Gosar,Republican
+Arkansas,1,R+22,1,Rick Crawford,Republican
+Arkansas,1,R+22,0,Roger Daugherty,Independent
+Arkansas,1,R+22,0,Monte Hodges,Democratic
+Arkansas,2,R+9,0,Quintessa Hathaway,Democratic
+Arkansas,2,R+9,1,French Hill,Republican
+Arkansas,2,R+9,0,Michael White,Libertarian
+Arkansas,3,R+15,0,Michael Kalagias,Libertarian
+Arkansas,3,R+15,0,Lauren Mallett-Hays,Democratic
+Arkansas,3,R+15,1,Steve Womack,Republican
+Arkansas,4,R+20,0,Gregory Maxwell,Libertarian
+Arkansas,4,R+20,1,Bruce Westerman,Republican
+Arkansas,4,R+20,0,John White,Democratic
+California,1,R+12,1,Doug LaMalfa,Republican
+California,1,R+12,0,Max Steiner,Democratic
+California,2,D+23,0,Douglas Brower,Republican
+California,2,D+23,1,Jared Huffman,Democratic
+California,3,R+4,0,Kermit Jones,Democratic
+California,3,R+4,0,Kevin Kiley,Republican
+California,4,D+17,0,Matt Brock,Republican
+California,4,D+17,0,Mike Thompson,Democratic
+California,5,R+9,0,Mike Barkley,Democratic
+California,5,R+9,0,Tom McClintock,Republican
+California,6,D+7,0,Ami Bera,Democratic
+California,6,D+7,0,Tamika Hamilton,Republican
+California,7,D+17,0,Doris Matsui,Democratic
+California,7,D+17,0,Max Semenenko,Republican
+California,8,D+26,0,John Garamendi,Democratic
+California,8,D+26,0,Rudy Recile,Republican
+California,9,D+5,0,Josh Harder,Democratic
+California,9,D+5,0,Tom Patti,Republican
+California,9,D+5,0,Josh Harder,Democratic
+California,9,D+5,0,Tom Patti,Republican
+California,10,D+18,0,Mark DeSaulnier,Democratic
+California,10,D+18,0,Michael Kerr,Green
+California,11,D+37,0,John Dennis,Republican
+California,11,D+37,0,Nancy Pelosi,Democratic
+California,12,D+40,0,Barbara Lee,Democratic
+California,12,D+40,0,Stephen Slauson,Republican
+California,13,D+4,0,John Duarte,Republican
+California,13,D+4,0,Adam Gray,Democratic
+California,14,D+22,0,Alison Hayden,Republican
+California,14,D+22,0,Eric Swalwell,Democratic
+California,15,D+28,0,David Canepa,Democratic
+California,15,D+28,0,Kevin Mullin,Democratic
+California,16,D+26,0,Anna Eshoo,Democratic
+California,16,D+26,0,Rishi Kumar,Democratic
+California,17,D+23,1,Ro Khanna,Democratic
+California,17,D+23,0,Ritesh Tandon,Republican
+California,18,D+21,0,Peter Hernandez,Republican
+California,18,D+21,0,Zoe Lofgren,Democratic
+California,19,D+18,0,Jeff Gorman,Republican
+California,19,D+18,0,Jimmy Panetta,Democratic
+California,20,R+16,0,Kevin McCarthy,Republican
+California,20,R+16,0,Marisa Wood,Democratic
+California,20,R+16,0,Kevin McCarthy,Republican
+California,20,R+16,0,Marisa Wood,Democratic
+California,21,D+9,0,Jim Costa,Democratic
+California,21,D+9,0,Michael Maher,Republican
+California,22,D+5,0,Rudy Salas,Democratic
+California,22,D+5,0,David Valadao,Republican
+California,23,R+8,0,Derek Marshall,Democratic
+California,23,R+8,0,Jay Obernolte,Republican
+California,24,D+13,0,Brad Allen,Republican
+California,24,D+13,1,Salud Carbajal,Democratic
+California,25,D+6,0,Brian Hawkins,Republican
+California,25,D+6,0,Raul Ruiz,Democratic
+California,26,D+8,1,Julia Brownley,Democratic
+California,26,D+8,0,Matt Jacobs,Republican
+California,27,D+4,0,Mike Garcia,Republican
+California,27,D+4,0,Christy Smith,Democratic
+California,28,D+16,0,Judy Chu,Democratic
+California,28,D+16,0,Wes Hallman,Republican
+California,29,D+26,1,Tony Cárdenas,Democratic
+California,29,D+26,0,Angelica Dueñas,Democratic
+California,30,D+23,0,Maebe A. Girl,Democratic
+California,30,D+23,0,Adam Schiff,Democratic
+California,31,D+15,0,Daniel Martinez,Republican
+California,31,D+15,0,Grace Napolitano,Democratic
+California,32,D+20,0,Brad Sherman,Democratic
+California,32,D+20,0,Lucie Volotzky,Republican
+California,33,D+12,0,Pete Aguilar,Democratic
+California,33,D+12,0,John Porter,Republican
+California,34,D+32,1,Jimmy Gomez,Democratic
+California,34,D+32,0,David Kim,Democratic
+California,35,D+13,0,Mike Cargile,Republican
+California,35,D+13,1,Norma Torres,Democratic
+California,36,D+21,0,Joe Collins III,Republican
+California,36,D+21,0,Ted Lieu,Democratic
+California,37,D+37,0,Sydney Kamlager,Democratic
+California,37,D+37,0,Jan Perry,Democratic
+California,38,D+14,0,Eric Ching,Republican
+California,38,D+14,1,Linda Sánchez,Democratic
+California,39,D+12,0,Aja Smith,Republican
+California,39,D+12,0,Mark Takano,Democratic
+California,40,R+2,0,Young Kim,Republican
+California,40,R+2,0,Asif Mahmood,Democratic
+California,41,R+3,0,Ken Calvert,Republican
+California,41,R+3,0,Will Rollins,Democratic
+California,42,D+22,0,John Briscoe,Republican
+California,42,D+22,0,Robert Garcia,Democratic
+California,42,D+22,0,John Briscoe,Republican
+California,42,D+22,0,Robert Garcia,Democratic
+California,43,D+32,0,Omar Navarro,Republican
+California,43,D+32,1,Maxine Waters,Democratic
+California,44,D+24,1,Nanette Barragán,Democratic
+California,44,D+24,0,Paul Jones,Republican
+California,45,D+2,0,Jay Chen,Democratic
+California,45,D+2,0,Michelle Steel,Republican
+California,46,D+15,1,Lou Correa,Democratic
+California,46,D+15,0,Christopher Gonzales,Republican
+California,47,D+3,0,Scott Baugh,Republican
+California,47,D+3,0,Katie Porter,Democratic
+California,48,R+9,0,Stephen Houlahan,Democratic
+California,48,R+9,0,Darrell Issa,Republican
+California,49,D+3,1,Mike Levin,Democratic
+California,49,D+3,0,Brian Maryott,Republican
+California,50,D+14,0,Corey Gustafson,Republican
+California,50,D+14,0,Scott Peters,Democratic
+California,51,D+12,0,Stan Caplan,Republican
+California,51,D+12,0,Sara Jacobs,Democratic
+California,52,D+18,0,Tyler Geffeney,Republican
+California,52,D+18,0,Juan Vargas,Democratic
+Colorado,1,D+29,1,Diana DeGette,Democratic
+Colorado,1,D+29,0,John Kittleson,Libertarian
+Colorado,1,D+29,0,Jennifer Qualteri,Republican
+Colorado,2,D+17,0,Marshall Dawson,Republican
+Colorado,2,D+17,0,Gary Nation,Constitution
+Colorado,2,D+17,1,Joe Neguse,Democratic
+Colorado,2,D+17,0,Tim Wolf,Unity
+Colorado,2,D+17,0,Steve Yurash,Center
+Colorado,3,R+7,1,Lauren Boebert,Republican
+Colorado,3,R+7,0,Adam Frisch,Democratic
+Colorado,4,R+13,1,Ken Buck,Republican
+Colorado,4,R+13,0,Ike McCorkle,Democratic
+Colorado,4,R+13,0,Ryan McGonigal,Constitution
+Colorado,5,R+9,0,Brian Flanagan,Libertarian
+Colorado,5,R+9,1,Doug Lamborn,Republican
+Colorado,5,R+9,0,Christopher Mitchell,Constitution
+Colorado,5,R+9,0,David Torres,Democratic
+Colorado,6,D+9,1,Jason Crow,Democratic
+Colorado,6,D+9,0,Steven Monahan,Republican
+Colorado,6,D+9,0,Eric Mulder,Libertarian
+Colorado,7,D+4,0,Erik Aadland,Republican
+Colorado,7,D+4,0,Ross Klopf,Libertarian
+Colorado,7,D+4,0,Critter Milton,Unity
+Colorado,7,D+4,0,Brittany Pettersen,Democratic
+Colorado,8,EVEN,0,Yadira Caraveo,Democratic
+Colorado,8,EVEN,0,Barbara Kirkmeyer,Republican
+Colorado,8,EVEN,0,Richard Ward,Libertarian
+Connecticut,1,D+12,1,John B. Larson,Democratic
+Connecticut,1,D+12,0,Larry Lazor,Republican
+Connecticut,2,D+3,1,Joe Courtney,Democratic
+Connecticut,2,D+3,0,Mike France,Republican
+Connecticut,3,D+7,0,Amy Chai,Libertarian
+Connecticut,3,D+7,1,Rosa DeLauro,Democratic
+Connecticut,3,D+7,0,Lesley DeNardis,Republican
+Connecticut,3,D+7,0,Justin Paglino,Green
+Connecticut,4,D+13,1,Jim Himes,Democratic
+Connecticut,4,D+13,0,Jayme Stevenson,Republican
+Connecticut,5,D+3,1,Jahana Hayes,Democratic
+Connecticut,5,D+3,0,George Logan,Republican
+Delaware,AL,D+7,1,Lisa Blunt Rochester,Democratic
+Delaware,AL,D+7,0,Cody McNutt,Libertarian
+Delaware,AL,D+7,0,Lee Murphy,Republican
+Delaware,AL,D+7,0,David Rogers,Independent
+Florida,1,R+19,1,Matt Gaetz,Republican
+Florida,1,R+19,0,Rebekah Jones,Democratic
+Florida,2,R+8,1,Neal Dunn,Republican
+Florida,2,R+8,0,Al Lawson,Democratic
+Florida,2,R+8,0,Neal Dunn,Republican
+Florida,2,R+8,0,Al Lawson,Democratic
+Florida,3,R+9,0,Linda Brooks,Independent
+Florida,3,R+9,1,Kat Cammack,Republican
+Florida,3,R+9,0,Danielle Hawk,Democratic
+Florida,4,R+6,0,Aaron Bean,Republican
+Florida,4,R+6,0,LaShonda Holloway,Democratic
+Florida,5,R+11,0,John Rutherford,Republican
+Florida,6,R+14,0,Joe Hannoush,Libertarian
+Florida,6,R+14,1,Michael Waltz,Republican
+Florida,7,R+5,0,Karen Green,Democratic
+Florida,7,R+5,0,Cory Mills,Republican
+Florida,8,R+11,1,Bill Posey,Republican
+Florida,8,R+11,0,Joanne Terry,Democratic
+Florida,9,D+8,0,Scotty Moore,Republican
+Florida,9,D+8,1,Darren Soto,Democratic
+Florida,10,D+14,0,Maxwell Frost,Democratic
+Florida,10,D+14,0,Jason Holic,Independent
+Florida,10,D+14,0,Usha Jain,Independent
+Florida,10,D+14,0,Calvin Wimbish,Republican
+Florida,11,R+8,0,Shante Munns,Democratic
+Florida,11,R+8,0,Kevin Porter,Independent
+Florida,11,R+8,1,Daniel Webster,Republican
+Florida,12,R+17,1,Gus Bilirakis,Republican
+Florida,12,R+17,0,Kimberly Walker,Democratic
+Florida,13,R+6,0,Frank Craft,Libertarian
+Florida,13,R+6,0,Anna Paulina Luna,Republican
+Florida,13,R+6,0,Eric Lynn,Democratic
+Florida,14,D+8,1,Kathy Castor,Democratic
+Florida,14,D+8,0,James Judge,Republican
+Florida,15,R+4,0,Alan Cohn,Democratic
+Florida,15,R+4,0,Laurel Lee,Republican
+Florida,16,R+7,1,Vern Buchanan,Republican
+Florida,16,R+7,0,Jan Schneider,Democratic
+Florida,17,R+10,0,Andrea Kale,Democratic
+Florida,17,R+10,0,Theodore Murray,Independent
+Florida,17,R+10,1,Greg Steube,Republican
+Florida,18,R+13,0,Scott Franklin,Republican
+Florida,18,R+13,0,Keith Hayden,Independent
+Florida,19,R+13,0,Cindy Banyai,Democratic
+Florida,19,R+13,1,Byron Donalds,Republican
+Florida,20,D+25,1,Sheila Cherfilus-McCormick,Democratic
+Florida,20,D+25,0,Drew Montez Clark,Republican
+Florida,21,R+7,0,Corinna Balderramos Robinson,Democratic
+Florida,21,R+7,0,Brian Mast,Republican
+Florida,22,D+7,0,Lois Frankel,Democratic
+Florida,22,D+7,0,Daniel Franzese,Republican
+Florida,23,D+5,0,Joe Budd,Republican
+Florida,23,D+5,0,Jared Moskowitz,Democratic
+Florida,23,D+5,0,Mark Napier,Independent
+Florida,23,D+5,0,Christine Scott,Independent
+Florida,24,D+25,0,Jesus Navarro,Republican
+Florida,24,D+25,1,Frederica Wilson,Democratic
+Florida,25,D+9,0,Carla Spalding,Republican
+Florida,25,D+9,0,Debbie Wasserman Schultz,Democratic
+Florida,26,R+8,0,Mario Díaz-Balart,Republican
+Florida,26,R+8,0,Christine Olivo,Democratic
+Florida,27,EVEN,1,María Elvira Salazar,Republican
+Florida,27,EVEN,0,Annette Taddeo,Democratic
+Florida,28,R+2,0,Robert Asencio,Democratic
+Florida,28,R+2,0,Carlos A. Giménez,Republican
+Georgia,1,R+9,1,Buddy Carter,Republican
+Georgia,1,R+9,0,Wade Herring,Democratic
+Georgia,2,D+3,1,Sanford Bishop,Democratic
+Georgia,2,D+3,0,Chris West,Republican
+Georgia,3,R+18,0,Val Almonord,Democratic
+Georgia,3,R+18,1,Drew Ferguson,Republican
+Georgia,4,D+27,0,Jonathan Chavez,Republican
+Georgia,4,D+27,1,Hank Johnson,Democratic
+Georgia,5,D+32,1,Nikema Williams,Democratic
+Georgia,5,D+32,0,Christian Zimm,Republican
+Georgia,6,R+11,0,Bob Christian,Democratic
+Georgia,6,R+11,0,Rich McCormick,Republican
+Georgia,7,D+10,0,Mark Gonsalves,Republican
+Georgia,7,D+10,0,Lucy McBath,Democratic
+Georgia,7,D+10,0,Mark Gonsalves,Republican
+Georgia,7,D+10,0,Lucy McBath,Democratic
+Georgia,8,R+16,0,Darrius Butler,Democratic
+Georgia,8,R+16,1,Austin Scott,Republican
+Georgia,9,R+22,1,Andrew Clyde,Republican
+Georgia,9,R+22,0,Mike Ford,Democratic
+Georgia,10,R+15,0,Mike Collins,Republican
+Georgia,10,R+15,0,Tabitha Johnson-Green,Democratic
+Georgia,11,R+11,0,Antonio Daza-Fernandez,Democratic
+Georgia,11,R+11,1,Barry Loudermilk,Republican
+Georgia,12,R+8,1,Rick W. Allen,Republican
+Georgia,12,R+8,0,Liz Johnson,Democratic
+Georgia,13,D+28,0,Caesar Gonzales,Republican
+Georgia,13,D+28,1,David Scott,Democratic
+Georgia,14,R+22,0,Marcus Flowers,Democratic
+Georgia,14,R+22,1,Marjorie Taylor Greene,Republican
+Hawaii,1,D+14,1,Ed Case,Democratic
+Hawaii,1,D+14,0,Conrad Kress,Republican
+Hawaii,2,D+14,0,Joe Akana,Republican
+Hawaii,2,D+14,0,Michelle Tippens,Libertarian
+Hawaii,2,D+14,0,Jill Tokuda,Democratic
+Idaho,1,R+22,0,Darian Drake,Libertarian
+Idaho,1,R+22,1,Russ Fulcher,Republican
+Idaho,1,R+22,0,Kaylee Peterson,Democratic
+Idaho,2,R+14,0,Wendy Norman,Democratic
+Idaho,2,R+14,1,Mike Simpson,Republican
+Illinois,1,D+20,0,Eric Carlson,Republican
+Illinois,1,D+20,0,Jonathan Jackson,Democratic
+Illinois,1,D+20,0,Babette Peyton,Independent
+Illinois,2,D+19,1,Robin Kelly,Democratic
+Illinois,2,D+19,0,Thomas Lynch,Republican
+Illinois,3,D+20,0,Justin Burau,Republican
+Illinois,3,D+20,0,Delia Ramirez,Democratic
+Illinois,4,D+22,0,James Falakos,Republican
+Illinois,4,D+22,1,Chuy García,Democratic
+Illinois,4,D+22,0,Edward Hershey,Working Class
+Illinois,5,D+18,0,Jerico Cruz,Independent
+Illinois,5,D+18,0,Tommy Hanson,Republican
+Illinois,5,D+18,1,Mike Quigley,Democratic
+Illinois,6,D+3,1,Sean Casten,Democratic
+Illinois,6,D+3,0,Keith Pekau,Republican
+Illinois,6,D+3,0,Sean Casten,Democratic
+Illinois,6,D+3,0,Keith Pekau,Republican
+Illinois,7,D+36,1,Danny K. Davis,Democratic
+Illinois,8,D+6,0,Chris Dargis,Republican
+Illinois,8,D+6,1,Raja Krishnamoorthi,Democratic
+Illinois,9,D+19,0,Max Rice,Republican
+Illinois,9,D+19,1,Jan Schakowsky,Democratic
+Illinois,10,D+11,1,Brad Schneider,Democratic
+Illinois,10,D+11,0,Joseph Severino,Republican
+Illinois,11,D+5,1,Bill Foster,Democratic
+Illinois,11,D+5,0,Catalina Lauf,Republican
+Illinois,12,R+24,1,Mike Bost,Republican
+Illinois,12,R+24,0,Chip Markel,Democratic
+Illinois,13,D+3,0,Nikki Budzinski,Democratic
+Illinois,13,D+3,0,Regan Deering,Republican
+Illinois,14,D+4,0,Scott Gryder,Republican
+Illinois,14,D+4,1,Lauren Underwood,Democratic
+Illinois,15,R+22,0,Paul Lange,Democratic
+Illinois,15,R+22,1,Mary Miller,Republican
+Illinois,15,R+22,0,Paul Lange,Democratic
+Illinois,15,R+22,0,Mary Miller,Republican
+Illinois,16,R+13,0,Elizabeth Haderlein,Democratic
+Illinois,16,R+13,0,Darin LaHood,Republican
+Illinois,16,R+13,0,Elizabeth Haderlein,Democratic
+Illinois,16,R+13,0,Darin LaHood,Republican
+Illinois,17,D+2,0,Esther Joy King,Republican
+Illinois,17,D+2,0,Eric Sorensen,Democratic
+Indiana,1,D+3,0,Jennifer-Ruth Green,Republican
+Indiana,1,D+3,1,Frank J. Mrvan,Democratic
+Indiana,2,R+14,0,William Henry,Libertarian
+Indiana,2,R+14,0,Paul Steury,Democratic
+Indiana,2,R+14,0,Rudy Yakym,Republican
+Indiana,3,R+18,0,Nathan Gotsch,Independent
+Indiana,3,R+18,1,Jim Banks,Republican
+Indiana,3,R+18,0,Gary Snyder,Democratic
+Indiana,4,R+18,1,Jim Baird,Republican
+Indiana,4,R+18,0,Roger Day,Democratic
+Indiana,5,R+11,0,Jeannine Lee Lake,Democratic
+Indiana,5,R+11,1,Victoria Spartz,Republican
+Indiana,6,R+19,1,Greg Pence,Republican
+Indiana,6,R+19,0,Cinde Wirth,Democratic
+Indiana,7,D+19,1,André Carson,Democratic
+Indiana,7,D+19,0,Angela Grabovsky,Republican
+Indiana,7,D+19,0,Gavin Maple,Libertarian
+Indiana,8,R+19,1,Larry Bucshon,Republican
+Indiana,8,R+19,0,Andrew Horning,Libertarian
+Indiana,8,R+19,0,Ray McCormick,Democratic
+Indiana,9,R+16,0,Matthew Fyfe,Democratic
+Indiana,9,R+16,0,Erin Houchin,Republican
+Indiana,9,R+16,0,Tonya Millis,Libertarian
+Iowa,1,R+3,0,Christina Bohannan,Democratic
+Iowa,1,R+3,0,Mariannette Miller-Meeks,Republican
+Iowa,2,R+4,0,Ashley Hinson,Republican
+Iowa,2,R+4,0,Liz Mathis,Democratic
+Iowa,3,R+3,1,Cindy Axne,Democratic
+Iowa,3,R+3,0,Zach Nunn,Republican
+Iowa,4,R+16,1,Randy Feenstra,Republican
+Iowa,4,R+16,0,Bryan Holder,Liberty
+Iowa,4,R+16,0,Ryan Melton,Democratic
+Kansas,1,R+18,0,Jimmy Beard,Democratic
+Kansas,1,R+18,1,Tracey Mann,Republican
+Kansas,2,R+11,1,Jake LaTurner,Republican
+Kansas,2,R+11,0,Patrick Schmidt,Democratic
+Kansas,3,R+1,0,Amanda Adkins,Republican
+Kansas,3,R+1,1,Sharice Davids,Democratic
+Kansas,3,R+1,0,Steven Hohe,Libertarian
+Kansas,4,R+14,1,Ron Estes,Republican
+Kansas,4,R+14,0,Bob Hernandez,Democratic
+Kentucky,1,R+24,0,Jimmy Ausbrooks,Democratic
+Kentucky,1,R+24,1,James Comer,Republican
+Kentucky,2,R+21,1,Brett Guthrie,Republican
+Kentucky,2,R+21,0,Hank Linderman,Democratic
+Kentucky,3,D+9,0,Morgan McGarvey,Democratic
+Kentucky,3,D+9,0,Stuart Ray,Republican
+Kentucky,4,R+19,0,Matthew Lehman,Democratic
+Kentucky,4,R+19,1,Thomas Massie,Republican
+Kentucky,4,R+19,0,Ethan Osborne,Independent
+Kentucky,5,R+32,0,Conor Halbleib,Democratic
+Kentucky,5,R+32,1,Hal Rogers,Republican
+Kentucky,6,R+9,1,Andy Barr,Republican
+Kentucky,6,R+9,0,Geoff Young,Democratic
+Louisiana,1,R+23,0,Katie Darling,Democratic
+Louisiana,1,R+23,0,Howard Kearney,Libertarian
+Louisiana,1,R+23,1,Steve Scalise,Republican
+Louisiana,2,D+25,1,Troy Carter,Democratic
+Louisiana,2,D+25,0,Dan Lux,Republican
+Louisiana,3,R+21,1,Clay Higgins,Republican
+Louisiana,3,R+21,0,Holden Hoggatt,Republican
+Louisiana,3,R+21,0,Lessie Leblanc,Democratic
+Louisiana,3,R+21,0,Tia LeBrun,Democratic
+Louisiana,3,R+21,0,Guy McLendon,Libertarian
+Louisiana,3,R+21,0,Thomas Payne Jr.,Republican
+Louisiana,3,R+21,0,Jake Shaheen,Republican
+Louisiana,3,R+21,0,Gloria Wiggins,Independent
+Louisiana,4,R+14,1,Mike Johnson,Republican
+Louisiana,5,R+17,0,Omar Dantzler,Democratic
+Louisiana,5,R+17,0,Allen Guillory,Republican
+Louisiana,5,R+17,0,Earl Huff,Democratic
+Louisiana,5,R+17,1,Julia Letlow,Republican
+Louisiana,5,R+17,0,Hunter Pullen,Republican
+Louisiana,6,R+19,0,Brian Belzer,Republican
+Louisiana,6,R+19,0,Rufus Craig Jr.,Libertarian
+Louisiana,6,R+19,1,Garret Graves,Republican
+Maine,1,D+9,1,Chellie Pingree,Democratic
+Maine,1,D+9,0,Ed Thelander,Republican
+Maine,2,R+6,0,Tiffany Bond,Independent
+Maine,2,R+6,1,Jared Golden,Democratic
+Maine,2,R+6,0,Bruce Poliquin,Republican
+Maryland,1,R+11,1,Andy Harris,Republican
+Maryland,1,R+11,0,Heather Mizeur,Democratic
+Maryland,1,R+11,0,Daniel Thibeault,Libertarian
+Maryland,2,D+7,0,Nicolee Ambrose,Republican
+Maryland,2,D+7,1,Dutch Ruppersberger,Democratic
+Maryland,3,D+10,0,Yuripzy Morgan,Republican
+Maryland,3,D+10,1,John Sarbanes,Democratic
+Maryland,4,D+40,0,Glenn Ivey,Democratic
+Maryland,4,D+40,0,Jeff Warner,Republican
+Maryland,5,D+15,1,Steny Hoyer,Democratic
+Maryland,5,D+15,0,Chris Palombi,Republican
+Maryland,6,D+2,0,Neil Parrott,Republican
+Maryland,6,D+2,1,David Trone,Democratic
+Maryland,7,D+30,0,Scott Collier,Republican
+Maryland,7,D+30,1,Kweisi Mfume,Democratic
+Maryland,8,D+29,0,Gregory Coll,Republican
+Maryland,8,D+29,0,Andres Garcia,Libertarian
+Maryland,8,D+29,1,Jamie Raskin,Democratic
+Massachusetts,1,D+9,0,Dean Martilli,Republican
+Massachusetts,1,D+9,1,Richard Neal,Democratic
+Massachusetts,2,D+13,1,Jim McGovern,Democratic
+Massachusetts,2,D+13,0,Jeffrey Sossa-Paquette,Republican
+Massachusetts,3,D+11,1,Lori Trahan,Democratic
+Massachusetts,3,D+11,0,Dean Tran,Republican
+Massachusetts,4,D+12,1,Jake Auchincloss,Democratic
+Massachusetts,5,D+23,1,Katherine Clark,Democratic
+Massachusetts,5,D+23,0,Caroline Colarusso,Republican
+Massachusetts,6,D+11,0,Bob May,Republican
+Massachusetts,6,D+11,1,Seth Moulton,Democratic
+Massachusetts,6,D+11,0,Mark Tashjian,Libertarian
+Massachusetts,7,D+35,0,Donnie Palmer Jr.,Republican
+Massachusetts,7,D+35,1,Ayanna Pressley,Democratic
+Massachusetts,8,D+15,0,Robert Burke,Republican
+Massachusetts,8,D+15,1,Stephen F. Lynch,Democratic
+Massachusetts,9,D+6,0,Jesse Brown,Republican
+Massachusetts,9,D+6,1,Bill Keating,Democratic
+Michigan,1,R+13,1,Jack Bergman,Republican
+Michigan,1,R+13,0,Andrew Gale,Libertarian
+Michigan,1,R+13,0,Liz Hakola,Working Class
+Michigan,1,R+13,0,Bob Lorinser,Democratic
+Michigan,2,R+16,0,Nathan Hewer,Libertarian
+Michigan,2,R+16,0,Jerry Hilliard,Democratic
+Michigan,2,R+16,0,John Moolenaar,Republican
+Michigan,3,D+1,0,John Gibbs,Republican
+Michigan,3,D+1,0,Jamie Lewis,Libertarian
+Michigan,3,D+1,0,Louis Palus,Working Class
+Michigan,3,D+1,0,Hillary Scholten,Democratic
+Michigan,4,R+5,0,Curtis Michael Clark,U.S. Taxpayers
+Michigan,4,R+5,0,Bill Huizenga,Republican
+Michigan,4,R+5,0,Lorence Wenke,Libertarian
+Michigan,4,R+5,0,Joseph Alfonso,Democratic
+Michigan,4,R+5,0,Curtis Michael Clark,U.S. Taxpayers
+Michigan,4,R+5,0,Bill Huizenga,Republican
+Michigan,4,R+5,0,Lorence Wenke,Libertarian
+Michigan,4,R+5,0,Joseph Alfonso,Democratic
+Michigan,5,R+15,0,Bart Goldberg,Democratic
+Michigan,5,R+15,0,Norm Peterson,Libertarian
+Michigan,5,R+15,0,Ezra Scott,U.S. Taxpayers
+Michigan,5,R+15,0,Tim Walberg,Republican
+Michigan,6,D+11,0,Debbie Dingell,Democratic
+Michigan,6,D+11,0,Whittney Williams,Republican
+Michigan,7,R+2,0,Tom Barrett,Republican
+Michigan,7,R+2,0,Leah Dailey,Libertarian
+Michigan,7,R+2,0,Elissa Slotkin,Democratic
+Michigan,8,R+1,0,David Canny,Libertarian
+Michigan,8,R+1,0,Kathy Goodwin,Working Class
+Michigan,8,R+1,0,Paul Junge,Republican
+Michigan,8,R+1,0,Dan Kildee,Democratic
+Michigan,9,R+18,0,Brian Jaye,Democratic
+Michigan,9,R+18,0,Jacob Kelts,Libertarian
+Michigan,9,R+18,0,Lisa McClain,Republican
+Michigan,9,R+18,0,Jim Walkowicz,Working Class
+Michigan,10,R+3,0,John James,Republican
+Michigan,10,R+3,0,Andrea Kirby,Working Class
+Michigan,10,R+3,0,Carl Marlinga,Democratic
+Michigan,10,R+3,0,Mike Saliba,Libertarian
+Michigan,11,D+7,0,Mark Ambrose,Republican
+Michigan,11,D+7,1,Haley Stevens,Democratic
+Michigan,11,D+7,0,Mark Ambrose,Republican
+Michigan,11,D+7,0,Haley Stevens,Democratic
+Michigan,12,D+23,0,Steven Elliott,Republican
+Michigan,12,D+23,0,Rashida Tlaib,Democratic
+Michigan,12,D+23,0,Gary Walkowicz,Working Class
+Michigan,12,D+23,0,Steven Elliott,Republican
+Michigan,12,D+23,0,Rashida Tlaib,Democratic
+Michigan,12,D+23,0,Gary Walkowicz,Working Class
+Michigan,13,D+23,0,Martell Bivings,Republican
+Michigan,13,D+23,0,Simone Coleman,Working Class
+Michigan,13,D+23,0,Chris Dardzinski,U.S. Taxpayers
+Michigan,13,D+23,0,Shri Thanedar,Democratic
+Minnesota,1,R+7,0,Brian Abrahamson,Grassroots-LC
+Minnesota,1,R+7,0,Jeff Ettinger,DFL
+Minnesota,1,R+7,1,Brad Finstad,Republican
+Minnesota,1,R+7,0,Richard Reisdorf,Legal Marijuana Now
+Minnesota,2,D+1,1,Angie Craig,DFL
+Minnesota,2,D+1,0,Tyler Kistner,Republican
+Minnesota,2,D+1,0,Paula Overby,Legal Marijuana Now†
+Minnesota,3,D+8,1,Dean Phillips,DFL
+Minnesota,3,D+8,0,Tom Weiler,Republican
+Minnesota,4,D+17,1,Betty McCollum,DFL
+Minnesota,4,D+17,0,May Lor Xiong,Republican
+Minnesota,5,D+30,0,Cicely Davis,Republican
+Minnesota,5,D+30,1,Ilhan Omar,DFL
+Minnesota,6,R+12,1,Tom Emmer,Republican
+Minnesota,6,R+12,0,Jeanne Hendricks,DFL
+Minnesota,7,R+19,0,Jill Abahsain,DFL
+Minnesota,7,R+19,1,Michelle Fischbach,Republican
+Minnesota,7,R+19,0,Travis Johnson,Legal Marijuana Now
+Minnesota,8,R+8,0,Jennifer Schultz,DFL
+Minnesota,8,R+8,1,Pete Stauber,Republican
+Mississippi,1,R+18,0,Dianne Black,Democratic
+Mississippi,1,R+18,1,Trent Kelly,Republican
+Mississippi,2,D+11,0,Brian Flowers,Republican
+Mississippi,2,D+11,1,Bennie Thompson,Democratic
+Mississippi,3,R+15,1,Michael Guest,Republican
+Mississippi,3,R+15,0,Shuwaski Young,Democratic
+Mississippi,4,R+22,0,Johnny DuPree,Democratic
+Mississippi,4,R+22,0,Mike Ezell,Republican
+Mississippi,4,R+22,0,Alden Johnson,Libertarian
+Missouri,1,D+27,1,Cori Bush,Democratic
+Missouri,1,D+27,0,Andrew Jones,Republican
+Missouri,1,D+27,0,George Zsidisin,Libertarian
+Missouri,2,R+7,0,Trish Gunby,Democratic
+Missouri,2,R+7,0,Bill Slantz,Libertarian
+Missouri,2,R+7,1,Ann Wagner,Republican
+Missouri,3,R+16,1,Blaine Luetkemeyer,Republican
+Missouri,3,R+16,0,Bethany Mann,Democratic
+Missouri,4,R+23,0,Mark Alford,Republican
+Missouri,4,R+23,0,Randy Langkraehr,Libertarian
+Missouri,4,R+23,0,Jack Truman,Democratic
+Missouri,5,D+11,1,Emanuel Cleaver,Democratic
+Missouri,5,D+11,0,Robin Dominick,Libertarian
+Missouri,5,D+11,0,Jacob Turk,Republican
+Missouri,6,R+21,1,Sam Graves,Republican
+Missouri,6,R+21,0,Andy Maidment,Libertarian
+Missouri,6,R+21,0,Henry Martin,Democratic
+Missouri,7,R+24,0,Eric Burlison,Republican
+Missouri,7,R+24,0,Kevin Craig,Libertarian
+Missouri,7,R+24,0,Kristen Radaker-Sheafer,Democratic
+Missouri,8,R+28,0,Jim Higgins,Libertarian
+Missouri,8,R+28,0,Randi McCallian,Democratic
+Missouri,8,R+28,1,Jason Smith,Republican
+Montana,1,R+6,0,John Lamb,Libertarian
+Montana,1,R+6,0,Monica Tranel,Democratic
+Montana,1,R+6,0,Ryan Zinke,Republican
+Montana,2,R+16,0,Gary Buchanan,Independent
+Montana,2,R+16,0,Sam Rankin,Libertarian
+Montana,2,R+16,0,Penny Ronning,Democratic
+Montana,2,R+16,0,Matt Rosendale,Republican
+Nebraska,1,R+9,1,Mike Flood,Republican
+Nebraska,1,R+9,0,Patty Pansing Brooks,Democratic
+Nebraska,2,EVEN,1,Don Bacon,Republican
+Nebraska,2,EVEN,0,Tony Vargas,Democratic
+Nebraska,3,R+29,0,David Else,Democratic
+Nebraska,3,R+29,0,Mark Elworth Jr.,Legal Marijuana Now
+Nebraska,3,R+29,1,Adrian Smith,Republican
+Nevada,1,D+3,0,Ken Cavanaugh,Libertarian
+Nevada,1,D+3,0,Monica Lenoir,Independent
+Nevada,1,D+3,0,Mark Robertson,Republican
+Nevada,1,D+3,1,Dina Titus,Democratic
+Nevada,2,R+8,1,Mark Amodei,Republican
+Nevada,2,R+8,0,Darryl Baber,Libertarian
+Nevada,2,R+8,0,Russell Best,Independent American
+Nevada,2,R+8,0,Elizabeth Krause,Democratic
+Nevada,3,D+1,0,April Becker,Republican
+Nevada,3,D+1,1,Susie Lee,Democratic
+Nevada,3,D+1,0,Robert Morris,Independent
+Nevada,4,D+3,1,Steven Horsford,Democratic
+Nevada,4,D+3,0,Sam Peters,Republican
+New Hampshire,1,EVEN,0,Karoline Leavitt,Republican
+New Hampshire,1,EVEN,1,Chris Pappas,Democratic
+New Hampshire,2,D+2,0,Robert Burns,Republican
+New Hampshire,2,D+2,1,Annie Kuster,Democratic
+New Jersey,1,D+10,0,Allen Cannon,Independent
+New Jersey,1,D+10,0,Isaiah Fletcher,Libertarian
+New Jersey,1,D+10,0,Claire Gustafson,Republican
+New Jersey,1,D+10,0,Patricia Kline,Independent
+New Jersey,1,D+10,1,Donald Norcross,Democratic
+New Jersey,2,R+5,0,Tim Alexander,Democratic
+New Jersey,2,R+5,0,Michael Gallo,Libertarian
+New Jersey,2,R+5,0,Anthony Sanchez,Independent
+New Jersey,2,R+5,1,Jeff Van Drew,Republican
+New Jersey,3,D+5,0,Bob Healey Jr.,Republican
+New Jersey,3,D+5,1,Andy Kim,Democratic
+New Jersey,3,D+5,0,Christopher Russomanno,Libertarian
+New Jersey,3,D+5,0,Gregory Sobocinski,Independent
+New Jersey,4,R+14,0,Jason Cullen,Libertarian
+New Jersey,4,R+14,0,Pam Daniels,Independent
+New Jersey,4,R+14,0,Matthew Jenkins,Democratic
+New Jersey,4,R+14,0,David Schmidt,Independent
+New Jersey,4,R+14,0,Hank Schroeder,Independent
+New Jersey,4,R+14,1,Chris Smith,Republican
+New Jersey,5,D+4,0,Trevor Ferrigno,Independent
+New Jersey,5,D+4,1,Josh Gottheimer,Democratic
+New Jersey,5,D+4,0,Jeremy Marcus,Libertarian
+New Jersey,5,D+4,0,Frank Pallotta,Republican
+New Jersey,5,D+4,0,Louis Vellucci,Independent
+New Jersey,6,D+8,0,Eric Antisell,Independent
+New Jersey,6,D+8,0,Tara Fisher,Libertarian
+New Jersey,6,D+8,0,Sue Kiley,Republican
+New Jersey,6,D+8,1,Frank Pallone,Democratic
+New Jersey,6,D+8,0,Inder Soni,Independent
+New Jersey,7,R+1,0,Veronica Fernandez,Independent
+New Jersey,7,R+1,0,Thomas Kean Jr.,Republican
+New Jersey,7,R+1,1,Tom Malinowski,Democratic
+New Jersey,8,D+22,0,Marcos Arroyo,Republican
+New Jersey,8,D+22,0,David Cook,Independent
+New Jersey,8,D+22,0,Dan Delaney,Libertarian
+New Jersey,8,D+22,0,Joanne Kuniansky,Socialist Workers
+New Jersey,8,D+22,0,Rob Menendez,Democratic
+New Jersey,8,D+22,0,Pablo Olivera,Labor
+New Jersey,8,D+22,0,John Salierno,Independent
+New Jersey,9,D+8,0,Sean Armstrong,Libertarian
+New Jersey,9,D+8,1,Bill Pascrell,Democratic
+New Jersey,9,D+8,0,Billy Prempeh,Republican
+New Jersey,9,D+8,0,Lea Sherman,Socialist Workers
+New Jersey,10,D+30,0,Clenard Childress,Mahali
+New Jersey,10,D+30,0,Dorothy Humphries,Independent
+New Jersey,10,D+30,0,Cynthia Johnson,Independent
+New Jersey,10,D+30,0,Kendal Ludden,Libertarian
+New Jersey,10,D+30,1,Donald Payne Jr.,Democratic
+New Jersey,10,D+30,0,David Pinckney,Republican
+New Jersey,11,D+6,0,Joseph Biasco,Libertarian
+New Jersey,11,D+6,0,Paul DeGroot,Republican
+New Jersey,11,D+6,1,Mikie Sherrill,Democratic
+New Jersey,12,D+12,0,Lynn Genrich,Libertarian
+New Jersey,12,D+12,0,Darius Mayfield,Republican
+New Jersey,12,D+12,1,Bonnie Watson Coleman,Democratic
+New Mexico,1,D+5,0,Michelle Garcia Holmes,Republican
+New Mexico,1,D+5,1,Melanie Stansbury,Democratic
+New Mexico,2,D+1,1,Yvette Herrell,Republican
+New Mexico,2,D+1,0,Gabe Vasquez,Democratic
+New Mexico,3,D+4,1,Teresa Leger Fernandez,Democratic
+New Mexico,3,D+4,0,Alexis Martinez Johnson,Republican
+New York,1,R+3,0,Bridget Fleming,Democratic
+New York,1,R+3,0,Nick LaLota,Republican
+New York,2,R+3,1,Andrew Garbarino,Republican
+New York,2,R+3,0,Jackie Gordon,Democratic
+New York,3,D+2,0,George Santos,Republican
+New York,3,D+2,0,Robert Zimmerman,Democratic
+New York,4,D+5,0,Anthony D'Esposito,Republican
+New York,4,D+5,0,Laura Gillen,Democratic
+New York,5,D+30,0,Paul King,Republican
+New York,5,D+30,1,Gregory Meeks,Democratic
+New York,6,D+15,1,Grace Meng,Democratic
+New York,6,D+15,0,Thomas Zmich,Republican
+New York,7,D+31,0,Juan Pagan,Republican
+New York,7,D+31,1,Nydia Velázquez,Democratic
+New York,8,D+26,0,Yuri Dashevsky,Republican
+New York,8,D+26,1,Hakeem Jeffries,Democratic
+New York,9,D+25,1,Yvette Clarke,Democratic
+New York,9,D+25,0,Menachem Raitport,Conservative
+New York,10,D+35,0,Dan Goldman,Democratic
+New York,10,D+35,0,Benine Hamdan,Republican
+New York,10,D+35,0,Steve Speer,Medical Freedom
+New York,11,R+6,1,Nicole Malliotakis,Republican
+New York,11,R+6,0,Max Rose,Democratic
+New York,12,D+34,0,Mikhail Itkis,Independent
+New York,12,D+34,0,Jerry Nadler,Democratic
+New York,12,D+34,0,Michael Zumbluskas,Republican
+New York,12,D+34,0,Mikhail Itkis,Independent
+New York,12,D+34,0,Jerry Nadler,Democratic
+New York,12,D+34,0,Michael Zumbluskas,Republican
+New York,13,D+38,1,Adriano Espaillat,Democratic
+New York,14,D+28,0,Desi Cuellar,Conservative
+New York,14,D+28,0,Tina Forte,Republican
+New York,14,D+28,1,Alexandria Ocasio-Cortez,Democratic
+New York,15,D+35,0,Stylo Sapaskis,Republican
+New York,15,D+35,1,Ritchie Torres,Democratic
+New York,16,D+20,1,Jamaal Bowman,Democratic
+New York,16,D+20,0,John Ciampoli,Republican
+New York,17,D+3,0,Michael Lawler,Republican
+New York,17,D+3,0,Sean Patrick Maloney,Democratic
+New York,18,D+1,0,Pat Ryan,Democratic
+New York,18,D+1,0,Colin Schmitt,Republican
+New York,19,EVEN,0,Marc Molinaro,Republican
+New York,19,EVEN,0,Josh Riley,Democratic
+New York,20,D+7,0,Liz Joy,Republican
+New York,20,D+7,1,Paul Tonko,Democratic
+New York,21,R+9,0,Matt Castelli,Democratic
+New York,21,R+9,1,Elise Stefanik,Republican
+New York,22,D+1,0,Francis Conole,Democratic
+New York,22,D+1,0,Brandon Williams,Republican
+New York,23,R+12,0,Max Della Pia,Democratic
+New York,23,R+12,0,Nick Langworthy,Republican
+New York,23,R+12,0,Max Della Pia,Democratic
+New York,23,R+12,0,Nick Langworthy,Republican
+New York,24,R+11,0,Steven Holden,Democratic
+New York,24,R+11,0,Claudia Tenney,Republican
+New York,25,D+7,1,Joseph Morelle,Democratic
+New York,25,D+7,0,La'Ron Singletary,Republican
+New York,26,D+9,1,Brian Higgins,Democratic
+New York,26,D+9,0,Steven Sams,Republican
+North Carolina,1,D+2,0,Don Davis,Democratic
+North Carolina,1,D+2,0,Sandy Smith,Republican
+North Carolina,2,D+12,1,Deborah K. Ross,Democratic
+North Carolina,2,D+12,0,Christine Villaverde,Republican
+North Carolina,3,R+15,0,Barbara Gaskins,Democratic
+North Carolina,3,R+15,1,Greg Murphy,Republican
+North Carolina,4,D+16,0,Valerie Foushee,Democratic
+North Carolina,4,D+16,0,Courtney Geels,Republican
+North Carolina,5,R+13,1,Virginia Foxx,Republican
+North Carolina,5,R+13,0,Kyle Parrish,Democratic
+North Carolina,6,D+4,0,Christian Castelli,Republican
+North Carolina,6,D+4,1,Kathy Manning,Democratic
+North Carolina,6,D+4,0,Thomas Watercott,Libertarian
+North Carolina,7,R+8,0,Charles Graham,Democratic
+North Carolina,7,R+8,1,David Rouzer,Republican
+North Carolina,8,R+20,0,Dan Bishop,Republican
+North Carolina,8,R+20,0,Scott Huffman,Democratic
+North Carolina,8,R+20,0,Dan Bishop,Republican
+North Carolina,8,R+20,0,Scott Huffman,Democratic
+North Carolina,9,R+6,0,Ben Clark,Democratic
+North Carolina,9,R+6,0,Richard Hudson,Republican
+North Carolina,10,R+22,0,Pam Genant,Democratic
+North Carolina,10,R+22,1,Patrick McHenry,Republican
+North Carolina,11,R+8,0,Jasmine Beach-Ferrara,Democratic
+North Carolina,11,R+8,0,David Coatney,Libertarian
+North Carolina,11,R+8,0,Chuck Edwards,Republican
+North Carolina,12,D+13,1,Alma Adams,Democratic
+North Carolina,12,D+13,0,Tyler Lee,Republican
+North Carolina,13,R+2,0,Bo Hines,Republican
+North Carolina,13,R+2,0,Wiley Nickel,Democratic
+North Carolina,14,D+6,0,Pat Harrigan,Republican
+North Carolina,14,D+6,0,Jeff Jackson,Democratic
+North Dakota,AL,R+20,1,Kelly Armstrong,Republican
+North Dakota,AL,R+20,0,Cara Mund,Independent
+Ohio,1,D+2,1,Steve Chabot,Republican
+Ohio,1,D+2,0,Greg Landsman,Democratic
+Ohio,2,R+25,0,Samantha Meadows,Democratic
+Ohio,2,R+25,1,Brad Wenstrup,Republican
+Ohio,3,D+20,1,Joyce Beatty,Democratic
+Ohio,3,D+20,0,Lee Stahley,Republican
+Ohio,4,R+20,1,Jim Jordan,Republican
+Ohio,4,R+20,0,Tamie Wilson,Democratic
+Ohio,5,R+15,1,Bob Latta,Republican
+Ohio,5,R+15,0,Craig Swartz,Democratic
+Ohio,6,R+16,1,Bill Johnson,Republican
+Ohio,6,R+16,0,Louis Lyras,Democratic
+Ohio,7,R+7,0,Matthew Diemer,Democratic
+Ohio,7,R+7,0,Max Miller,Republican
+Ohio,7,R+7,0,Matthew Diemer,Democratic
+Ohio,7,R+7,0,Max Miller,Republican
+Ohio,8,R+14,1,Warren Davidson,Republican
+Ohio,8,R+14,0,Vanessa Enoch,Democratic
+Ohio,9,R+3,1,Marcy Kaptur,Democratic
+Ohio,9,R+3,0,J. R. Majewski,Republican
+Ohio,10,R+4,0,David Esrati,Democratic
+Ohio,10,R+4,1,Mike Turner,Republican
+Ohio,11,D+28,0,Eric Brewer,Republican
+Ohio,11,D+28,1,Shontel Brown,Democratic
+Ohio,12,R+18,1,Troy Balderson,Republican
+Ohio,12,R+18,0,Amy Rippel-Elton,Democratic
+Ohio,13,R+1,0,Madison Gesiotto,Republican
+Ohio,13,R+1,0,Emilia Sykes,Democratic
+Ohio,14,R+9,1,David Joyce,Republican
+Ohio,14,R+9,0,Matt Kilboy,Democratic
+Ohio,15,R+6,1,Mike Carey,Republican
+Ohio,15,R+6,0,Gary Josephson,Democratic
+Oklahoma,1,R+14,1,Kevin Hern,Republican
+Oklahoma,1,R+14,0,Adam Martin,Democratic
+Oklahoma,1,R+14,0,Evelyn Rogers,Independent
+Oklahoma,2,R+29,0,Naomi Andrews,Democratic
+Oklahoma,2,R+29,0,Josh Brecheen,Republican
+Oklahoma,2,R+29,0,Bulldog Ben Robinson,Independent
+Oklahoma,3,R+24,1,Frank Lucas,Republican
+Oklahoma,3,R+24,0,Jeremiah Ross,Democratic
+Oklahoma,4,R+19,0,Mary Brannon,Democratic
+Oklahoma,4,R+19,1,Tom Cole,Republican
+Oklahoma,5,R+12,1,Stephanie Bice,Republican
+Oklahoma,5,R+12,0,David Frosch,Independent
+Oklahoma,5,R+12,0,Joshua Harris-Till,Democratic
+Oregon,1,D+18,1,Suzanne Bonamici,Democratic
+Oregon,1,D+18,0,Christopher Mann,Republican
+Oregon,2,R+15,1,Cliff Bentz,Republican
+Oregon,2,R+15,0,Joe Yetter,Democratic
+Oregon,3,D+22,1,Earl Blumenauer,Democratic
+Oregon,3,D+22,0,David Delk,Pacific Green
+Oregon,3,D+22,0,Joanna Harbour,Republican
+Oregon,4,D+4,0,Mike Beilstein,Pacific Green
+Oregon,4,D+4,0,Jim Howard,Constitution
+Oregon,4,D+4,0,Val Hoyle,Democratic
+Oregon,4,D+4,0,Levi Leatherberry,Independent
+Oregon,4,D+4,0,Alek Skarlatos,Republican
+Oregon,5,D+2,0,Lori Chavez-DeRemer,Republican
+Oregon,5,D+2,0,Jamie McLeod-Skinner,Democratic
+Oregon,6,D+4,0,Mike Erickson,Republican
+Oregon,6,D+4,0,Larry McFarland,Constitution
+Oregon,6,D+4,0,Andrea Salinas,Democratic
+Pennsylvania,1,EVEN,0,Ashley Ehasz,Democratic
+Pennsylvania,1,EVEN,1,Brian Fitzpatrick,Republican
+Pennsylvania,2,D+20,0,Aaron Bashir,Republican
+Pennsylvania,2,D+20,1,Brendan Boyle,Democratic
+Pennsylvania,3,D+39,1,Dwight Evans,Democratic
+Pennsylvania,3,D+39,0,Christopher Hoeppner,Socialist Workers
+Pennsylvania,4,D+7,1,Madeleine Dean,Democratic
+Pennsylvania,4,D+7,0,Christian Nascimento,Republican
+Pennsylvania,5,D+14,0,David Galluch,Republican
+Pennsylvania,5,D+14,1,Mary Gay Scanlon,Democratic
+Pennsylvania,6,D+5,0,Guy Ciarrocchi,Republican
+Pennsylvania,6,D+5,1,Chrissy Houlahan,Democratic
+Pennsylvania,7,R+2,0,Lisa Scheller,Republican
+Pennsylvania,7,R+2,1,Susan Wild,Democratic
+Pennsylvania,8,R+4,0,Jim Bognet,Republican
+Pennsylvania,8,R+4,1,Matt Cartwright,Democratic
+Pennsylvania,9,R+21,1,Dan Meuser,Republican
+Pennsylvania,9,R+21,0,Amanda Waldman,Democratic
+Pennsylvania,9,R+21,0,Dan Meuser,Republican
+Pennsylvania,9,R+21,0,Amanda Waldman,Democratic
+Pennsylvania,10,R+5,0,Shamaine Daniels,Democratic
+Pennsylvania,10,R+5,1,Scott Perry,Republican
+Pennsylvania,11,R+13,0,Bob Hollister,Democratic
+Pennsylvania,11,R+13,1,Lloyd Smucker,Republican
+Pennsylvania,12,D+8,0,Mike Doyle,Republican
+Pennsylvania,12,D+8,0,Summer Lee,Democratic
+Pennsylvania,13,R+25,1,John Joyce,Republican
+Pennsylvania,14,R+18,1,Guy Reschenthaler,Republican
+Pennsylvania,15,R+21,1,Glenn Thompson,Republican
+Pennsylvania,15,R+21,0,Mike Molesevich,Democratic
+Pennsylvania,16,R+13,1,Mike Kelly,Republican
+Pennsylvania,16,R+13,0,Dan Pastore,Democratic
+Pennsylvania,17,EVEN,0,Chris Deluzio,Democratic
+Pennsylvania,17,EVEN,0,Jeremy Shaffer,Republican
+Rhode Island,1,D+12,1,David Cicilline,Democratic
+Rhode Island,1,D+12,0,Allen Waters,Republican
+Rhode Island,2,D+4,0,Allan Fung,Republican
+Rhode Island,2,D+4,0,William Gilbert,Moderate
+Rhode Island,2,D+4,0,Seth Magaziner,Democratic
+South Carolina,1,R+7,0,Annie Andrews,Democratic
+South Carolina,1,R+7,1,Nancy Mace,Republican
+South Carolina,1,R+7,0,Joseph Oddo,Alliance
+South Carolina,2,R+8,0,Juddson Larkins,Democratic
+South Carolina,2,R+8,1,Joe Wilson,Republican
+South Carolina,3,R+21,1,Jeff Duncan,Republican
+South Carolina,4,R+12,1,William Timmons,Republican
+South Carolina,5,R+12,0,Larry Gaither,Green
+South Carolina,5,R+12,0,Evangeline Hundley,Democratic
+South Carolina,5,R+12,1,Ralph Norman,Republican
+South Carolina,6,D+14,0,Duke Buckner,Republican
+South Carolina,6,D+14,1,Jim Clyburn,Democratic
+South Carolina,7,R+11,0,Russell Fry,Republican
+South Carolina,7,R+11,0,Daryl Scott,Democratic
+South Dakota,AL,R+16,0,Collin Duprel,Libertarian
+South Dakota,AL,R+16,1,Dusty Johnson,Republican
+Tennessee,1,R+30,0,Richard Baker,Independent
+Tennessee,1,R+30,1,Diana Harshbarger,Republican
+Tennessee,1,R+30,0,Matt Makrom,Independent
+Tennessee,1,R+30,0,Cameron Parsons,Democratic
+Tennessee,2,R+18,1,Tim Burchett,Republican
+Tennessee,2,R+18,0,Mark Harmon,Democratic
+Tennessee,3,R+19,1,Chuck Fleischmann,Republican
+Tennessee,3,R+19,0,Meg Gorman,Democratic
+Tennessee,3,R+19,0,Thomas Rumba,Independent
+Tennessee,3,R+19,0,Rick Tyler,Independent
+Tennessee,4,R+22,0,Clyde Benson,Independent
+Tennessee,4,R+22,0,Tharon Chandler,Independent
+Tennessee,4,R+22,1,Scott DesJarlais,Republican
+Tennessee,4,R+22,0,David Jones,Independent
+Tennessee,4,R+22,0,Joseph Mayger,Independent
+Tennessee,4,R+22,0,Wayne Steele,Democratic
+Tennessee,4,R+22,0,Mike Winton,Independent
+Tennessee,5,R+9,0,Derrick Brantley,Independent
+Tennessee,5,R+9,0,Heidi Campbell,Democratic
+Tennessee,5,R+9,0,Daniel Cooper,Independent
+Tennessee,5,R+9,0,Andy Ogles,Republican
+Tennessee,5,R+9,0,Rick Shannon,Independent
+Tennessee,6,R+17,0,Randal Cooper,Democratic
+Tennessee,6,R+17,1,John Rose,Republican
+Tennessee,7,R+10,1,Mark E. Green,Republican
+Tennessee,7,R+10,0,Steven Hooper,Independent
+Tennessee,7,R+10,0,Odessa Kelly,Democratic
+Tennessee,8,R+21,0,James Hart,Independent
+Tennessee,8,R+21,0,Ronnie Henley,Independent
+Tennessee,8,R+21,1,David Kustoff,Republican
+Tennessee,8,R+21,0,Lynnette Williams,Democratic
+Tennessee,9,D+22,0,Charlotte Bergmann,Republican
+Tennessee,9,D+22,0,Dennis Clark,Independent
+Tennessee,9,D+22,1,Steve Cohen,Democratic
+Tennessee,9,D+22,0,Paul Cook,Independent
+Tennessee,9,D+22,0,George Flinn,Independent
+Texas,1,R+26,0,Jrmar Jefferson,Democratic
+Texas,1,R+26,0,Nathaniel Moran,Republican
+Texas,2,R+15,1,Dan Crenshaw,Republican
+Texas,2,R+15,0,Robin Fulford,Democratic
+Texas,3,R+11,0,Christopher Claytor,Libertarian
+Texas,3,R+11,0,Keith Self,Republican
+Texas,3,R+11,0,Sandeep Srivastava,Democratic
+Texas,4,R+16,1,Pat Fallon,Republican
+Texas,4,R+16,0,Iro Omere,Democratic
+Texas,4,R+16,0,John Simmons,Libertarian
+Texas,5,R+14,1,Lance Gooden,Republican
+Texas,5,R+14,0,Kevin Hale,Libertarian
+Texas,5,R+14,0,Tartisha Hill,Democratic
+Texas,6,R+15,1,Jake Ellzey,Republican
+Texas,7,D+13,1,Lizzie Fletcher,Democratic
+Texas,7,D+13,0,Johnny Teague,Republican
+Texas,8,R+16,0,Roy Eriksen,Libertarian
+Texas,8,R+16,0,Laura Jones,Democratic
+Texas,8,R+16,0,Morgan Luttrell,Republican
+Texas,9,D+26,1,Al Green,Democratic
+Texas,9,D+26,0,Jimmy Leon,Republican
+Texas,10,R+13,0,Bill Kelsey,Libertarian
+Texas,10,R+13,1,Michael McCaul,Republican
+Texas,10,R+13,0,Linda Nuno,Democratic
+Texas,11,R+23,1,August Pfluger,Republican
+Texas,12,R+12,1,Kay Granger,Republican
+Texas,12,R+12,0,Trey Hunt,Democratic
+Texas,13,R+26,0,Kathleen Brown,Democratic
+Texas,13,R+26,1,Ronny Jackson,Republican
+Texas,14,R+17,1,Randy Weber,Republican
+Texas,14,R+17,0,Mikal Williams,Democratic
+Texas,15,R+1,0,Monica De La Cruz,Republican
+Texas,15,R+1,0,Ross Leone,Libertarian
+Texas,15,R+1,0,Michelle Vallejo,Democratic
+Texas,16,D+17,0,Irene Armendariz-Jackson,Republican
+Texas,16,D+17,1,Veronica Escobar,Democratic
+Texas,17,R+14,1,Pete Sessions,Republican
+Texas,17,R+14,0,Mary Jo Woods,Democratic
+Texas,18,D+23,0,Vince Duncan,Independent
+Texas,18,D+23,1,Sheila Jackson Lee,Democratic
+Texas,18,D+23,0,Phil Kurtz,Libertarian
+Texas,18,D+23,0,Carmen Maria Montiel,Republican
+Texas,19,R+26,1,Jodey Arrington,Republican
+Texas,19,R+26,0,Nathan Lewis,Independent
+Texas,20,D+15,1,Joaquin Castro,Democratic
+Texas,20,D+15,0,Kyle Sinclair,Republican
+Texas,21,R+13,1,Chip Roy,Republican
+Texas,21,R+13,0,Claudia Zapata,Democratic
+Texas,22,R+11,0,Jamie Jordan,Democratic
+Texas,22,R+11,0,Joseph LeBlanc,Libertarian
+Texas,22,R+11,1,Troy Nehls,Republican
+Texas,23,R+5,1,Tony Gonzales,Republican
+Texas,23,R+5,0,John Lira,Democratic
+Texas,23,R+5,0,Frank Lopez Jr.,Independent
+Texas,24,R+10,0,Jan McDowell,Democratic
+Texas,24,R+10,1,Beth Van Duyne,Republican
+Texas,25,R+19,1,Roger Williams,Republican
+Texas,26,R+13,0,Michael Burgess,Republican
+Texas,26,R+13,0,Mike Kolls,Libertarian
+Texas,27,R+13,1,Michael Cloud,Republican
+Texas,27,R+13,0,Maclovio Perez Jr.,Democratic
+Texas,28,D+3,1,Henry Cuellar,Democratic
+Texas,28,D+3,0,Cassy Garcia,Republican
+Texas,29,D+18,1,Sylvia Garcia,Democratic
+Texas,29,D+18,0,Robert Schafranek,Republican
+Texas,30,D+27,0,Jasmine Crockett,Democratic
+Texas,30,D+27,0,Phil Gray,Libertarian
+Texas,30,D+27,0,Zachariah Manning,Independent
+Texas,30,D+27,0,James Rodgers,Republican
+Texas,31,R+14,1,John Carter,Republican
+Texas,32,D+14,1,Colin Allred,Democratic
+Texas,32,D+14,0,Antonio Swad,Republican
+Texas,33,D+24,0,Ken Ashby,Libertarian
+Texas,33,D+24,0,Patrick Gillespie,Republican
+Texas,33,D+24,1,Marc Veasey,Democratic
+Texas,34,D+9,1,Mayra Flores,Republican
+Texas,34,D+9,0,Vicente Gonzalez,Democratic
+Texas,34,D+9,0,Chris Royal,Independent
+Texas,34,D+9,0,Mayra Flores,Republican
+Texas,34,D+9,0,Vicente Gonzalez,Democratic
+Texas,34,D+9,0,Chris Royal,Independent
+Texas,35,D+21,0,Greg Casar,Democratic
+Texas,35,D+21,0,Dan McQueen,Republican
+Texas,36,R+18,1,Brian Babin,Republican
+Texas,36,R+18,0,Jon Haire,Democratic
+Texas,37,D+24,0,Lloyd Doggett,Democratic
+Texas,37,D+24,0,Clark Patterson,Libertarian
+Texas,37,D+24,0,Jenny Sharon,Republican
+Texas,38,R+12,0,Joel DeJean,Independent
+Texas,38,R+12,0,Wesley Hunt,Republican
+Texas,38,R+12,0,Duncan Klussmann,Democratic
+Utah,1,R+12,0,Rick Jones,Democratic
+Utah,1,R+12,1,Blake Moore,Republican
+Utah,2,R+11,0,Cassie Easley,Constitution
+Utah,2,R+11,0,Jay McFarland,United Utah
+Utah,2,R+11,0,Nick Mitchell,Democratic
+Utah,2,R+11,1,Chris Stewart,Republican
+Utah,3,R+13,0,Daniel Cummings,Constitution
+Utah,3,R+13,1,John Curtis,Republican
+Utah,3,R+13,0,Aaron Heineman,Independent American
+Utah,3,R+13,0,Michael Stoddard,Libertarian
+Utah,3,R+13,0,Glenn Wright,Democratic
+Utah,4,R+16,0,Darlene McDonald,Democratic
+Utah,4,R+16,1,Burgess Owens,Republican
+Utah,4,R+16,0,January Walker,United Utah
+Vermont,AL,D+16,0,Becca Balint,Democratic
+Vermont,AL,D+16,0,Matt Druzba,Independent
+Vermont,AL,D+16,0,Liam Madden,Republican
+Vermont,AL,D+16,0,e,
+Vermont,AL,D+16,0,Adam Ortiz,Independent
+Vermont,AL,D+16,0,Ericka Redic,Libertarian
+Vermont,AL,D+16,0,Luke Talbot,Independent
+Virginia,1,R+6,0,David Foster,Independent
+Virginia,1,R+6,0,Herbert Jones Jr.,Democratic
+Virginia,1,R+6,1,Rob Wittman,Republican
+Virginia,2,R+2,0,Jen Kiggans,Republican
+Virginia,2,R+2,1,Elaine Luria,Democratic
+Virginia,3,D+17,0,Terry Namkung,Republican
+Virginia,3,D+17,1,Bobby Scott,Democratic
+Virginia,4,D+16,0,Leon Benjamin,Republican
+Virginia,4,D+16,1,Donald McEachin,Democratic
+Virginia,5,R+7,1,Bob Good,Republican
+Virginia,5,R+7,0,Joshua Throneburg,Democratic
+Virginia,6,R+14,1,Ben Cline,Republican
+Virginia,6,R+14,0,Jennifer Lewis,Democratic
+Virginia,7,D+1,1,Abigail Spanberger,Democratic
+Virginia,7,D+1,0,Yesli Vega,Republican
+Virginia,8,D+26,1,Don Beyer,Democratic
+Virginia,8,D+26,0,Teddy Fikre,Independent
+Virginia,8,D+26,0,Karina Lipsman,Republican
+Virginia,9,R+23,0,Taysha DeVaughan,Democratic
+Virginia,9,R+23,1,Morgan Griffith,Republican
+Virginia,10,D+6,0,Hung Cao,Republican
+Virginia,10,D+6,1,Jennifer Wexton,Democratic
+Virginia,11,D+18,1,Gerry Connolly,Democratic
+Virginia,11,D+18,0,James Myles,Republican
+Washington,1,D+13,0,Vincent Cavaleri,Republican
+Washington,1,D+13,1,Suzan DelBene,Democratic
+Washington,2,D+9,1,Rick Larsen,Democratic
+Washington,2,D+9,0,Dan Matthews,Republican
+Washington,3,R+5,0,Joe Kent,Republican
+Washington,3,R+5,0,Marie Perez,Democratic
+Washington,4,R+11,1,Dan Newhouse,Republican
+Washington,4,R+11,0,Doug White,Democratic
+Washington,5,R+8,0,Natasha Hill,Democratic
+Washington,5,R+8,1,Cathy McMorris Rodgers,Republican
+Washington,6,D+6,1,Derek Kilmer,Democratic
+Washington,6,D+6,0,Elizabeth Kreiselmaier,Republican
+Washington,7,D+36,1,Pramila Jayapal,Democratic
+Washington,7,D+36,0,Cliff Moon,Republican
+Washington,8,D+1,0,Matt Larkin,Republican
+Washington,8,D+1,1,Kim Schrier,Democratic
+Washington,9,D+21,0,Doug Basler,Republican
+Washington,9,D+21,1,Adam Smith,Democratic
+Washington,10,D+7,1,Marilyn Strickland,Democratic
+Washington,10,D+7,0,Keith Swank,Republican
+West Virginia,1,R+23,0,Belinda Fox-Spencer,Independent
+West Virginia,1,R+23,0,Carol Miller,Republican
+West Virginia,1,R+23,0,Lacy Watson,Democratic
+West Virginia,2,R+22,1,Alex Mooney,Republican
+West Virginia,2,R+22,0,Barry Lee Wendell,Democratic
+West Virginia,2,R+22,0,Alex Mooney,Republican
+West Virginia,2,R+22,0,Barry Lee Wendell,Democratic
+Wisconsin,1,R+3,0,Charles Barman,Independent
+Wisconsin,1,R+3,0,Ann Roe,Democratic
+Wisconsin,1,R+3,1,Bryan Steil,Republican
+Wisconsin,2,D+19,0,Douglas Alexander,Independent
+Wisconsin,2,D+19,0,Erik Olsen,Republican
+Wisconsin,2,D+19,1,Mark Pocan,Democratic
+Wisconsin,3,R+4,0,Brad Pfaff,Democratic
+Wisconsin,3,R+4,0,Derrick Van Orden,Republican
+Wisconsin,4,D+25,1,Gwen Moore,Democratic
+Wisconsin,4,D+25,0,Robert Raymond,Independent
+Wisconsin,4,D+25,0,Tim Rogers,Republican
+Wisconsin,5,R+14,1,Scott L. Fitzgerald,Republican
+Wisconsin,5,R+14,0,Mike Van Someren,Democratic
+Wisconsin,6,R+10,1,Glenn Grothman,Republican
+Wisconsin,7,R+12,0,Richard Ausman,Democratic
+Wisconsin,7,R+12,1,Tom Tiffany,Republican
+Wisconsin,8,R+10,0,Paul Boucher,Independent
+Wisconsin,8,R+10,1,Mike Gallagher,Republican
+Wisconsin,8,R+10,0,Jacob VandenPlas,Libertarian
+Wyoming,AL,R+25,0,Richard Brubaker,Libertarian
+Wyoming,AL,R+25,0,Lynnette Grey Bull,Democratic
+Wyoming,AL,R+25,0,Harriet Hageman,Republican
+Wyoming,AL,R+25,0,Marissa Selvig,Constitution

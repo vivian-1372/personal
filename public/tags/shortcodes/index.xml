@@ -2,325 +2,325 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shortcodes on Vivian Nguyen</title>
-    <link>https://vivian-1372.github.io/Political-Psychology/tags/shortcodes/</link>
+    <link>https://vivian-1372.github.io/personal/tags/shortcodes/</link>
     <description>Recent content in shortcodes on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Icons</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/icons/</link>
+      <link>https://vivian-1372.github.io/personal/samples/icons/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/icons/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/icons/</guid>
       <description>Blowfish has built-in support for a number of FontAwesome 6 icons. These can be included in your website through either the icon partial or icon shortcode.
 Additionally, custom icons are also fully supported.</description>
     </item>
     
     <item>
       <title>Shortcodes</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/docs/shortcodes/</link>
+      <link>https://vivian-1372.github.io/personal/docs/shortcodes/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/docs/shortcodes/</guid>
+      <guid>https://vivian-1372.github.io/personal/docs/shortcodes/</guid>
       <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.
 Alert&gt; Alert # alert outputs its contents as a stylised message box within your article.</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/rich-content/</link>
+      <link>https://vivian-1372.github.io/personal/samples/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/rich-content/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/rich-content/</guid>
       <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
     </item>
     
     <item>
       <title>Mathematical notation</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/mathematical-notation/</link>
+      <link>https://vivian-1372.github.io/personal/samples/mathematical-notation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/mathematical-notation/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/mathematical-notation/</guid>
       <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-10/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-10/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-10/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-10/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-11/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-11/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-11/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-11/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-12/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-12/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-12/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-12/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-13/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-13/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-13/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-13/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-14/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-14/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-14/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-14/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-15/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-15/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-15/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-15/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-16/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-16/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-16/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-16/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-17/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-17/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-17/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-17/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-18/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-18/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-18/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-18/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-19/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-19/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-19/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-19/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-2/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-2/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-2/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-2/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-20/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-20/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-20/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-20/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-21/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-21/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-21/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-21/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-22/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-22/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-22/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-22/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-23/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-23/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-23/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-23/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-24/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-24/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-24/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-24/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-25/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-25/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-25/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-25/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-26/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-26/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-26/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-26/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-27/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-27/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-27/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-27/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-28/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-28/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-28/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-28/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-3/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-3/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-3/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-3/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-4/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-4/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-4/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-4/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-5/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-5/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-5/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-5/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-6/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-6/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-6/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-6/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-7/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-7/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-7/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-7/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-8/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-8/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-8/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-8/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-9/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy-9/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-9/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy-9/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1-copy/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1-copy/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/pagtest/file1/</link>
+      <link>https://vivian-1372.github.io/personal/pagtest/file1/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/pagtest/file1/</guid>
+      <guid>https://vivian-1372.github.io/personal/pagtest/file1/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Charts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/charts/</link>
+      <link>https://vivian-1372.github.io/personal/samples/charts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/charts/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/charts/</guid>
       <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
     </item>
     
     <item>
       <title>Diagrams and Flowcharts</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</link>
+      <link>https://vivian-1372.github.io/personal/samples/diagrams-flowcharts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/diagrams-flowcharts/</guid>
       <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
     </item>
     

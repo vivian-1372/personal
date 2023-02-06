@@ -2,7 +2,7 @@
 title: "Economic Predictors of House Incumbent Vote Share"
 author: "Vivian Nguyen"
 date: '2022-09-19'
-categories: R
+categories: Election Analytics
 tags:
 - economy
 - incumbent
@@ -149,6 +149,7 @@ summary(lm_model)$r.squared
 ```
 
 ![Regression Stargazer.](regression_stargazer.png)
+
 # Model 1
 My development of Model 1 finds that GDP, RDI, and unemployment all influence House incumbent vote share, but in varying directions and with varying levels of statistical significance. For GDP growth (%), Model 1 anticipates that as it grows by 1, House incumbent vote share will too by 2.9, which makes more sense. However, for GDP growth (absolute) and unemployment rate, increases in these are still associated with decreases in incumbent vote share. 
 

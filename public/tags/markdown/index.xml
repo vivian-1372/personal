@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>markdown on Vivian Nguyen</title>
-    <link>https://vivian-1372.github.io/Political-Psychology/tags/markdown/</link>
+    <link>https://vivian-1372.github.io/personal/tags/markdown/</link>
     <description>Recent content in markdown on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/markdown/</link>
+      <link>https://vivian-1372.github.io/personal/samples/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/markdown/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/markdown/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Blowfish, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/samples/placeholder-text/</link>
+      <link>https://vivian-1372.github.io/personal/samples/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/samples/placeholder-text/</guid>
+      <guid>https://vivian-1372.github.io/personal/samples/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     

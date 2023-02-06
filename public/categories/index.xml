@@ -2,26 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Vivian Nguyen</title>
-    <link>https://vivian-1372.github.io/Political-Psychology/categories/</link>
+    <link>https://vivian-1372.github.io/personal/categories/</link>
     <description>Recent content in Categories on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>R</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/categories/r/</link>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      <title>Election Analytics</title>
+      <link>https://vivian-1372.github.io/personal/categories/election-analytics/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/categories/r/</guid>
+      <guid>https://vivian-1372.github.io/personal/categories/election-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Playlist Producer</title>
+      <link>https://vivian-1372.github.io/personal/categories/playlist-producer/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/categories/playlist-producer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Political Psychology</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/categories/political-psychology/</link>
+      <link>https://vivian-1372.github.io/personal/categories/political-psychology/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/categories/political-psychology/</guid>
+      <guid>https://vivian-1372.github.io/personal/categories/political-psychology/</guid>
       <description></description>
     </item>
     

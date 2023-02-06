@@ -4,7 +4,151 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/blowfish-lite/</loc>
+            <loc>https://vivian-1372.github.io/personal/categories/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/categories/election-analytics/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-12-07-2022-final-remarks/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/goodbye/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/campaign/</loc>
+            <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-12-07-campaign-narrative/</loc>
+            <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/kim-schrier/</loc>
+            <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/matt-larkin/</loc>
+            <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/messaging/</loc>
+            <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/washington-8/</loc>
+            <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/accuracy/</loc>
+            <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/evaluation/</loc>
+            <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/post-election/</loc>
+            <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-11-22-post-election-reflection/</loc>
+            <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/examples/blowfish-lite/</loc>
             <lastmod>2022-11-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -13,7 +157,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/district-models/</loc>
             <lastmod>2022-11-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -22,7 +166,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/</loc>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-11-07-final-prediction/</loc>
             <lastmod>2022-11-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -31,7 +175,25 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/blowfish-artist/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/national-model/</loc>
+            <lastmod>2022-11-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/examples/</loc>
+            <lastmod>2022-11-07T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/examples/blowfish-artist/</loc>
             <lastmod>2022-11-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -40,7 +202,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/blowfish-lowkey/</loc>
+            <loc>https://vivian-1372.github.io/personal/examples/blowfish-lowkey/</loc>
             <lastmod>2022-11-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -49,7 +211,34 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/authors/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/field-office/</loc>
+            <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/obama/</loc>
+            <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-10-19-the-ground-game/</loc>
+            <lastmod>2022-10-17T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/authors/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -58,7 +247,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/authors/</loc>
+            <loc>https://vivian-1372.github.io/personal/authors/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -67,7 +256,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -76,7 +265,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/authors/secondauthor/</loc>
+            <loc>https://vivian-1372.github.io/personal/authors/secondauthor/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -85,7 +274,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/multiple-authors/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/multiple-authors/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -94,7 +283,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/authors/nunocoracao/</loc>
+            <loc>https://vivian-1372.github.io/personal/authors/nunocoracao/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -103,7 +292,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/sample/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/sample/</loc>
             <lastmod>2022-10-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -112,8 +301,8 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/</loc>
-            <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+            <loc>https://vivian-1372.github.io/personal/tags/advertisements/</loc>
+            <lastmod>2022-10-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -121,7 +310,70 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/thumbnail/</loc>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-10-10-the-air-war/</loc>
+            <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/tv/</loc>
+            <lastmod>2022-10-10T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/expert-ratings/</loc>
+            <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-10-03-incumbency/</loc>
+            <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/fivethirtyeight/</loc>
+            <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/polls/</loc>
+            <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/the-economist/</loc>
+            <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-09-26-polls-and-pollsters/</loc>
             <lastmod>2022-09-26T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -130,7 +382,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/thumbnail_sample/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/thumbnail/</loc>
             <lastmod>2022-09-26T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -139,7 +391,16 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/categories/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/thumbnail_sample/</loc>
+            <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-09-19-local-and-national-economy/</loc>
             <lastmod>2022-09-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -148,7 +409,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/posts/2022-09-19-local-and-national-economy/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/economy/</loc>
             <lastmod>2022-09-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -157,7 +418,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/economy/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/incumbent/</loc>
             <lastmod>2022-09-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -166,34 +427,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/incumbent/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/national-model/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/categories/r/</loc>
-            <lastmod>2022-09-19T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/posts/2022-09-15-analyzing-2020-house-vote-shares/</loc>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-09-15-analyzing-2020-house-vote-shares/</loc>
             <lastmod>2022-09-15T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -202,7 +436,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/swing-state/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/swing-state/</loc>
             <lastmod>2022-09-15T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -211,7 +445,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/posts/</loc>
+            <loc>https://vivian-1372.github.io/personal/posts/</loc>
             <lastmod>2022-06-13T20:55:37+01:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -220,7 +454,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/</loc>
             <lastmod>2022-06-13T20:55:37+01:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -229,7 +463,61 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/docs/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/music/</loc>
+            <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/playlist/</loc>
+            <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/categories/playlist-producer/</loc>
+            <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/recommendation/</loc>
+            <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/spotify/</loc>
+            <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/posts/2022-05-playlist-producer/</loc>
+            <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/docs/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -238,7 +526,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/series/documentation/</loc>
+            <loc>https://vivian-1372.github.io/personal/series/documentation/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -247,7 +535,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -256,7 +544,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/new/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/new/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -265,7 +553,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/series/</loc>
+            <loc>https://vivian-1372.github.io/personal/series/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -274,7 +562,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/welcome/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/welcome/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -283,7 +571,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/repo-blowfish-lite/</loc>
+            <loc>https://vivian-1372.github.io/personal/examples/repo-blowfish-lite/</loc>
             <lastmod>2021-11-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -292,7 +580,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/repo-blowfish-artist/</loc>
+            <loc>https://vivian-1372.github.io/personal/examples/repo-blowfish-artist/</loc>
             <lastmod>2021-11-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -301,7 +589,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/repo-blowfish-lowkey/</loc>
+            <loc>https://vivian-1372.github.io/personal/examples/repo-blowfish-lowkey/</loc>
             <lastmod>2021-11-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -310,7 +598,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/posts/2021-09-09-decision-making-and-heuristics/</loc>
+            <loc>https://vivian-1372.github.io/personal/posts/2021-09-09-decision-making-and-heuristics/</loc>
             <lastmod>2021-09-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -319,7 +607,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/categories/political-psychology/</loc>
+            <loc>https://vivian-1372.github.io/personal/categories/political-psychology/</loc>
             <lastmod>2021-09-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -328,43 +616,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/posts/2020-12-01-r-rmarkdown/</loc>
-            <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/plot/</loc>
-            <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/r-markdown/</loc>
-            <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/regression/</loc>
-            <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/blowfish-template/</loc>
+            <loc>https://vivian-1372.github.io/personal/examples/blowfish-template/</loc>
             <lastmod>2020-11-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -373,7 +625,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/examples/blowfish-template-repo/</loc>
+            <loc>https://vivian-1372.github.io/personal/examples/blowfish-template-repo/</loc>
             <lastmod>2020-11-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -382,7 +634,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/installation/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/installation/</loc>
             <lastmod>2020-08-16T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -391,7 +643,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/installation/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/installation/</loc>
             <lastmod>2020-08-16T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -400,7 +652,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/getting-started/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/getting-started/</loc>
             <lastmod>2020-08-15T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -409,7 +661,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/config/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/config/</loc>
             <lastmod>2020-08-14T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -418,7 +670,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/configuration/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/configuration/</loc>
             <lastmod>2020-08-14T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -427,7 +679,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/icons/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/icons/</loc>
             <lastmod>2022-03-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -436,7 +688,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/icons/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/icons/</loc>
             <lastmod>2022-03-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -445,7 +697,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/shortcodes/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/shortcodes/</loc>
             <lastmod>2022-03-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -454,7 +706,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/users/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/users/</loc>
             <lastmod>2020-08-14T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -463,7 +715,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/users/</loc>
+            <loc>https://vivian-1372.github.io/personal/users/</loc>
             <lastmod>2020-08-14T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -472,7 +724,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/homepage/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/homepage/</loc>
             <lastmod>2020-08-13T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -481,7 +733,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/homepage-layout/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/homepage-layout/</loc>
             <lastmod>2020-08-13T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -490,7 +742,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/layouts/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/layouts/</loc>
             <lastmod>2020-08-13T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -499,7 +751,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/front-matter/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/front-matter/</loc>
             <lastmod>2020-08-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -508,7 +760,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/front-matter/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/front-matter/</loc>
             <lastmod>2020-08-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -517,7 +769,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/thumbnails/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/thumbnails/</loc>
             <lastmod>2020-08-12T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -526,7 +778,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/icon/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/icon/</loc>
             <lastmod>2020-08-11T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -535,7 +787,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/lead/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/lead/</loc>
             <lastmod>2020-08-11T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -544,7 +796,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/mermaid/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/mermaid/</loc>
             <lastmod>2020-08-11T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -553,7 +805,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/shortcodes/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/shortcodes/</loc>
             <lastmod>2020-08-11T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -562,7 +814,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/analytics/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/analytics/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -571,7 +823,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/comments/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/comments/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -580,7 +832,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/favicons/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/favicons/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -589,7 +841,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/multi-author/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/multi-author/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -598,7 +850,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/partials/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/partials/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -607,7 +859,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/partials/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/partials/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -616,7 +868,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/privacy/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/privacy/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -625,7 +877,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/content/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/content/</loc>
             <lastmod>2020-08-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -634,7 +886,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/content-examples/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/content-examples/</loc>
             <lastmod>2020-08-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -643,7 +895,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/example/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/example/</loc>
             <lastmod>2020-08-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -652,7 +904,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/series/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/series/</loc>
             <lastmod>2020-08-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -661,7 +913,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/series/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/series/</loc>
             <lastmod>2020-08-09T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -670,7 +922,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/advanced/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/advanced/</loc>
             <lastmod>2020-08-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -679,7 +931,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/advanced-customisation/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/advanced-customisation/</loc>
             <lastmod>2020-08-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -688,7 +940,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/css/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/css/</loc>
             <lastmod>2020-08-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -697,7 +949,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/deployment/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/deployment/</loc>
             <lastmod>2020-08-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -706,7 +958,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/github/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/github/</loc>
             <lastmod>2020-08-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -715,7 +967,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/hosting/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/hosting/</loc>
             <lastmod>2020-08-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -724,7 +976,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/hosting-deployment/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/hosting-deployment/</loc>
             <lastmod>2020-08-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -733,7 +985,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/netlify/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/netlify/</loc>
             <lastmod>2020-08-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -742,7 +994,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/render/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/render/</loc>
             <lastmod>2020-08-07T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -751,7 +1003,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/firebase/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/firebase/</loc>
             <lastmod>2020-08-03T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -760,7 +1012,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/docs/firebase-views/</loc>
+            <loc>https://vivian-1372.github.io/personal/docs/firebase-views/</loc>
             <lastmod>2020-08-03T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -769,7 +1021,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/likes/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/likes/</loc>
             <lastmod>2020-08-03T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -778,7 +1030,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/views/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/views/</loc>
             <lastmod>2020-08-03T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -787,7 +1039,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/html/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/html/</loc>
             <lastmod>2019-03-11T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -796,7 +1048,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/markdown/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/markdown/</loc>
             <lastmod>2022-01-24T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -805,7 +1057,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/markdown/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/markdown/</loc>
             <lastmod>2019-03-11T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -814,7 +1066,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/gist/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/gist/</loc>
             <lastmod>2019-03-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -823,7 +1075,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/rich-content/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/rich-content/</loc>
             <lastmod>2019-03-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -832,7 +1084,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/twitter/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/twitter/</loc>
             <lastmod>2019-03-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -841,7 +1093,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/vimeo/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/vimeo/</loc>
             <lastmod>2019-03-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -850,7 +1102,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/youtube/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/youtube/</loc>
             <lastmod>2019-03-10T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -859,7 +1111,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/latin/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/latin/</loc>
             <lastmod>2022-01-24T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -872,7 +1124,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/text/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/text/</loc>
             <lastmod>2022-01-24T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -881,7 +1133,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/katex/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/katex/</loc>
             <lastmod>2019-03-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -890,7 +1142,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/mathematical-notation/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/mathematical-notation/</loc>
             <lastmod>2019-03-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -899,7 +1151,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/maths/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/maths/</loc>
             <lastmod>2019-03-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -908,7 +1160,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/chart/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/chart/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -917,7 +1169,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-10/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-10/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -926,7 +1178,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-11/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-11/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -935,7 +1187,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-12/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-12/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -944,7 +1196,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-13/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-13/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -953,7 +1205,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-14/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-14/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -962,7 +1214,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-15/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-15/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -971,7 +1223,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-16/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-16/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -980,7 +1232,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-17/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-17/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -989,7 +1241,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-18/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-18/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -998,7 +1250,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-19/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-19/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1007,7 +1259,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-2/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-2/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1016,7 +1268,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-20/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-20/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1025,7 +1277,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-21/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-21/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1034,7 +1286,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-22/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-22/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1043,7 +1295,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-23/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-23/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1052,7 +1304,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-24/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-24/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1061,7 +1313,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-25/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-25/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1070,7 +1322,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-26/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-26/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1079,7 +1331,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-27/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-27/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1088,7 +1340,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-28/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-28/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1097,7 +1349,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-3/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-3/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1106,7 +1358,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-4/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-4/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1115,7 +1367,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-5/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-5/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1124,7 +1376,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-6/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-6/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1133,7 +1385,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-7/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-7/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1142,7 +1394,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-8/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-8/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1151,7 +1403,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy-9/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy-9/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1160,7 +1412,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1-copy/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1-copy/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1169,7 +1421,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/pagtest/file1/</loc>
+            <loc>https://vivian-1372.github.io/personal/pagtest/file1/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1178,7 +1430,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/charts/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/charts/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1187,7 +1439,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/diagram/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/diagram/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1196,7 +1448,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/diagrams-flowcharts/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/diagrams-flowcharts/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1205,7 +1457,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/graph/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/graph/</loc>
             <lastmod>2019-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1214,7 +1466,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/tags/emoji/</loc>
+            <loc>https://vivian-1372.github.io/personal/tags/emoji/</loc>
             <lastmod>2019-03-05T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -1223,7 +1475,7 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/Political-Psychology/samples/emoji/</loc>
+            <loc>https://vivian-1372.github.io/personal/samples/emoji/</loc>
             <lastmod>2019-03-05T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>

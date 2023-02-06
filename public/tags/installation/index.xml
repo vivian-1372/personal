@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>installation on Vivian Nguyen</title>
-    <link>https://vivian-1372.github.io/Political-Psychology/tags/installation/</link>
+    <link>https://vivian-1372.github.io/personal/tags/installation/</link>
     <description>Recent content in installation on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/installation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/docs/installation/</link>
+      <link>https://vivian-1372.github.io/personal/docs/installation/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/docs/installation/</guid>
+      <guid>https://vivian-1372.github.io/personal/docs/installation/</guid>
       <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
 Detailed installation instructions can be found below. Instructions for updating the theme are also available.
 Installation&gt; Installation # These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
@@ -20,10 +20,10 @@ Installation&gt; Installation # These instructions will get you up and running u
     
     <item>
       <title>Getting Started</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/docs/getting-started/</link>
+      <link>https://vivian-1372.github.io/personal/docs/getting-started/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/docs/getting-started/</guid>
+      <guid>https://vivian-1372.github.io/personal/docs/getting-started/</guid>
       <description>This section assumes you have already installed the Blowfish theme. The config files that ship with Blowfish contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.</description>
     </item>
     

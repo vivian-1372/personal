@@ -1,0 +1,170 @@
+---
+title: "The Air War"
+author: "Vivian Nguyen"
+date: '2022-10-10'
+categories: Election Analytics
+tags:
+- advertisements
+- TV
+---
+
+```{r setup, include = FALSE, message = FALSE}
+
+# Set up
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(readr)
+library(stargazer)
+library(usmap)
+library(rmapshaper)
+library(sf)
+library(insight)
+library(scales)
+
+# Load in expert ratings and district polls
+# creative <- read_csv("ads_2006_2018.csv") %>% 
+#   janitor::clean_names()
+# issues <- read_csv("ads_issues_2012-2018.csv") %>% 
+#   janitor::clean_names()
+# results <- read_csv("district_results_1948-2022.csv") %>% 
+#   janitor::clean_names()
+
+```
+
+```{r cleaning and experimenting with ad data, include = FALSE}
+
+# Dropping unnecessary columns/variables from the ad data
+# creative2 <- creative %>%
+#   select(-c(x1, market, dma, airdate, race, station), -contains("fip")) %>%
+#   rename(year = 'cycle')
+# 
+# issues2 <- issues %>%
+#   select(-c(x1, market, dma, airdate, race), -contains("fip")) %>%
+#   rename(year = 'cycle')
+# 
+# # Joining ads data sets
+# compare_df_cols(creative2, issues2)
+# ads <- inner_join(creative2, issues2)
+# 
+# ads_df2 <- ads %>%
+#   group_by(district, year, party, state) %>%
+#   summarise(ads_ran = n(), total_airtime = sum(airtime), total_stations = sum(n_stations), total_cost = sum(est_cost)) %>%
+#   pivot_wider(names_from = party, values_from = ads_ran, values_fill = 0) %>%
+#   mutate(dem_ads = Democrat / (Democrat + Republican))
+# 
+# ads_df <- ads %>%
+#   group_by(district, year, party, state) %>%
+#   summarise(ads_ran = n(), total_airtime = sum(airtime), total_stations = sum(n_stations), total_cost = sum(est_cost), state = state)# %>%
+#   # pivot_wider(names_from = party, values_from = ads_ran, values_fill = 0) %>%
+#   # mutate(dem_ads = Democrat / (Democrat + Republican))
+# 
+# ads_df3 <- creative %>%
+#   dplyr::select(-1) %>% # De-select empty column
+#   filter(cycle == 2018) %>% # Select 2018 elections
+#   mutate(District = substr(creative, start = 7, stop = 10)) %>%
+#   # Filter out non-Democrat/Republican ad
+#   drop_na(party) %>% 
+#   group_by(District, party) %>%
+#   # Number of ads per district & per party
+#   summarize(num_ad = n()) %>%
+#   # Pivot wider
+#   pivot_wider(names_from = party, values_from = num_ad, values_fill = 0) %>%
+#   # Percentage of Democratic ads
+#   mutate(d_ad_rate = Democrat/(Democrat + Republican)*100) %>%
+#   dplyr::select(District, d_ad_rate)
+# 
+# ads_df
+# ads_df2
+# ads_df3
+# 
+# ads
+# creative
+```
+
+```{r joining results with ad data, include = FALSE}
+# 
+# compare_df_cols(results, ads_df)
+# 
+# ads_results <- results %>%
+#   filter(year <= 2018) %>%
+#   left_join(ads_df, by = c("year", "state", "district")) # %>%
+#  # mutate(d_airtime = case_when(party = "Democrat" ~ ))
+# 
+# 
+# ads_results2 <- results %>%
+#   filter(year <= 2018) %>%
+#   left_join(ads_df2, by = c("year", "state", "district")) # %>%
+#  # mutate(d_airtime = case_when(party = "Democrat" ~ ))
+# 
+# h <- lm(data = ads_results2, dem_votes_major_percent ~ dem_ads)
+# 
+# stargazer(h, type=  "text")
+# 
+# # ggplot(ads_results2, aes(x = dem_ads, y = dem_votes_major_percent)) + geom_point()
+# # 
+# # ggplot(ads_results2, aes(x = total_cost, y = dem_votes_major_percent)) + geom_point()
+# 
+# 
+# results
+```
+
+
+```{r regressions and plots, include = FALSE}
+# 
+# # dont just compare raw ad #s, compare the ratio of dem:rep ads, or proportionality, or log(ratio)
+# dem <- subset(ads_results, party == "Democrat")
+# rep <- subset(ads_results, party != "Democrat") 
+# 
+# # dem$total_airtime <- as.numeric(dem$total_airtime)
+# # reg <- lm(data = dem, dem_votes_major_percent ~ total_airtime + total_cost + ads_ran)
+# 
+# # stargazer(reg, type = "text")
+# 
+# ggplot(data = dem, mapping = aes(x = ads_ran, y = dem_votes_major_percent)) + geom_point() + ggtitle("Democrat Ads Ran vs. District Democrat Major Vote Share") + xlab("Ads Ran for Democrats") + ylab("Democrat Major Vote Share")
+# ggplot(data = dem, mapping = aes(x = total_cost, y = dem_votes_major_percent)) + geom_point() + ggtitle("Democrat Ads Spending vs. District Democrat Major Vote Share") + xlab("Ads Spending (Estimation) for Democrats") + ylab("Democrat Major Vote Share")
+# ggplot(data = dem, mapping = aes(x = total_airtime, y = dem_votes_major_percent)) + geom_point()
+# 
+# ggplot(data = rep, mapping = aes(x = ads_ran, y = rep_votes_major_percent)) + geom_point() + ggtitle("Republican Ads Ran vs. District Democrat Major Vote Share") + xlab("Ads Ran for Republican") + ylab("Republican Major Vote Share")
+# ggplot(data = rep, mapping = aes(x = total_cost, y = rep_votes_major_percent)) + geom_point()
+# ggplot(data = rep, mapping = aes(x = total_airtime, y = rep_votes_major_percent)) + geom_point()
+
+
+```
+
+## The Plan This Week
+We are about 4 weeks out from Election Day, and thus far I've created a national forecasting model that incorporates national economic conditions (Gross Domestic Product, Real Disposable Income, and unemployment), generic ballot polling (partisan preference), and the midterm-president's-party effect. I've also created a simple district-level forecasting model based on expert ratings ([Cook Political Report](https://www.cookpolitical.com/ratings/house-race
+-ratings), [Inside Elections](https://insideelections.com/ratings/house), and [Sabato's Crystal Ball](https://centerforpolitics.org/crystalball/2022-house/)).  
+This week I plan to explore the impact of advertisements (volume, cost) on the outcomes of congressional races. After evaluating the historical impact of "the Air War" on elections, I plan to update my simple district-level model from last week.  
+
+## Are Advertisements Impactful?
+To explore this week’s central question, I took a look at data from the [Wesleyan Media Project](https://mediaproject.wesleyan.edu/) about political campaign advertisements for campaigns from 2006 through 2018. 
+
+I first wanted to visually inspect the relationship between advertisement volume and party major vote share at the district level for House races, and found unpromising results. 
+![Republican Ad Volume vs. Vote Share.](rep_ads.png)
+![Democrat Ad Volume vs. Vote Share.](dem_ads.png)
+
+As shown in the above 2 plots, there’s no clear correlation between the number of partisan advertisements run and the party’s major vote share in a given district. As the number of advertisements run for each party increases, the party’s major vote share doesn’t increase or decrease. 
+
+Though there’s no positive or negative correlation that immediately jumps out from these plots, there are still valuable insights to note. For one, there’s great variability in party vote share when there are a low number of advertisements run in that district - with close to 0 ads run for the Democrat candidate in a district, the candidate can have anywhere from 25% to 100% of the vote share. The same is true for Republican candidates and lack of Republican advertisements.  As the numbers of advertisement run increases, towards the magnitudes of 15,000 and beyond, the races become much more competitive, with each party securing about 50% of the major party vote share. This finding is intuitive, in a way, because we could imagine the reason these districts were sites of unprecedented advertisement war was because their races were highly competitive and anticipated.
+
+I was also curious about spending on advertisements versus the promoted candidate’s vote share. Below is the plot of the total estimated cost of advertisements promoting a Democratic candidate against the amount of money spent on their advertising campaign. The same trends from above apply here – at the lower end of advertisement campaign strength and cost, the Democrat major vote share varies widely across different House races. At the higher end of spending, the races remain competitive, with Democrats just edging out their competitors with vote shares hovering slightly above 50%.  
+![(D) Advertisement Spending vs. (D) Vote Share.](ads_spending.png)
+
+To formally check the relationship between advertisement volume and party major vote share in a district, I ran linear regressions across the districts with available data, predicting Democrat major vote share on the ratio of Democrat:Republican advertisements ran in that cycle. 
+![Advertisement Volume vs. (D) Vote Share.](ads_regression.png)
+The results are interesting. The first observation is that the ratio of partisan advertisement volume alone is a poor predictor of Democrat vote share – my model only has an adjusted R-squared of 0.054. Another is that when the ratio of Democrat:Republican advertisements moves from 0 to 1, the Democrat vote share increases by ~6.2 percentage points. 
+
+## Evaluation and Looking Forward
+6.2 is, of course, a huge increase in major vote share, but the way I built my model hinders interpretability and generalization because I can only make the +6.2 p.p. claim when the advertisement situation goes from no Democrat advertisements to all Democrat advertisements in a district. All things considered, I plan to rethink the way I evaluate advertisement data as a predictor of historical races before incorporating it into my district-level model. Right now, I hesitate to add it to my model in addition to expert ratings because it may be better to scrap the variable altogether, considering the low predictive power advertisement volume has as a feature in my model. For now, I will refrain from making changes to my national and district-level models from last week, and I look forward to perhaps incorporating advertisement data in tandem with district-level candidate incumbency, or with other forms of candidate campaigning, like the ground game and its field offices, volunteers, rallies, and person-to-person contacts in the future. This week's exploration has revealed to me that the "Air War" is very real, but it's unclear how impactful it really is on candidate success in House races.  
+
+---
+**References**
+
+[1] Cook Political Report. (2002). House Race Ratings. https://www.cookpolitical.com/ratings/house-race-ratings
+
+[2] Inside Elections. (2022). House Ratings. https://insideelections.com/ratings/house
+
+[3] Sabato's Crystal Ball. (2022). House Race Ratings. https://centerforpolitics.org/crystalball/2022-house/
+
+[4] Wesleyan Media Project. https://mediaproject.wesleyan.edu/

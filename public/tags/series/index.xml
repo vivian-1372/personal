@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>series on Vivian Nguyen</title>
-    <link>https://vivian-1372.github.io/Political-Psychology/tags/series/</link>
+    <link>https://vivian-1372.github.io/personal/tags/series/</link>
     <description>Recent content in series on Vivian Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/Political-Psychology/tags/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Series</title>
-      <link>https://vivian-1372.github.io/Political-Psychology/docs/series/</link>
+      <link>https://vivian-1372.github.io/personal/docs/series/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://vivian-1372.github.io/Political-Psychology/docs/series/</guid>
+      <guid>https://vivian-1372.github.io/personal/docs/series/</guid>
       <description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them.</description>
     </item>
     

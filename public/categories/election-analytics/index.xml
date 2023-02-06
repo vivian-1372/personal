@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Election Analytics on Vivian Nguyen</title>
+    <link>https://vivian-1372.github.io/personal/categories/election-analytics/</link>
+    <description>Recent content in Election Analytics on Vivian Nguyen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/categories/election-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final Remarks</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-12-07-2022-final-remarks/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-12-07-2022-final-remarks/</guid>
+      <description>The Plan Today I couldn’t end this series without saying a few final remarks, so here we are! It’s been a long and rewarding journey of learning and adapting, so I wanted to summarize a few of the top lessons learned, give thanks, and look forward.</description>
+    </item>
+    
+    <item>
+      <title>Campaign Narrative</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-12-07-campaign-narrative/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-12-07-campaign-narrative/</guid>
+      <description>Overview After months of studying the midterm elections at the national and district levels, we’ve gained a more complete understanding of the factors that predict incumbent party performance in terms of two-party vote share and seat wins.</description>
+    </item>
+    
+    <item>
+      <title>Post-Election Reflection</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-11-22-post-election-reflection/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-11-22-post-election-reflection/</guid>
+      <description>Overview This week, I am revisiting my final models and predictions from week 8 and reflecting on how they performed, and speculating about why, now that we’re about 2 weeks post-Election Day now.</description>
+    </item>
+    
+    <item>
+      <title>Final Prediction</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-11-07-final-prediction/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-11-07-final-prediction/</guid>
+      <description>Overview Welcome to the final election forecasting update of this election cycle! It’s been a long journey of election research and data analysis, but alas, we are one day out from Election Day.</description>
+    </item>
+    
+    <item>
+      <title>The Ground Game</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-10-19-the-ground-game/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-10-19-the-ground-game/</guid>
+      <description>This is blog post #6 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department.</description>
+    </item>
+    
+    <item>
+      <title>The Air War</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-10-10-the-air-war/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-10-10-the-air-war/</guid>
+      <description>The Plan This Week We are about 4 weeks out from Election Day, and thus far I’ve created a national forecasting model that incorporates national economic conditions (Gross Domestic Product, Real Disposable Income, and unemployment), generic ballot polling (partisan preference), and the midterm-president’s-party effect.</description>
+    </item>
+    
+    <item>
+      <title>Expert Ratings</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-10-03-incumbency/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-10-03-incumbency/</guid>
+      <description>The Plan This Week Last week, I took a close look at The Economist’s and FiveThirtyEight’s House forecast models and their methodology, and compared them. With these models in mind, I updated my own 2022 midterm forecast and model to include national economic conditions (Gross Domestic Product, Real Disposable Income, and unemployment), generic ballot polls (partisan preference), and the midterm-president’s-party effect.</description>
+    </item>
+    
+    <item>
+      <title>Polls and Forecasters</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-09-26-polls-and-pollsters/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-09-26-polls-and-pollsters/</guid>
+      <description>The Plan This Week So far, I’ve confirmed that the president’s party often performs poorly in the midterm House elections and that a combination of fundamental (Q8, national) economic variables, including GDP growth %, RDI change %, unemployment rate, and absolute GDP growth, are somewhat able to predict House incumbent party vote share.</description>
+    </item>
+    
+    <item>
+      <title>Economic Predictors of House Incumbent Vote Share</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-09-19-local-and-national-economy/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-09-19-local-and-national-economy/</guid>
+      <description>Introduction Last week, my dive into the 2018 election results and swings confirmed that the president’s party often performs poorly in the midterms. By the 2020 House elections, the president’s party gained some of its vote share back.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing House Vote Share Swings of 2018 and 2020</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-09-15-analyzing-2020-house-vote-shares/</link>
+      <pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-09-15-analyzing-2020-house-vote-shares/</guid>
+      <description>Introduction This is blog post #1 in a series of analytical posts about the 2022 midterms. This post is affiliated with Gov 1347: Election Analytics, a course at Harvard University in the Government department.</description>
+    </item>
+    
+  </channel>
+</rss>

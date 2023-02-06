@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>expert ratings on Vivian Nguyen</title>
+    <link>https://vivian-1372.github.io/personal/tags/expert-ratings/</link>
+    <description>Recent content in expert ratings on Vivian Nguyen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/expert-ratings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expert Ratings</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-10-03-incumbency/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-10-03-incumbency/</guid>
+      <description>The Plan This Week Last week, I took a close look at The Economist’s and FiveThirtyEight’s House forecast models and their methodology, and compared them. With these models in mind, I updated my own 2022 midterm forecast and model to include national economic conditions (Gross Domestic Product, Real Disposable Income, and unemployment), generic ballot polls (partisan preference), and the midterm-president’s-party effect.</description>
+    </item>
+    
+    <item>
+      <title>Polls and Forecasters</title>
+      <link>https://vivian-1372.github.io/personal/posts/2022-09-26-polls-and-pollsters/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2022-09-26-polls-and-pollsters/</guid>
+      <description>The Plan This Week So far, I’ve confirmed that the president’s party often performs poorly in the midterm House elections and that a combination of fundamental (Q8, national) economic variables, including GDP growth %, RDI change %, unemployment rate, and absolute GDP growth, are somewhat able to predict House incumbent party vote share.</description>
+    </item>
+    
+  </channel>
+</rss>
