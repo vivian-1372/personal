@@ -16,5 +16,14 @@
       <description>Overview Hello! This is my “Playlist Producer.” I developed this project over the course of several weeks in my Spring 2022 semester, as a sophomore. At this point, I have newly rediscovered my love for computational thinking and problem solving, and want to apply my Python skills to a fun problem I’ve had for a while – my lack of new music.</description>
     </item>
     
+    <item>
+      <title>COVID-19 Concern and Citizen Trust in Different Institutions</title>
+      <link>https://vivian-1372.github.io/personal/posts/2021-12-16-covid-concern-government-trust/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2021-12-16-covid-concern-government-trust/</guid>
+      <description>COVID-19 Concern and Trust in Different Citizen Institutions Overview February 2022 Note: I wrote this paper for Government 1372: Political Psychology, a data science in the Harvard Government department. At this point, I was gaining proficiency in R, but had not developed a sophisticated understanding of statistics and causal inference yet.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trust on Vivian Nguyen</title>
+    <link>https://vivian-1372.github.io/personal/tags/trust/</link>
+    <description>Recent content in trust on Vivian Nguyen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vivian-1372.github.io/personal/tags/trust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19 Concern and Citizen Trust in Different Institutions</title>
+      <link>https://vivian-1372.github.io/personal/posts/2021-12-16-covid-concern-government-trust/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vivian-1372.github.io/personal/posts/2021-12-16-covid-concern-government-trust/</guid>
+      <description>COVID-19 Concern and Trust in Different Citizen Institutions Overview February 2022 Note: I wrote this paper for Government 1372: Political Psychology, a data science in the Harvard Government department. At this point, I was gaining proficiency in R, but had not developed a sophisticated understanding of statistics and causal inference yet.</description>
+    </item>
+    
+  </channel>
+</rss>
