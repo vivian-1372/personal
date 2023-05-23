@@ -4,7 +4,7 @@ author: "Vivian Nguyen"
 date: '2022-12-08'
 categories: Election Analytics
 tags:
-- goodbye
+- thank you
 ---
 # The Plan Today
 I couldn't end this series without saying a few final remarks, so here we are! It's been a long and rewarding journey of learning and adapting, so I wanted to summarize a few of the top lessons learned, give thanks, and look forward. 

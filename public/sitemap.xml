@@ -31,15 +31,6 @@
   
     
       <url>
-            <loc>https://vivian-1372.github.io/personal/tags/goodbye/</loc>
-            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://vivian-1372.github.io/personal/</loc>
             <lastmod>2022-12-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
@@ -50,6 +41,15 @@
     
       <url>
             <loc>https://vivian-1372.github.io/personal/tags/</loc>
+            <lastmod>2022-12-08T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://vivian-1372.github.io/personal/tags/thank-you/</loc>
             <lastmod>2022-12-08T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
