@@ -2,7 +2,7 @@
 title: "COVID-19 Concern and Citizen Trust in Different Institutions"
 author: "Vivian Nguyen"
 date: '2021-12-16'
-categories: Playlist Producer
+categories: Political Psychology
 tags:
 - COVID
 - trust
@@ -12,7 +12,6 @@ tags:
 - vaccine
 ---
 
-# COVID-19 Concern and Trust in Different Citizen Institutions
 ## Overview
 February 2022 Note: I wrote this paper for Government 1372: Political Psychology, a data science in the Harvard Government department. At this point, I was gaining proficiency in R, but had not developed a sophisticated understanding of statistics and causal inference yet. That said, this paper was one of my first large data science projects, and was driven by my newfound passion for applying data science techniques and programming experience to (what I deem to be) relevant real-world problems. In Fall 2021, the pandemic was still a large public health concern, but the public was battling a mixture of fear and desire for a return to normalcy. I was very interested in what sources people trusted to provide them information about the pandemic, and how that related to their COVID anxieties -- additionally, how does partisan alignment interact with these variables? 
 
