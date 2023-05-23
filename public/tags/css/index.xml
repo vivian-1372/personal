@@ -16,14 +16,5 @@
       <description>There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
     </item>
     
-    <item>
-      <title>Markdown</title>
-      <link>https://vivian-1372.github.io/personal/samples/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://vivian-1372.github.io/personal/samples/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Blowfish, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>
