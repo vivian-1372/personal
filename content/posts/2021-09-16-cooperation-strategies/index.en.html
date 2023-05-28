@@ -1,0 +1,57 @@
+---
+title: "Cooperation Strategies"
+author: "Vivian Nguyen"
+date: "2021-09-16"
+slug: []
+categories: Political Psychology
+tags: []
+draft: no
+---
+
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>For this week’s blog post, I look at the performance of my six selected cooperation strategies when played in a repetitive, round-robin style tournament and what the results may suggest about cooperation between humans. I select <em>appeaser</em>, <em>foolMeOnce</em>, <em>majorityScrounger</em>, <em>retaliater</em>, <em>titfortat</em>, and <em>winStayer</em> as playing strategies and set them against each other over 100 repeated rounds each.</p>
+</div>
+<div id="data-details" class="section level1">
+<h1>Data Details</h1>
+<p><em>File Name:
+</em>Source: Shiny app developed by <a href="https://github.com/swarm-lab/axelRod/tree/master/R">Simon Garnier</a> and edited slightly by the TF team.</p>
+</div>
+<div id="finding-a-winning-strategy" class="section level1">
+<h1>Finding a Winning Strategy</h1>
+<p>I focus on two questions about the results of this tournament: how my winning strategy (according to total points) fared against its opponents, as well as how each strategy fared against all the other strategies. Which strategies were most successful against which other ones?</p>
+<p>My most successful strategy was <em>foolMeOnce</em>, with 2 wins in 5 games and the highest average score against its opponents – 333.6.</p>
+<div class="figure">
+<img src="Sorted%20Average%20Scores.png" alt="" />
+<p class="caption">Best Strategies</p>
+</div>
+<p>It won against <em>majorityScrounger</em> and <em>winStayer</em>, and tied with <em>appeaser</em>, <em>retaliater</em>, and <em>titfortat</em>. Below is a bar chart that depicts how many points <em>foolMeOnce</em> scored against each, on average.</p>
+<div class="figure">
+<img src="fMO%20Chart.png" alt="" />
+<p class="caption">foolMeOnce Chart</p>
+</div>
+<p>How did the other strategies perform overall? I created a grouped bar chart to compare their performances in their matchups.
+<img src="All%20Strats%20Chart.png" alt="All Strategies Compared" /></p>
+</div>
+<div id="why-foolmeonce" class="section level1">
+<h1>Why <em>foolMeOnce</em>?</h1>
+<p>As discussed previously and is reconfirmed by the visualization of each strategy’s scoring abilities, no other chosen strategy is able to average 305+ points the same way <em>foolMeOnce</em> can. Even when a certain strategy performs particularly poorly, like appeaser (averaging 52 points) when playing <em>majorityScrounger</em>, its opponent only averages 302. The outcome of my tournament suggests that there is a uniquely dominant strategy in this tournament. So, my findings lead me to 2 new questions: why does <em>foolMeOnce</em> perform so well in this tournament? How does it achieve point average heights that other strategies cannot?</p>
+<p>To investigate these questions, let’s first solidify our understanding of how <em>foolMeOnce works</em>. Its description is as follows:</p>
+<ol style="list-style-type: decimal">
+<li>Cooperates the first time it plays a new opponent.<br />
+</li>
+<li>Keeps cooperating after the first defection of the opponent.</li>
+<li>Defects systematically after the opponent defects a second time.
+Therefore, the strategy says: cooperate until opponent’s second defection, then only defect after that.</li>
+</ol>
+<p>This strategy reminds me of the Grim Trigger (GT) strategy, which entails cooperation until the opponent defects once. After that, GT players systematically defect. The rationale for this strategy is that one can only trust their opponent until the opponent betrays their cooperative deal. After a player has been forced to take the sucker prize once, they should never trust the opponent to cooperate again. Thus, they themselves should never cooperate again in order to avoid the sucker prize. In practice, Grim Trigger is a bit too unforgiving. Researchers Miguel Aramendia, L. Ruiz, and Federico Valenciano recognized this in their paper, “The Forgiving Trigger Strategy: An Alternative To The Trigger Strategy,” where they note that “It is possible to improve on the grim-trigger strategy while retaining subgame perfection and in some cases adding weak renegotiation proofness… The basic idea is that, following a deviation, the cheater, instead of continuing in the Nash equilibrium forever, chooses an autopenalty which signals, in a very strong way, that he/she would not deviate any more if cooperation were reestablished.”</p>
+<p>This improved Grim Trigger strategy from the Aramendia-Ruiz-Valenciano paper, which signals that cooperation is possible again if one’s opponent stops defecting after the first time, is essentially what <em>foolMeOnce</em> does as a strategy. Even after the first defection, <em>foolMeOnce</em> players allow for the possibility of future mutual cooperation, which is a better choice for both players compared to mutual, continuous defection. It is only after the second opponent defection, a repeated betrayal of trust, that <em>foolMeOnce</em> players finally pull the trigger and defect systematically to avoid future sucker prizes.</p>
+<p>After investigating <em>foolMeOnce</em> further, I understand why it is highly effective. Like <em>titfortat</em>, a strategy that Axelrod pinpoints as sure-fire, <em>foolMeOnce</em> starts with the spirit of cooperation. It continues to cooperate so long as the opponent cooperates. Upon first defection, <em>titfortat</em> reactively retaliates while <em>foolMeOnce</em> forgives and continues to cooperate. However, after the second defection, <em>titfortat</em> still allows the opponent to continue making marginal gains in points should they choose to defect again in the future. In contrast, <em>foolMeOnce</em> disallows these comparative point gains to continue occurring after the second defection: from that point on, both players will take the mutual defection prize, or <em>foolMeOnce</em> players will claim the temptation prize alone. Effectively, <em>foolMeOnce</em> players can only do better, or equally as poorly, as their opponents – but never worse. In a tournament and analysis where comparative performance matters, such a strategy comes out on top.</p>
+<p>This insight into cooperation/defection strategy may be extended into the political realm. When actors come into repeated contact, should they follow a Grim Trigger, <em>titfortat</em>, <em>foolMeOnce</em>, or some other logic? Of course, actors will not behave like perfect computer players, but their philosophies about cooperation and retaliation are relevant. Because a strategy like Grim Trigger is so unforgiving, it can be inefficient in real applications. For example, two nations trying to cooperate will lose all chances to work together once either side defects, even if it was a truly singular occurrence. For significant issues requiring cooperation, like nuclear disarmament or climate change, abrupt and total shutdown of cooperation would be unfavorable for such important end goals. The outcome of my data analysis for this week has suggested to me that perhaps a discipline-heavy strategy like GT would work, but with more forgiveness built-in. Thus, whether defection is limited to 2 occurrences like with <em>foolMeOnce</em>, or collaborating countries incorporate efficient breach terms into their transactions, I believe that the formula of serious punishment of defection and prioritization of cooperation can incentivize cooperation between important actors in the political world.</p>
+<hr />
+<p><strong>References</strong>
+[1] Axelrod (1980)
+[2] Miguel Aramendia, L. Ruiz, and Federico Valenciano (2004)</p>
+</div>

@@ -1,0 +1,16 @@
+﻿player1,player2,score1,score2
+titfortat,winStayer,201,201
+titfortat,retaliater,300,300
+titfortat,majorityScrounger,213,218
+titfortat,foolMeOnce,300,300
+titfortat,appeaser,300,300
+winStayer,retaliater,192,207
+winStayer,majorityScrounger,200,200
+winStayer,foolMeOnce,62,292
+winStayer,appeaser,300,135
+retaliater,majorityScrounger,224,214
+retaliater,foolMeOnce,300,300
+retaliater,appeaser,300,300
+majorityScrounger,foolMeOnce,16,476
+majorityScrounger,appeaser,302,52
+foolMeOnce,appeaser,300,300
