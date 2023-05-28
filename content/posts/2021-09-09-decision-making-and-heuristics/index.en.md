@@ -8,13 +8,8 @@ tags: []
 draft: yes
 ---
 
-
-
-
-
 # Introduction
 This is the first Data Exploration task of Fall 2021! Welcome. This week, my classmates of Government 1372 (Political Psychology) and I worked with our in-class survey results to observe how susceptible we are to cognitive biases and discuss how that may affect our decision-making.
-
 
 # Data Details
 *File Name: \texttt{bias\_data.csv}

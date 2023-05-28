@@ -28,7 +28,7 @@ I want to thank Professor [Ryan Enos](https://www.ryandenos.com/) and Teaching F
 
 Thank you to all of my [classmates](https://itsyaoyu.github.io/Harvard-ElectionAnalytics-2022/) in GOV 1347: Election Analytics, who came from many different academic backgrounds, for their insights and support as we've built out our models together. 
 
-It's been a genuine pleasure learning from you all.
+It's been a genuine pleasure learning from you all!
 
 ## Onto the Next! 
 As of December 7, 2022, I plan to commit to this forecasting journey again for the 2024 elections. The presidency, all 435 House seats, and 34 Senate seats will be up for grabs, and I hope to go bigger and better, with (probabilistic) forecasts for all, or most, of them. I will also have freshly graduated Harvard College by then, so it will really be an interesting time. 
