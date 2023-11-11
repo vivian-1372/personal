@@ -9,4 +9,4 @@ title: 'Harvard College 2024'
 <a target="_blank" href="http://tee.pub/lic/qwSlWVBL5zc"><img class="nozoom" src="https://img.buymeacoffee.com/button-api/?text=Merch Store &emoji=💎&slug=nunocoracao&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
 </center-->
 
-Welcome! My name is Vivian, and I am a seniior at Harvard studying Government and Statistics, with a specialization in Data Science.
+Welcome! My name is Vivian, and I am a senior at Harvard studying Government and Statistics, with a specialization in Data Science.
