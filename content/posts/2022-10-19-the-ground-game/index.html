@@ -35,9 +35,9 @@ As shown, there’s generally a lot of room for improvement, with many R-squared
 <img src="histB.png" alt="Model B R-squareds." /></p>
 <p>This histogram, again, demonstrates the models have much room for improvement. Interestingly, removing the turnout predictor has not greatly reduced our R-squareds, with the average adjusted R-squared for Model B actually being higher than that of Model A. This one rudimentary test seems to suggest that turnout is not a great predictor of Democrat vote share; changes in turnout are not highly correlated with better or worse Democrat performance.</p>
 <p>I also tried to incorporate turnout into my national model. Below is the Stargazer table showing my regression outputs. On the left is the previous national model I developed in <a href="https://vivian-1372.github.io/Election-Analytics/post/2022-09-26-polls-and-pollsters/">week 3</a>, the middle is the new model with turnout incorporated, and on the right is the final national model I chose to come away from this week with.</p>
-<div class="figure">
-<img src="natmodels.png" alt="" />
-<p class="caption">National Regression Models</p>
+<div class="float">
+<img src="natmodels.png" alt="National Regression Models" />
+<div class="figcaption">National Regression Models</div>
 </div>
 <p>The upside of my national models regression is that 3 models is much easier to interpret and compare than 435. The first two columns show the coefficients for the old model, and the old model with turnout. As shown, adding turnout does not significantly change the adjusted R-squared of the model; in fact, adding turnout drives up the residual standard error. Additionally, turnout does not appear to be a significant predictor (0 stars) of House incumbent party (Democrats) vote share. I took these findings, as well as the observation that unemployment appears to be another poor predictor of vote share, to form my newest national model, which predicts House vote share for the incumbent House party using GDP growth %, RDI change %, GDP absolute growth %, the president’s-party-midterm interaction, and generic ballot support.</p>
 </div>

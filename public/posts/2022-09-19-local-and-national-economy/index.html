@@ -506,15 +506,15 @@
 <div id="gdp-rdi-and-unemployment" class="section level1">
 <h1>GDP, RDI, and Unemployment</h1>
 <p>To start identifying which national economic variables predict House incumbent vote share well, I first investigated how Quarter 8 GDP growth (percentage), RDI change (percentage), and unemployment rate, individually, are related to incumbent party vote share. I specifically choose Quarter 8 because voters often refer to the latest memory they have of the economy to judge how the economy has performed under their incumbent leader(s) (Achen &amp; Bartels, 2017. Healy &amp; Lenz, 2014).</p>
-<div class="figure">
-<img src="scatter_plots.png" alt="" />
-<p class="caption">Scatter Plots.</p>
+<div class="float">
+<img src="scatter_plots.png" alt="Scatter Plots." />
+<div class="figcaption">Scatter Plots.</div>
 </div>
 <p>As shown above, each variable, GDP growth, RDI change, and unemployment rate, respectively, are correlated to House incumbent vote share - as GDP growth percentage decreases, or RDI change percentage decreases, or unemployment rate grows, House incumbent vote share grows. These correlations are unintuitive, and suggest that voters do not accurately hold their leaders accountable according to national economic performance.</p>
 <p>That said, these correlations are not too explanatory by themselves and may be very susceptible to noise, with R-squared values of 0.081, 0.056, and 0.131. I moved on from univariate relationships between these national economic variables House incumbent vote share to multivariable relationships, hoping to find a model that incorporates multiple economic variables to predict incumbent vote share. In this multivariable model (which I call Model 1), I consider the predictors <code>GDP_growth_pct</code> (GDP growth %), <code>DSPIC_change_pct</code> (RDI change %), <code>GDP_growth_qt</code> (GDP growth), and <code>UNRATE</code> (unemployment rate) to investigate how they influence incumbent vote share in conjunction.</p>
-<div class="figure">
-<img src="regression_stargazer.png" alt="" />
-<p class="caption">Regression Stargazer.</p>
+<div class="float">
+<img src="regression_stargazer.png" alt="Regression Stargazer." />
+<div class="figcaption">Regression Stargazer.</div>
 </div>
 </div>
 <div id="model-1" class="section level1">
