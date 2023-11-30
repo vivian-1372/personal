@@ -11,7 +11,7 @@ tags:
 ---
  
 # Overview
-Hello! This is my "Playlist *Producer*." I developed this project over the course of several weeks in my Spring 2022 semester, as a sophomore. At this point, I have newly rediscovered my love for computational thinking and problem solving, and want to apply my Python skills to a fun problem I've had for a while -- my lack of new music. I am a Spotify loyalist, but I sometimes find that once I've exhausted my Daily Mix 1, I am in desperate need of more music to explore. So then, my motivating questions became: Can I get the same genre, but different (but not too different...) songs? Can I get the same artist vibe, but different (but not overly different...) artists? As I soon learned, personalization and recommendation are games of balance.
+Hello! This is my "Playlist *Producer*." I developed this project over the course of several weeks in my Spring 2022 semester as a sophomore. At this point, I have newly rediscovered my love for computational thinking and problem solving, and want to apply my Python skills to a fun problem I've had for a while -- my lack of new music. I am a Spotify loyalist, but I sometimes find that once I've exhausted my Daily Mix 1, I am in desperate need of more music to explore. So then, my motivating questions became: Can I get the same genre, but different (but not too different...) songs? Can I get the same artist vibe, but different (but not overly different...) artists? As I soon learned, personalization and recommendation are games of balance.
 
 # The Spotify Playlist *Producer*
 For project files, see the [GitHub repository](https://github.com/vivian-1372/playlist-producer).
@@ -68,4 +68,5 @@ All Eyes On You (feat. Chris Brown & Nicki Minaj) - Meek Mill
 
 ## Looking Forward
 To continue developing this project, I would provide the option to obtain an actual Spotify link to the new playlist. Another feature I'd love to explore is making the playlist based on favorite album or genre, which would require a drastic change in or addition to my algorithm. Lastly, I would also make my program more error-proof, as it takes in a considerable amount of user input that has to be accounted for... 
-Also, deal with imperfect splits of new versus old songs in playlists (percentage request versus integer values).
+Also, I would like to deal with imperfect splits of new versus old songs in playlists (percentage request versus integer values).
+I think this is a good step toward diversifying users' music taste more! 

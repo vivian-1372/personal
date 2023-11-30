@@ -6,12 +6,13 @@ weight = 1
 
 title = "Vivian Nguyen"
 # logo = "img/vivian.png"
-[languages.en.params]
-   description = "My personal website"
-   dateFormat = "January 2 2006"
-   displayName = "EN"
-   isoCode = "en"
-   rtl = false
+[languages]
+  [languages.en.params]
+     description = "My personal website"
+     dateFormat = "January 2 2006"
+     displayName = "EN"
+     isoCode = "en"
+     rtl = false
 # copyright = "Copy, _right?_ :thinking_face:"
 
 
